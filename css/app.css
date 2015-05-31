@@ -102,7 +102,7 @@ a:after {
 	}
 }
 
-span {
+#name {
   color: red;
 }
 
@@ -137,8 +137,8 @@ span {
 
 .btn-theme {
 	color: #fff;
-	background-color: transparent;
-	border-color: #fff;
+	background-color: red;
+	border-color: red;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -146,7 +146,7 @@ span {
 }
 
 .btn-theme:hover {
-	color: #000;
+	color: red;
 	background-color: #fff;
 }
 
@@ -445,7 +445,6 @@ form.signup button.btn {
 	z-index: 2000;
 	text-align: center;
 }
-
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
