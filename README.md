@@ -3,7 +3,7 @@
 ## You want to contribute?
 
 Open your terminal and `cd` to the right directory.
-$You will work in a branch and then submit a pull request!
+You will work in a branch and then submit a pull request!
 
 ```bash
 # First get up to date
