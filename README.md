@@ -2,7 +2,7 @@
 
 ## You want to contribute?
 
-Open your terminal and `cd` to the right directory.
+Open your terminal and `cd` to the right directory.<br />
 You will work in a branch and then submit a pull request!
 
 ```bash
