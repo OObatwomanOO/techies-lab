@@ -43,6 +43,8 @@ activate :deploy do |deploy|
   deploy.build_before = true # always use --no-clean options
 end
 
+# I18n support
+# activate :i18n
 
 # Build-specific configuration
 configure :build do
