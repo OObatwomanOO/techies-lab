@@ -8,3 +8,15 @@
   background-size: cover;
   z-index: -100;
 }
+
+.main-logo {
+  width: 75px;
+  height: 75px;
+}
+
+@media (min-width: 768px) {
+  .main-logo {
+    width: 150px;
+    height: 150px;
+  }
+}

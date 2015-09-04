@@ -7,21 +7,20 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
   <div class="page">
     <div class="wrapper">
       <div class="container">
-        <%= image_tag "logo/robot.png", alt: "Logo" %>
+        <%= image_tag "logo/robot.png", alt: "Logo", class: "main-logo" %>
         <h1 class="heading"><span id="name">Techies Lab</span><br>coming soon!</h1>
         <p id="tagline">
           Kids, let's play with technology and build cool projects together!
         </p>
-        <div class="row">
+        <!-- <div class="row">
           <div id="countdown"></div>
-        </div>
+        </div> -->
         <!-- Subscription form -->
-        <form class="form-inline signup" action="php/signupForm.php" role="form" id="signupForm">
-          <div class="form-group">
+        <form class="signup" action="php/signupForm.php" role="form" id="signupForm">
+          <div class="input-group" style="margin: 0 auto;">
             <input type="email" name="email" class="form-control" placeholder="Email address">
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Get notified!</span></button>
+
+            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Notify me</span></button>
           </div>
         </form>
         <footer class="text-center">
