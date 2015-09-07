@@ -106,7 +106,7 @@ $(function () {
 						message: 'Email cannot be empty'
 					},
 					emailAddress: {
-						message: 'The input is not a valid email address'
+						message: 'It is not a valid email address'
 					}
 				}
 			}
