@@ -44,7 +44,7 @@ activate :deploy do |deploy|
 end
 
 # I18n support
-# activate :i18n
+activate :i18n, :mount_at_root => :en
 
 # Build-specific configuration
 configure :build do
