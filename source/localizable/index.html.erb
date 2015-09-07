@@ -8,9 +8,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
     <div class="wrapper">
       <div class="container">
         <%= image_tag "logo/robot.png", alt: "Logo", class: "main-logo" %>
-        <h1 class="heading"><span id="name">Techies Lab</span><br>coming soon!</h1>
+        <h1 class="heading"><span id="name">Techies Lab</span><br><%= t('.header.soon') %></h1>
         <p id="tagline">
-          Kids, let's play with technology and build cool projects together!
+          <%= t('.header.subtitle') %>
         </p>
         <!-- <div class="row">
           <div id="countdown"></div>
@@ -19,10 +19,10 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         <form class="signup" action="php/signupForm.php" role="form" id="signupForm">
           <div class="input-group" style="margin: 0 auto;">
             <div class="form-group pull-left">
-              <input type="email" name="email" class="form-control" placeholder="Email address">
+              <input type="email" name="email" class="form-control" placeholder="<%= t('.header.email') %>">
             </div>
 
-            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Notify me</span></button>
+            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label"><%= t('.header.button') %></span></button>
           </div>
         </form>
         <footer class="text-center">
@@ -47,25 +47,16 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h3 class="section-title">About</h3>
+        <h3 class="section-title"><%= t('.about.title') %></h3>
         <div class="section-title-border"></div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
         <p class="lead">
-          <strong>Curabitur molestie</strong> libero ut enim egestas
-          placerat. Sed facilisis magna sapien, id tincidunt metus
-          adipiscing sed. Aliquam viverra sagittis quam vel sagittis.
+          <strong><%= t('about.lead.drop') %></strong> <%= t('about.lead.text') %>
         </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris interdum condimentum vestibulum. Proin ullamcorper
-          lorem adipiscing elit ornare, et lobortis tortor fringilla.
-          Curabitur non volutpat justo, at posuere dolor.
-          Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper
-          laoreet lectus ut suscipit. Quisque luctus felis sed ante elementum condimentum.
-          Praesent sagittis odio eu ante sollicitudin, vel commodo
-          odio viverra.
+        <p><%= t('about.intro') %>
         </p>
         <div class="row">
           <div class="col-sm-4 feature-box-container">
@@ -74,10 +65,8 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
                 <i class="fa fa-cogs"></i>
               </div>
               <div class="description">
-                <h4>Phasellus lobortis</h4>
-                <p>Fusce eu tellus vel tellus porttitor aliquet.
-                  Etiam ullamcorper laoreet lectus ut suscipit.
-                  Felis sed ante.
+                <h4><%= t('about.box1.title') %></h4>
+                <p><%= t('about.box1.text') %>
                 </p>
               </div>
             </div>
@@ -88,9 +77,8 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
                 <i class="fa fa-rocket"></i>
               </div>
               <div class="description">
-                <h4>Donec rutrum vitae</h4>
-                <p>Quisque luctus felis sed ante elementum condimentum.
-                  Praesent sagittis odio eu ante sollicitudin
+                <h4><%= t('about.box2.title') %></h4>
+                <p><%= t('about.box2.text') %>
                 </p>
               </div>
             </div>
@@ -101,9 +89,8 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
                 <i class="fa fa-heart"></i>
               </div>
               <div class="description">
-                <h4>Nunc consectetur</h4>
-                <p>Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus.
-                  Quisque lectus sem, vestibulum vel nibh.
+                <h4><%= t('about.box3.title') %></h4>
+                <p><%= t('about.box3.text') %>
                 </p>
               </div>
             </div>
@@ -119,7 +106,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h3 class="section-title">Our team</h3>
+        <h3 class="section-title"><%= t('.team.title') %></h3>
         <div class="section-title-border"></div>
       </div>
     </div>
@@ -130,9 +117,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <%= image_tag "portraits/1.jpg", alt: "", class: "img-responsive" %>
           </div>
           <div class="team-member-meta">
-            <h4>John Doe</h4>
-            <span class="team-member-profession">Developer</span>
-            <p>Fusce pulvinar dui eu dignissim semper. Donec non tellus felis. Vivamus dapibus placerat.</p>
+            <h4><%= t('.team.member1.name') %></h4>
+            <span class="team-member-profession"><%= t('.team.member1.role') %></span>
+            <p><%= t('.team.member1.text') %></p>
             <div class="social">
               <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
               <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
@@ -147,9 +134,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <%= image_tag "portraits/2.jpg", alt: "", class: "img-responsive" %>
           </div>
           <div class="team-member-meta">
-            <h4>Jessica Smith</h4>
-            <span class="text-muted team-member-profession">Designer</span>
-            <p>Sed posuere eu sem ac consectetur. Integer suscipit diam odio, in tincidunt dui aliquet eget.</p>
+            <h4><%= t('.team.member2.name') %></h4>
+            <span class="team-member-profession"><%= t('.team.member2.role') %></span>
+            <p><%= t('.team.member2.text') %></p>
             <div class="social">
               <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
               <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
@@ -164,11 +151,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <%= image_tag "portraits/3.jpg", alt: "", class: "img-responsive" %>
           </div>
           <div class="team-member-meta">
-            <h4>Tom Wilson</h4>
-            <span class="team-member-profession">CEO</span>
-            <p>Vivamus dapibus placerat tincidunt.
-              Donec sit amet justo eget dolor vehicula tincidunt eu ut est.
-            </p>
+            <h4><%= t('.team.member3.name') %></h4>
+            <span class="team-member-profession"><%= t('.team.member3.role') %></span>
+            <p><%= t('.team.member3.text') %></p>
             <div class="social">
               <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
               <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
@@ -183,9 +168,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <%= image_tag "portraits/4.jpg", alt: "", class: "img-responsive" %>
           </div>
           <div class="team-member-meta">
-            <h4>Sophie Brown</h4>
-            <span class="team-member-profession">Product manager</span>
-            <p>Phasellus malesuada augue erat, quis mollis magna fermentum at. Donec lobortis ante et dictum.</p>
+            <h4><%= t('.team.member4.name') %></h4>
+            <span class="team-member-profession"><%= t('.team.member4.role') %></span>
+            <p><%= t('.team.member4.text') %></p>
             <div class="social">
               <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
               <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
@@ -203,16 +188,14 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h3 class="section-title">Contact</h3>
+        <h3 class="section-title"><%= t('.contact.title') %></h3>
         <div class="section-title-border"></div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6">
         <p>
-          <strong>Integer suscipit</strong> gravida felis quis ornare.
-          Pellentesque consectetur dui eu nulla vestibulum,
-          ac euismod diam auctor.
+          <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
         </p>
         <ul class="list-contacts">
           <li><i class="fa fa-phone"></i> (123) 456-7890</li>
@@ -225,21 +208,21 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         <form class="form-horizontal" action="php/contactForm.php" method="post" role="form" id="contactForm">
           <div class="form-group">
             <div class="col-sm-6">
-              <input type="text" name="name" class="form-control" placeholder="Name">
+              <input type="text" name="name" class="form-control" placeholder="<%= t('.contact.form.name') %>">
             </div>
             <div class="col-sm-6">
-              <input type="text" name="contactEmail" class="form-control" placeholder="Email">
+              <input type="text" name="contactEmail" class="form-control" placeholder="<%= t('.contact.form.email') %>">
             </div>
           </div>
           <div class="form-group">
             <div class="col-sm-12">
-              <textarea name="message" class="form-control" rows="8" placeholder="Message"></textarea>
+              <textarea name="message" class="form-control" rows="8" placeholder="<%= t('.contact.form.message') %>"></textarea>
             </div>
           </div>
           <div class="form-group">
             <div class="col-sm-12">
               <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left">
-                <span class="ladda-label">Submit</span>
+                <span class="ladda-label"><%= t('.contact.form.submit') %></span>
               </button>
             </div>
           </div>
