@@ -1,7 +1,7 @@
 $(window).load(function () {
 	"use strict";
 	$('#status').fadeOut();
-	/* $('#preloader').delay(350).fadeOut('slow'); */
+	 $('#preloader').delay(350).fadeOut('slow');
 	$('body').delay(350).css({
 		'overflow': 'visible'
 	});
@@ -77,7 +77,6 @@ $(function () {
 	 */
 
 	/* Signup form */
-
 	$('#signupForm').bootstrapValidator({
 		message: 'This value is not valid',
 		feedbackIcons: {
@@ -115,7 +114,6 @@ $(function () {
 	});
 
 	/* Contact form */
-
 	$('#contactForm').bootstrapValidator({
 		fields: {
 			name: {
@@ -124,9 +122,9 @@ $(function () {
 						message: 'Name cannot be empty'
 					},
 					stringLength: {
-						min: 6,
+						min: 1,
 						max: 30,
-						message: 'Name must be more than 6 and less than 30 characters long'
+						message: 'Name must be more than 1 and less than 30 characters long'
 					},
 					regexp: {
 						regexp: /^[a-zA-Z\s]+$/,
