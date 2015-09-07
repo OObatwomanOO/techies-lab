@@ -107,7 +107,13 @@ a:after {
 }
 
 #tagline {
-  font-size: 1.4em;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  #tagline {
+    font-size: 1.4em;
+  }
 }
 
 /*
@@ -596,7 +602,7 @@ form.signup button.btn {
 	width: 100%;
 	text-align: center;
 	position: relative;
-	bottom: -20px;
+	bottom: -40px;
 	display: none;
 }
 
