@@ -91,8 +91,15 @@ $(function () {
 			l.start();
 			btnText.html("Signing up...");
 
-			$.get(form.attr('action'), form.serialize(), function(result) {
-				btnText.html(result.message);
+			$.post(form.attr('action'), form.serialize(), function(result) {
+				btnText.html(result.result);
+        if (result.result == "error") {
+          $('#mce-success-response').hide()
+          $('#mce-error-response').html(result.msg).show();
+        } else {
+          $('#mce-error-response').hide()
+          $('#mce-success-response').html(result.msg).show();
+        }
 			}, 'json')
 			.always(function() {
 				l.stop();
@@ -163,7 +170,8 @@ $(function () {
 			btnText.html("Sending...");
 
 			$.post(form.attr('action'), form.serialize(), function(result) {
-				if(result.sent){
+        console.log(result);
+				if(result.success){
 					btnText.html("Sent!");
 				}
 				else{
