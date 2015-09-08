@@ -16,13 +16,6 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
           <div id="countdown"></div>
         </div> -->
         <!-- Subscription form -->
-
-
-
-
-
-
-
         <form class="signup" action="//techieslab.us11.list-manage.com/subscribe/post-json?u=4e5edbd56b4da2771ce53024c&amp;id=1c0ef6f860&c=?" role="form" id="signupForm">
           <div class="input-group" style="margin: 0 auto;">
             <div class="form-group pull-left">
@@ -31,8 +24,15 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label"><%= t('.header.button') %></span></button>
           </div>
           <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
+
+            <div id="mce-error-response" class="response alert alert-danger alert-dismissible" style="display:none" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <span class="answer"></span>
+            </div>
+            <div id="mce-success-response" class="response alert alert-success alert-dismissible" style="display:none" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <span class="answer"></span>
+            </div>
           </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;"><input type="text" name="b_4e5edbd56b4da2771ce53024c_1c0ef6f860" tabindex="-1" value=""></div>
           <div class="clear">

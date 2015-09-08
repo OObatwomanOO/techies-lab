@@ -95,10 +95,12 @@ $(function () {
 				btnText.html(result.result);
         if (result.result == "error") {
           $('#mce-success-response').hide()
-          $('#mce-error-response').html(result.msg).show();
+          $('#mce-error-response .answer').html(result.msg)
+          $('#mce-error-response').show();
         } else {
           $('#mce-error-response').hide()
-          $('#mce-success-response').html(result.msg).show();
+          $('#mce-success-response .answer').html(result.msg).show();
+          $('#mce-success-response').show();
         }
 			}, 'json')
 			.always(function() {
