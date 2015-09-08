@@ -103,7 +103,7 @@ a:after {
 }
 
 #name {
-  color: red;
+  color: $red;
 }
 
 #tagline {
@@ -143,8 +143,8 @@ a:after {
 
 .btn-theme {
 	color: #fff;
-	background-color: red;
-	border-color: red;
+	background-color: $red;
+	border-color: $red;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -152,7 +152,7 @@ a:after {
 }
 
 .btn-theme:hover {
-	color: red;
+	color: $red;
 	background-color: #fff;
 }
 
