@@ -91,8 +91,17 @@ $(function () {
 			l.start();
 			btnText.html("Signing up...");
 
-			$.get(form.attr('action'), form.serialize(), function(result) {
-				btnText.html(result.message);
+			$.post(form.attr('action'), form.serialize(), function(result) {
+				btnText.html(result.result);
+        if (result.result == "error") {
+          $('#mce-success-response').hide()
+          $('#mce-error-response .answer').html(result.msg)
+          $('#mce-error-response').show();
+        } else {
+          $('#mce-error-response').hide()
+          $('#mce-success-response .answer').html(result.msg).show();
+          $('#mce-success-response').show();
+        }
 			}, 'json')
 			.always(function() {
 				l.stop();
@@ -163,7 +172,8 @@ $(function () {
 			btnText.html("Sending...");
 
 			$.post(form.attr('action'), form.serialize(), function(result) {
-				if(result.sent){
+        console.log(result);
+				if(result.success){
 					btnText.html("Sent!");
 				}
 				else{
