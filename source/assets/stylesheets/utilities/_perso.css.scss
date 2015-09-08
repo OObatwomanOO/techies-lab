@@ -26,3 +26,15 @@
     height: 150px;
   }
 }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"],
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
