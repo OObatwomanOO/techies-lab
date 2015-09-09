@@ -76,42 +76,21 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         <p><%= t('about.intro') %>
         </p>
         <div class="row">
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown">
-              <div class="icon">
-                <i class="fa fa-cogs"></i>
-              </div>
-              <div class="description">
-                <h4><%= link_to t('about.box1.title'), 'robotics.html' %></h4>
-                <p><%= t('about.box1.text') %>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="fa fa-rocket"></i>
-              </div>
-              <div class="description">
-                <h4><%= t('about.box2.title') %></h4>
-                <p><%= t('about.box2.text') %>
-                </p>
+          <% data.tracks.each do |track| %>
+            <div class="col-sm-4 feature-box-container">
+              <div class="feature-box wow fadeInDown">
+                <div class="icon">
+                  <i class="fa fa-<%= track.icon %>"></i>
+                </div>
+                <div class="description">
+                  <h4><%= link_to t(track.name), track.file %></h4>
+                  <p><%= t(track.description) %>
+                  </p>
+                  <p><%= link_to t('about.read_more'), track.file, class: "btn btn-theme" %></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon">
-                <i class="fa fa-heart"></i>
-              </div>
-              <div class="description">
-                <h4><%= t('about.box3.title') %></h4>
-                <p><%= t('about.box3.text') %>
-                </p>
-              </div>
-            </div>
-          </div>
+          <% end %>
         </div>
       </div>
     </div>

@@ -11,15 +11,13 @@ fr:
       drop: "Curabitur molestie"
       text: "libero ut enim egestas placerat. Sed facilisis magna sapien, id tincidunt metus adipiscing sed. Aliquam viverra sagittis quam vel sagittis."
     intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum vestibulum. Proin ullamcorper lorem adipiscing elit ornare, et lobortis tortor fringilla. Curabitur non volutpat justo, at posuere dolor. Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Quisque luctus felis sed ante elementum condimentum. Praesent sagittis odio eu ante sollicitudin, vel commodo odio viverra."
-    box1:
-      title: "Phasellus lobortis"
-      text: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
-    box2:
-      title: "Donec rutrum vitae"
-      text: "Quisque luctus felis sed ante elementum condimentum. Praesent sagittis odio eu ante sollicitudin"
-    box3:
-      title: "Nunc consectetur"
-      text: "Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus. Quisque lectus sem, vestibulum vel nibh."
+    robotic_name: "Robotique"
+    robotic_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
+    gaming_name: "Jeu video"
+    gaming_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
+    reporter_name: "Journaliste Web"
+    reporter_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
+    read_more: "Lire la suite"
   team:
     title: "Our team"
     role_anne: "Driver"
