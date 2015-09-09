@@ -1,5 +1,6 @@
-<div style="position: absolute; right: 0; z-index: 9999; padding: 1em 2em; font-weight: 400;">
-  <%= link_to "EN", clean_from_i18n(current_page.url), :lang => :en %> &nbsp;
-  <%= link_to "FR", "/fr/#{clean_from_i18n(current_page.url)}" %> &nbsp;
-  <%= link_to "NL", "/nl/#{clean_from_i18n(current_page.url)}" %>
+<div class="top-bar pos-right">
+  <!-- link_to not working with i18n -->
+  <a href="/<%= clean_from_i18n(current_page.url) %>">EN</a> &nbsp;
+  <a href="/fr/<%= clean_from_i18n(current_page.url) %>">FR</a> &nbsp;
+  <a href="/nl/<%= clean_from_i18n(current_page.url) %>">NL</a>
 </div>

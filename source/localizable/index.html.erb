@@ -2,6 +2,7 @@
 title: Techies Lab - Playground for kids & teenagers to experiment with technology
 ---
 
+<%= partial "layouts/langbar" %>
 <!-- background image -->
 <div class="image-bg">
   <div class="bg-filter"></div>
@@ -81,7 +82,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
                 <i class="fa fa-cogs"></i>
               </div>
               <div class="description">
-                <h4><%= t('about.box1.title') %></h4>
+                <h4><%= link_to t('about.box1.title'), 'robotics.html' %></h4>
                 <p><%= t('about.box1.text') %>
                 </p>
               </div>
