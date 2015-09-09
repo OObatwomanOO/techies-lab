@@ -1,0 +1,42 @@
+- name: Anne Collet
+  role: :team.role_anne
+  image: portraits/1.jpg
+  description: :team.description_anne
+  socials:
+  - url: https://twitter.com/dianelanterman
+    icon: twitter
+  - url: https://www.facebook.com/diane.lanterman
+    icon: facebook
+- name: Marguerite Tinawi
+  role: :team.role_margo
+  image: portraits/2.jpg
+  description: :team.description_margo
+  socials:
+  - url: '#'
+    icon: google-plus
+  - url: '#'
+    icon: github
+  - url: '#'
+    icon: linkedin
+- name: John Doe
+  role: :team.role_anne
+  image: portraits/3.jpg
+  description: :team.description_anne
+  socials:
+  - url: '#'
+    icon: angellist
+  - url: '#'
+    icon: dribbble
+  - url: '#'
+    icon: pinterest
+  - url: '#'
+    icon: instagram
+- name: Jessica Smith
+  role: :team.role_margo
+  image: portraits/4.jpg
+  description: :team.description_margo
+  socials:
+  - url: '#'
+    icon: skype
+  - url: '#'
+    icon: youtube

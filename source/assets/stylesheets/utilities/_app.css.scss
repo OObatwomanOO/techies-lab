@@ -655,6 +655,15 @@ form.signup button.btn {
 #about h5,
 #about h6{
 	color: #626262;
+  & a {
+    color: inherit;
+
+    &:hover, &:focus {
+      color: #99a2a9;
+      text-decoration: none;
+      outline: 0;
+    }
+  }
 }
 
 

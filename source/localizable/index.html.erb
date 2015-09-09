@@ -2,6 +2,12 @@
 title: Techies Lab - Playground for kids & teenagers to experiment with technology
 ---
 
+<%= partial "layouts/langbar" %>
+<!-- background image -->
+<div class="image-bg">
+  <div class="bg-filter"></div>
+</div>
+
 <!-- Main -->
 <section class="main text-center" id="home">
   <div class="page">
@@ -70,42 +76,21 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         <p><%= t('about.intro') %>
         </p>
         <div class="row">
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown">
-              <div class="icon">
-                <i class="fa fa-cogs"></i>
-              </div>
-              <div class="description">
-                <h4><%= t('about.box1.title') %></h4>
-                <p><%= t('about.box1.text') %>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="fa fa-rocket"></i>
-              </div>
-              <div class="description">
-                <h4><%= t('about.box2.title') %></h4>
-                <p><%= t('about.box2.text') %>
-                </p>
+          <% data.tracks.each do |track| %>
+            <div class="col-sm-4 feature-box-container">
+              <div class="feature-box wow fadeInDown">
+                <div class="icon">
+                  <i class="fa fa-<%= track.icon %>"></i>
+                </div>
+                <div class="description">
+                  <h4><%= link_to t(track.name), track.file %></h4>
+                  <p><%= t(track.description) %>
+                  </p>
+                  <p><%= link_to t('about.read_more'), track.file, class: "btn btn-theme" %></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4 feature-box-container">
-            <div class="feature-box wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon">
-                <i class="fa fa-heart"></i>
-              </div>
-              <div class="description">
-                <h4><%= t('about.box3.title') %></h4>
-                <p><%= t('about.box3.text') %>
-                </p>
-              </div>
-            </div>
-          </div>
+          <% end %>
         </div>
       </div>
     </div>
@@ -122,74 +107,27 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-        <div class="team-member">
-          <div class="team-member-img">
-            <%= image_tag "portraits/1.jpg", alt: "", class: "img-responsive" %>
-          </div>
-          <div class="team-member-meta">
-            <h4><%= t('.team.member1.name') %></h4>
-            <span class="team-member-profession"><%= t('.team.member1.role') %></span>
-            <p><%= t('.team.member1.text') %></p>
-            <div class="social">
-              <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-              <a href="#‎" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
+      <% data.team_members.each do |member| %>
+        <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+          <div class="team-member">
+            <div class="team-member-img">
+              <%= image_tag member.image , alt: member.name, class: "img-responsive" %>
+            </div>
+            <div class="team-member-meta">
+              <h4><%= member.name %></h4>
+              <span class="team-member-profession"><%= t(member.role) %></span>
+              <p><%= t(member.description) %></p>
+              <div class="social">
+                <% member.socials.each do |social| %>
+                  <% link_to social.url, class: "btn btn-theme" do %>
+                    <i class="fa fa-<%= social.icon %>"></i>
+                  <% end %>
+                <% end %>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-3 text-center team-member-container wow fadeInDown" data-wow-delay="0.2s">
-        <div class="team-member">
-          <div class="team-member-img">
-            <%= image_tag "portraits/2.jpg", alt: "", class: "img-responsive" %>
-          </div>
-          <div class="team-member-meta">
-            <h4><%= t('.team.member2.name') %></h4>
-            <span class="team-member-profession"><%= t('.team.member2.role') %></span>
-            <p><%= t('.team.member2.text') %></p>
-            <div class="social">
-              <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-              <a href="#‎" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 text-center team-member-container wow fadeInDown" data-wow-delay="0.4s">
-        <div class="team-member">
-          <div class="team-member-img">
-            <%= image_tag "portraits/3.jpg", alt: "", class: "img-responsive" %>
-          </div>
-          <div class="team-member-meta">
-            <h4><%= t('.team.member3.name') %></h4>
-            <span class="team-member-profession"><%= t('.team.member3.role') %></span>
-            <p><%= t('.team.member3.text') %></p>
-            <div class="social">
-              <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-              <a href="#‎" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 text-center team-member-container wow fadeInDown" data-wow-delay="0.6s">
-        <div class="team-member">
-          <div class="team-member-img">
-            <%= image_tag "portraits/4.jpg", alt: "", class: "img-responsive" %>
-          </div>
-          <div class="team-member-meta">
-            <h4><%= t('.team.member4.name') %></h4>
-            <span class="team-member-profession"><%= t('.team.member4.role') %></span>
-            <p><%= t('.team.member4.text') %></p>
-            <div class="social">
-              <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-              <a href="#‎" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
 </section>
@@ -209,10 +147,10 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
           <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
         </p>
         <ul class="list-contacts">
-          <li><i class="fa fa-phone"></i> (123) 456-7890</li>
-          <li><i class="fa fa-mobile-phone"></i> (123) 987-6543</li>
-          <li><i class="fa fa-map-marker"></i> 1795 Folsom Ave, Suite 600<br> San Francisco, CA 94107</li>
-          <li><i class="fa fa-envelope-o"></i> <a href="mailto:info@seventytwo.com">info@seventytwo.com</a></li>
+          <li><i class="fa fa-phone"></i> <%= data.settings.contact.tel %></li>
+          <li><i class="fa fa-mobile-phone"></i> <%= data.settings.contact.cellphone %></li>
+          <li><i class="fa fa-map-marker"></i> <%= data.settings.contact.street %><br> <%= data.settings.contact.city %></li>
+          <li><i class="fa fa-envelope-o"></i> <a href="mailto:<%= data.settings.contact.email %>"><%= data.settings.contact.email %></a></li>
         </ul>
       </div>
       <div class="col-sm-6">
