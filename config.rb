@@ -67,3 +67,12 @@ configure :build do
   activate :relative_assets
   set :relative_links, true
 end
+
+helpers do
+  def clean_from_i18n(url)
+    parts = url.split('/').select { |p| p && p.size > 0 }
+    parts.shift if langs.map(&:to_s).include?(parts[0])
+
+    parts.join('/')
+  end
+end
