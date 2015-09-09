@@ -1,0 +1,21 @@
+site:
+  title: Techies Lab - Playground for kids & teenagers to experiment with technology
+  title_separator: |
+  description: 'Techies Lab is a space for kids and teens to play and experiment with techonology, robots, games and wearables.'
+  geo:
+    placename: 'Place Sainte-Gudule 5, 1000 Brussels, BELGIUM'
+    position: 50.8474430;4.3591850
+    region: BE-Bruxelles
+    icbm: "50.8474430, 4.3591850"
+  url: 'http://techieslab.org'
+  author: Anne Collet
+
+social:
+  twitter: '@techieslab'
+
+contact:
+  tel:  (123) 456-7890
+  cellphone: (123) 987-6543
+  email: info@techieslab.org
+  street: Place Sainte-Gudule 5
+  city: 1000 Brussels, BELGIUM

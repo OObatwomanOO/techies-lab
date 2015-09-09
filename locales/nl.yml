@@ -22,22 +22,10 @@ nl:
       text: "Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus. Quisque lectus sem, vestibulum vel nibh."
   team:
     title: "Our team"
-    member1:
-      name: "John Doe"
-      role: "Developer"
-      text: "Fusce pulvinar dui eu dignissim semper. Donec non tellus felis. Vivamus dapibus placerat."
-    member2:
-      name: "Jessica Smith"
-      role: "Designer"
-      text: "Sed posuere eu sem ac consectetur. Integer suscipit diam odio, in tincidunt dui aliquet eget."
-    member3:
-      name: "Tom Wilson"
-      role: "CEO"
-      text: "Vivamus dapibus placerat tincidunt. Donec sit amet justo eget dolor vehicula tincidunt eu ut est."
-    member4:
-      name: "Sophie Brown"
-      role: "Product manager"
-      text: "Phasellus malesuada augue erat, quis mollis magna fermentum at. Donec lobortis ante et dictum."
+    role_anne: "Driver"
+    description_anne: "Anne Collet is the amazing Driver of Techies Lab. She also starts a new project every week."
+    role_margo: "Happiness Concierge"
+    description_margo: "Margo is the magic Happiness Concierge of Techies Lab, answering all your questions and requests."
   contact:
     title: "Contact"
     intro:
@@ -48,3 +36,9 @@ nl:
       email: "Email"
       message: "Message"
       submit: "Submit"
+  robotics:
+    title: "Robotics"
+  gaming:
+    title: "Gaming"
+  reporter:
+    title: "Web Reporter"
