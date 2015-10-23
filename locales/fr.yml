@@ -2,8 +2,8 @@
 fr:
   header:
     soon: "à venir prochainement"
-    subtitle:  "Kids, let's play with technology and build cool projects together!"
-    email: "Adresse email"
+    subtitle:  "Ton terrain de jeux pour explorer les nouvelles technologies et bâtir des projets qui en jettent!"
+    email: "Email"
     button: "Informez-moi!"
   about:
     title: "À propos"
@@ -19,11 +19,11 @@ fr:
     reporter_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
     read_more: "Lire la suite"
   team:
-    title: "Our team"
-    role_anne: "Driver"
-    description_anne: "Anne Collet is the amazing Driver of Techies Lab. She also starts a new project every week."
-    role_margo: "Happiness Concierge"
-    description_margo: "Margo is the magic Happiness Concierge of Techies Lab, answering all your questions and requests."
+    title: "Notre équipe"
+    role_anne: "Co-fondatrice"
+    description_anne: "Anne Collet est la visionnaire du Techies Lab. Elle est aussi directrice du Wagon Bruxelles, une écode de programmation."
+    role_margo: "Co-fondatrice"
+    description_margo: "Margo fait rouler le Techies Lab. Contactez-la avec vos questions et demandes. Elle est aussi co-fondatrice de Kidzeum, une app mobile pour les enfants dans les musées."
   contact:
     title: "Contact"
     intro:
