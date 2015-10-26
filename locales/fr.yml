@@ -1,42 +1,44 @@
 ---
 fr:
   header:
-    soon: "à venir prochainement"
+    soon: "Ateliers les 2 et 4 nov 2015 - Inscriptions ouvertes"
     subtitle:  "Ton terrain de jeux pour explorer les nouvelles technologies et bâtir des projets qui en jettent!"
     email: "Email"
-    button: "Informez-moi!"
+    button:
+      notification: "Informez-moi!"
+      registration: "Je m'inscris!"
   about:
     title: "À propos"
     lead:
-      drop: "Curabitur molestie"
-      text: "libero ut enim egestas placerat. Sed facilisis magna sapien, id tincidunt metus adipiscing sed. Aliquam viverra sagittis quam vel sagittis."
-    intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum vestibulum. Proin ullamcorper lorem adipiscing elit ornare, et lobortis tortor fringilla. Curabitur non volutpat justo, at posuere dolor. Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Quisque luctus felis sed ante elementum condimentum. Praesent sagittis odio eu ante sollicitudin, vel commodo odio viverra."
+      drop: "Techies Lab"
+      text: " est une nouvelle initiative en Belgique pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les technologies (robots, code, jeux vidéos, impression 3D, etc.) Ouvrons-leur les portes de la créativité!"
+    intro: "Notre objectif? Inculquer la joie du bidouillage, déconstruire pour mieux reconstruire et comprendre l'envers du décor. Nos ateliers sont amusants (on rit!), pratiques (on fait soi-même!) et recyclables (on ramène chez soi nos projets pour les bichoner et continuer à les développer)!"
     robotic_name: "Robotique"
-    robotic_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
+    robotic_description: "Construire un bras robotique, faire chanter des sapins... ça ne sert peut-être pas tous les jours, mais c'est tellement cool!"
     gaming_name: "Jeu video"
-    gaming_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
-    reporter_name: "Journaliste Web"
-    reporter_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
+    gaming_description: "Pour apprendre à coder des jeux du tonerre!"
+    reporter_name: "Design Web"
+    reporter_description: "Designer un site de mode, lancer un blogue, créer sa mini-entreprise digitale... rien de plus facile!"
     read_more: "Lire la suite"
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
-    description_anne: "Anne Collet est la visionnaire du Techies Lab. Elle est aussi directrice du Wagon Bruxelles, une écode de programmation."
+    description_anne: "Anne a dans sa poche 653 idées pour Techies Lab. Super connectée dans le monde tech et start-up du Benelux, c'est elle qui trouve partenaires et sponsors. À temps perdu, elle est aussi directrice du Wagon Bruxelles, l'école de programmation pour entrepreuneurs."
     role_margo: "Co-fondatrice"
-    description_margo: "Margo fait rouler le Techies Lab. Contactez-la avec vos questions et demandes. Elle est aussi co-fondatrice de Kidzeum, une app mobile pour les enfants dans les musées."
+    description_margo: "Margo écrivait des manuels scolaires pour ses frères... à l'âge de 6 ans. Inutile de dire qu'elle adore l'enseigement. Dans une vie antérieure, elle était avocate. Mais ça, c'était avant de découvrir la programmation et l'entrepreunariat! Quand elle n'est pas occupée à faire rouler Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées."
   contact:
     title: "Contact"
     intro:
-      drop: "Integer suscipit"
-      text: "gravida felis quis ornare. Pellentesque consectetur dui eu nulla vestibulum, ac euismod diam auctor."
+      drop: "Contactez-nous"
+      text: "pour nous poser vos questions, nous faire part de vos commentaires et nous partager votre bonne humeur!"
     form:
-      name: "Name"
+      name: "Nom"
       email: "Email"
       message: "Message"
-      submit: "Submit"
+      submit: "Envoyer"
   robotics:
-    title: "Robotics"
+    title: "Robots"
   gaming:
-    title: "Gaming"
+    title: "Jeux vidéos"
   reporter:
-    title: "Web Reporter"
+    title: "Web reporter"

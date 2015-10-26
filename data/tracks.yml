@@ -2,10 +2,10 @@
   description: :about.robotic_description
   icon: android
   file: robotics.html
-- name: :about.gaming_name
-  description: :about.gaming_description
-  icon: gamepad
-  file: gaming.html
+# - name: :about.gaming_name
+#   description: :about.gaming_description
+#   icon: gamepad
+#   file: gaming.html
 - name: :about.reporter_name
   description: :about.reporter_description
   icon: newspaper-o

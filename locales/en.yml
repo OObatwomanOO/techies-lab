@@ -1,15 +1,17 @@
 ---
 en:
   header:
-    soon: "Full-day workshops on Nov 2 & 4 - Register now!"
+    soon: "Workshops Nov 2 & 4, 2015:  Registration is open!"
     subtitle:  "Kids, let's play with technology and build cool projects together!"
     email: "Email address"
-    button: "Notify me"
+    button:
+      notification: "Notify me"
+      registration: "Register now!"
   about:
     title: "About"
     lead:
-      drop: "Curabitur molestie"
-      text: "libero ut enim egestas placerat. Sed facilisis magna sapien, id tincidunt metus adipiscing sed. Aliquam viverra sagittis quam vel sagittis."
+      drop: "Techies Lab "
+      text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...) Let's unlock their creativity!"
     intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum vestibulum. Proin ullamcorper lorem adipiscing elit ornare, et lobortis tortor fringilla. Curabitur non volutpat justo, at posuere dolor. Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Quisque luctus felis sed ante elementum condimentum. Praesent sagittis odio eu ante sollicitudin, vel commodo odio viverra."
     robotic_name: "Robotics"
     robotic_description: "Fusce eu tellus vel tellus porttitor aliquet. Etiam ullamcorper laoreet lectus ut suscipit. Felis sed ante."
@@ -27,8 +29,8 @@ en:
   contact:
     title: "Contact"
     intro:
-      drop: "Integer suscipit"
-      text: "gravida felis quis ornare. Pellentesque consectetur dui eu nulla vestibulum, ac euismod diam auctor."
+      drop: "Contact us"
+      text: "to ask us questions, leave us comments and share your love!"
     form:
       name: "Name"
       email: "Email"
