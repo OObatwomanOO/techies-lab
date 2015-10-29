@@ -39,18 +39,23 @@ fr:
   robotics:
     title: "Robotique"
     lead:
-      drop: "Comprendre"
-      text: "les robots, c'est comme comprendre l'univers complet des technologies."
-    intro: "Les robots sont complexes et tellement attachants. Pour les comprendre, il faut des notions d'électronique, de physique, de programmation, de design."
+      drop: "Avec un robot,"
+      text: "on peut tout faire... ou presque!"
+    intro: "Pour créer un robot, il faut des notions d'électronique, de physique, de programmation, de design..."
     workshops:
-      title:
-      date:
-      time:
-      description:
-      price:
-      button:
-
+      event:
+        title: "Mon bras robotique"
+        date: "Mercredi 4 novembre 2015"
+        time:
+        description: "Pour notre premier atelier en robotique, on va construire un bras robotique qui peut faire de beaux signes de main"
+        price:
+        button: "Inscription"
+        icon: cogs
+        file: 'https://goo.gl/xbQvAY'
   gaming:
     title: "Jeux vidéos"
   reporter:
     title: "Web reporter"
+  workshops:
+    upcoming: "Nos prochains ateliers"
+    date: "Date"

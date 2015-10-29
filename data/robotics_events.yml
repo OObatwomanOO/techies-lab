@@ -1,0 +1,8 @@
+- title: :robotics.workshops.event.title
+  date: :robotics.workshops.event.date
+  time:
+  description: :robotics.workshops.event.description
+  price:
+  button: :robotics.workshops.event.button
+  icon: :robotics.workshops.event.icon
+  file: :robotics.workshops.event.file
