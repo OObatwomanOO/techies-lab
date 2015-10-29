@@ -14,18 +14,18 @@ fr:
       text: " est une nouvelle initiative en Belgique pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les technologies (robots, code, jeux vidéos, impression 3D, etc.) Ouvrons-leur les portes de la créativité!"
     intro: "Notre objectif: transmettre la joie du bidouillage, déconstruire pour mieux reconstruire et comprendre l'envers du décor. Nos ateliers sont amusants (on rit!), pratiques (on fait soi-même!) et recyclables (on ramène chez soi nos projets pour les bichoner et continuer à les développer)."
     robotic_name: "Robotique"
-    robotic_description: "Construire un bras robotique, faire chanter des sapins... ça ne sert peut-être pas tous les jours, mais c'est tellement cool!"
+    robotic_description: "Construire un bras robotique, faire chanter des sapins... tout est possible avec un peu d'imagination!"
     gaming_name: "Jeu video"
     gaming_description: "Pour apprendre à coder des jeux du tonerre!"
     reporter_name: "Design Web"
-    reporter_description: "Designer un site de mode, lancer un blogue, créer sa mini-entreprise digitale... rien de plus facile!"
+    reporter_description: "Page perso, blogue, design: faire sa place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Lire la suite"
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
-    description_anne: "Anne a dans sa poche 653 idées pour Techies Lab. Super connectée dans le monde tech et start-up du Benelux, c'est elle qui trouve partenaires et sponsors. À temps perdu, elle est aussi directrice du Wagon Bruxelles, l'école de programmation pour entrepreuneurs."
+    description_anne: "Anne a dans sa poche 653 idées pour le Techies Lab. Super connectée dans le monde tech et start-up du Benelux, c'est elle qui trouve partenaires et sponsors. À temps perdu, elle est aussi directrice du Wagon Bruxelles, l'école de programmation pour entrepreuneurs."
     role_margo: "Co-fondatrice"
-    description_margo: "Margo écrivait des manuels scolaires pour ses frères... à l'âge de 6 ans. Inutile de dire qu'elle adore l'enseigement. Dans une vie antérieure, elle était avocate. Mais ça, c'était avant de découvrir la programmation et l'entrepreunariat! Quand elle n'est pas occupée à faire rouler Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées."
+    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis une passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers ou gérer les opérations du Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées. Et puis dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
   contact:
     title: "Contact"
     intro:
