@@ -37,7 +37,19 @@ fr:
       message: "Message"
       submit: "Envoyer"
   robotics:
-    title: "Robots"
+    title: "Robotique"
+    lead:
+      drop: "Comprendre"
+      text: "les robots, c'est comme comprendre l'univers complet des technologies."
+    intro: "Les robots sont complexes et tellement attachants. Pour les comprendre, il faut des notions d'électronique, de physique, de programmation, de design."
+    workshops:
+      title:
+      date:
+      time:
+      description:
+      price:
+      button:
+
   gaming:
     title: "Jeux vidéos"
   reporter:
