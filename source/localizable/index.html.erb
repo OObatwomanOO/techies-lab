@@ -15,14 +15,15 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
       <div class="container">
         <%= image_tag "logo/robot.png", alt: "Logo", class: "main-logo" %>
         <h1 class="heading"><span id="name">Techies Lab</span><br><%= t('.header.soon') %></h1>
-        <p id="tagline">
+ <!--        <p id="tagline">
           <%= t('.header.subtitle') %>
-        </p>
+        </p> -->
+        <p><%= link_to t('header.button.registration'), "https://docs.google.com/forms/d/1y-plOlD84t0NUbT9xF74NYql8tbBrhChMPzv9uhMH-I/viewform?c=0&w=1", class: "btn btn-theme" %></p>
         <!-- <div class="row">
           <div id="countdown"></div>
         </div> -->
         <!-- Subscription form -->
-        <form class="signup" action="//techieslab.us11.list-manage.com/subscribe/post-json?u=4e5edbd56b4da2771ce53024c&amp;id=1c0ef6f860&c=?" role="form" id="signupForm">
+  <!--       <form class="signup" action="//techieslab.us11.list-manage.com/subscribe/post-json?u=4e5edbd56b4da2771ce53024c&amp;id=1c0ef6f860&c=?" role="form" id="signupForm">
           <div class="input-group" style="margin: 0 auto;">
             <div class="form-group pull-left">
               <input type="email" name="EMAIL" class="form-control" placeholder="<%= t('.header.email') %>">
@@ -39,7 +40,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
               <span class="answer"></span>
             </div>
           </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_4e5edbd56b4da2771ce53024c_1c0ef6f860" tabindex="-1" value=""></div>
+         <!--  <div style="position: absolute; left: -5000px;"><input type="text" name="b_4e5edbd56b4da2771ce53024c_1c0ef6f860" tabindex="-1" value=""></div>
           <div class="clear">
         </form>
         <footer class="text-center">
@@ -51,7 +52,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
             <a href="#" class="btn btn-theme"><i class="fa fa-linkedin"></i></a>
           </div>
         </footer>
-      </div>
+      </div> -->
       <div class="arrow-down">
         <a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
       </div>
@@ -77,7 +78,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         </p>
         <div class="row">
           <% data.tracks.each do |track| %>
-            <div class="col-sm-4 feature-box-container">
+            <div class="col-sm-6 feature-box-container">
               <div class="feature-box wow fadeInDown">
                 <div class="icon">
                   <i class="fa fa-<%= track.icon %>"></i>
@@ -147,8 +148,8 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
           <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
         </p>
         <ul class="list-contacts">
-          <li><i class="fa fa-phone"></i> <%= data.settings.contact.tel %></li>
-          <li><i class="fa fa-mobile-phone"></i> <%= data.settings.contact.cellphone %></li>
+          <!-- <li><i class="fa fa-phone"></i> <%= data.settings.contact.tel %></li>
+          <li><i class="fa fa-mobile-phone"></i> <%= data.settings.contact.cellphone %></li> -->
           <li><i class="fa fa-map-marker"></i> <%= data.settings.contact.street %><br> <%= data.settings.contact.city %></li>
           <li><i class="fa fa-envelope-o"></i> <a href="mailto:<%= data.settings.contact.email %>"><%= data.settings.contact.email %></a></li>
         </ul>
