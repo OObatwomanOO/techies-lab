@@ -17,8 +17,8 @@ fr:
     robotic_description: "Construire un bras robotique, faire chanter des sapins... tout est possible avec un peu d'imagination!"
     gaming_name: "Jeu video"
     gaming_description: "Pour apprendre à coder des jeux du tonerre!"
-    reporter_name: "Design Web"
-    reporter_description: "Page perso, blogue, design: faire sa place en beauté sur le web tout en apprenant à dompter le code!"
+    webdesign_name: "Design Web"
+    webdesign_description: "Page perso, blogue, design: faire sa place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Lire la suite"
   team:
     title: "Notre équipe"
@@ -36,6 +36,13 @@ fr:
       email: "Email"
       message: "Message"
       submit: "Envoyer"
+  workshops:
+    upcoming: "Nos prochains ateliers"
+    date: "Date:  "
+    location: "Lieu: "
+    price: "Frais: "
+    age: "Âge: "
+    button: "Inscription"
   robotics:
     title: "Nos prochains ateliers en robotique"
     lead:
@@ -43,11 +50,6 @@ fr:
       text: "on peut tout faire... ou presque!"
     intro: "Pour créer un robot, il faut des notions d'électronique, de physique, de programmation, de design..."
     workshops:
-      date: "Date: "
-      location: "Lieu: "
-      price: "Frais: "
-      age: "Âge: "
-      button: "Inscription"
       event1:
         title: "Mon bras robotique"
         description: "Pour notre premier atelier en robotique, on va construire un bras robotique qui peut faire de beaux signes de main"
@@ -56,10 +58,20 @@ fr:
         age: "13 à 17 ans"
         price: "50 EUR par participant"
         file: 'https://goo.gl/xbQvAY'
+  webdesign:
+    title: "Nos prochains ateliers web"
+    lead:
+      drop:
+      text:
+    intro:
+    workshops:
+      event1:
+        title: "Ma première page web"
+        description: "Pour notre premier atelier en design web, on va créer une page web de A à Z, en utilisant des outils pour la rendre super belle."
+        date: "Mercredi 2 novembre 2015, de 9h à 17h"
+        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
+        age: "13 à 17 ans"
+        price: "50 EUR par participant"
+        file: 'https://goo.gl/xbQvAY'
   gaming:
     title: "Jeux vidéos"
-  reporter:
-    title: "Web reporter"
-  workshops:
-    upcoming: "Nos prochains ateliers"
-    date: "Date"

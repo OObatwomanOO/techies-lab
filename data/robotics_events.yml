@@ -1,12 +1,12 @@
 - title: :robotics.workshops.event1.title
   description: :robotics.workshops.event1.description
-  date_drop: :robotics.workshops.date
+  date_drop: :workshops.date
   date_text: :robotics.workshops.event1.date
-  location_drop: :robotics.workshops.location
+  location_drop: :workshops.location
   location_text: :robotics.workshops.event1.location
-  age_drop: :robotics.workshops.age
+  age_drop: :workshops.age
   age_text: :robotics.workshops.event1.age
-  price_drop: :robotics.workshops.price
+  price_drop: :workshops.price
   price_text: :robotics.workshops.event1.price
-  button: :robotics.workshops.button
+  button: :workshops.button
   file: :robotics.workshops.event1.file

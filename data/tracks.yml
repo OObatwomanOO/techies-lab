@@ -6,7 +6,7 @@
 #   description: :about.gaming_description
 #   icon: gamepad
 #   file: gaming.html
-- name: :about.reporter_name
-  description: :about.reporter_description
+- name: :about.webdesign_name
+  description: :about.webdesign_description
   icon: newspaper-o
-  file: reporter.html
+  file: webdesign.html
