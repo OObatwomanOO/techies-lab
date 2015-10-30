@@ -1,12 +1,12 @@
 ---
 nl:
   header:
-    soon: "Binnenkort!"
+    soon: "Binnenkort in het Nederlands!"
     subtitle:  "Kids, let's play with technology and build cool projects together!"
     email: "Email address"
     button:
       notification: "Notify me"
-      registration: "Register now!"
+      registration: "Register to upcoming workshops"
   about:
     title: "About"
     lead:
