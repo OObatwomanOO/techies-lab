@@ -37,20 +37,24 @@ fr:
       message: "Message"
       submit: "Envoyer"
   robotics:
-    title: "Robotique"
+    title: "Nos prochains ateliers en robotique"
     lead:
       drop: "Avec un robot,"
       text: "on peut tout faire... ou presque!"
     intro: "Pour créer un robot, il faut des notions d'électronique, de physique, de programmation, de design..."
     workshops:
-      event:
+      date: "Date: "
+      location: "Lieu: "
+      price: "Frais: "
+      age: "Âge: "
+      button: "Inscription"
+      event1:
         title: "Mon bras robotique"
-        date: "Mercredi 4 novembre 2015"
-        time:
         description: "Pour notre premier atelier en robotique, on va construire un bras robotique qui peut faire de beaux signes de main"
-        price:
-        button: "Inscription"
-        icon: cogs
+        date: "Mercredi 4 novembre 2015, de 9h à 17h"
+        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
+        age: "13 à 17 ans"
+        price: "50 EUR par participant"
         file: 'https://goo.gl/xbQvAY'
   gaming:
     title: "Jeux vidéos"
