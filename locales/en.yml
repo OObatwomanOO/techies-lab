@@ -17,7 +17,7 @@ en:
       text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Trough one-week tech camps and one-day discovery workshops, we will guide our Techies to unlock their creativity!"
     intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things.<br><br>Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
     robotic_name: "Robotics"
-    robotic_description: "Build a robotic arm that waves, make a Christmas trees sing or twinkle when thirsty..., everything is possible with a little imagination!"
+    robotic_description: "Build a robotic arm that waves, make a Christmas tree sing or twinkle when thirsty..., everything is possible with a little imagination!"
     gaming_name: "Gaming"
     gaming_description: ""
     webdesign_name: "Web Design"
@@ -26,14 +26,14 @@ en:
   team:
     title: "Our team"
     role_anne: "Co-founder"
-    description_anne: "Anne is the amazing Driver and one of the coaches of the Techies Lab. She has a dozen new ideas every day."
+    description_anne: "Founder & driver of Le Wagon Brussels, the coding school for startups, Anne is a passionate trainer. An ambassador of Rails Girls, she loves helping new comers and seeing the bright light in their eyes when the magic of coding gets unveiled!"
     role_margo: "Co-founder"
-    description_margo: "Margo is the magic Happiness Officer of the Techies Lab, answering all your questions and requests."
+    description_margo: "Formerly a litigation lawyer (^^), and an alumnus from Le Wagon Brussels, Margo came back to her initial passion: education. Six months ago, she founded and now develops Kidzeum, an app for kids to enjoy fun & educative experiences in museums."
   contact:
     title: "Contact"
     intro:
       drop: "Contact us<br>"
-      text: "to ask us questions, leave us comments or share your love! :)"
+      text: "to ask us questions, leave us comments or share your love! : )"
     form:
       name: "Name"
       email: "Email"
