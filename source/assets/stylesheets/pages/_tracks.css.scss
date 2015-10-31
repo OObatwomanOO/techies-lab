@@ -1,5 +1,6 @@
 #track-page {
-  background: #ededed;
+  // background: #ededed;
+  background: rgba(90, 175, 202, 0.9);
   color: #626262;
 }
 
@@ -25,18 +26,34 @@
   z-index: 9999;
   padding: 1em 2em;
   font-weight: 400;
-
-  & a {
-    color: $white;
-  }
 }
 
 #track-page .top-bar a {
-  color: #626262;
+  // color: #626262;
+  color: $white;
 
   &:hover, &:focus {
-    color: #99a2a9;
+    // color: #99a2a9;
+    font-weight: bold;
     text-decoration: none;
     outline: 0;
   }
+}
+
+#track-page .section-title {
+  color: $white;
+}
+
+#track-page #description {
+  text-align: justify;
+  padding: 10px;
+}
+
+#track-page strong {
+  padding-right: 5px;
+}
+
+#track-page em {
+  font-style: normal;
+  font-size: 14px;
 }

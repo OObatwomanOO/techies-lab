@@ -1,36 +1,39 @@
 ---
 fr:
   header:
-    soon: "Ateliers les 2 et 4 nov 2015 - Inscriptions ouvertes"
-    subtitle:  "Ton terrain de jeux pour explorer les nouvelles technologies et bâtir des projets qui en jettent!"
-    email: "Email"
+    soon: "à venir prochainement!"
+    title: "Bienvenue au"
+    subtitle:  "Explorons ensemble les technologies et construisons des projets fantastiques!"
+    email: "Adresse email"
+    event: "Ateliers pour ados les 2 et 4 nov 2015 : "
     button:
       notification: "Informez-moi!"
       registration: "Je m'inscris!"
   about:
     title: "À propos"
     lead:
+      intro: "Le"
       drop: "Techies Lab"
-      text: " est une nouvelle initiative en Belgique pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les technologies (robots, code, jeux vidéos, impression 3D, etc.) Ouvrons-leur les portes de la créativité!"
-    intro: "Notre objectif: transmettre la joie du bidouillage, déconstruire pour mieux reconstruire et comprendre l'envers du décor. Nos ateliers sont amusants (on rit!), pratiques (on fait soi-même!) et recyclables (on ramène chez soi nos projets pour les bichoner et continuer à les développer)."
+      text: " est une nouvelle initiative en Belgique pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les nouvelles technologies (robots, code, jeux vidéos, impression 3D...) Ouvrons-leur les portes de la créativité!"
+    intro: "Notre objectif est transmettre la joie du bidouillage, déconstruire pour mieux reconstruire et comprendre l'envers du décor. Nos ateliers sont amusants (on rit!), pratiques (on fait soi-même!) et recyclables (on ramène chez soi nos projets pour les bichoner et continuer à les développer)."
     robotic_name: "Robotique"
     robotic_description: "Construire un bras robotique, faire chanter des sapins... tout est possible avec un peu d'imagination!"
     gaming_name: "Jeu video"
     gaming_description: "Pour apprendre à coder des jeux du tonerre!"
     webdesign_name: "Design Web"
-    webdesign_description: "Page perso, blogue, design: faire sa place en beauté sur le web tout en apprenant à dompter le code!"
-    read_more: "Lire la suite"
+    webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
+    read_more: "Ateliers à venir"
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
-    description_anne: "Anne a dans sa poche 653 idées pour le Techies Lab. Super connectée dans le monde tech et start-up du Benelux, c'est elle qui trouve partenaires et sponsors. À temps perdu, elle est aussi directrice du Wagon Bruxelles, l'école de programmation pour entrepreuneurs."
+    description_anne: "Anne imagine chaque jour 653 nouvelles idées pour le Techies Lab. Super connectée avec le monde de la tech et des startups, c'est elle qui insuffle la vision et trouve les partenaires et sponsors. Elle anime également certains de nos ateliers. A ses heures perdues, elle est aussi coach et conductrice du Wagon Bruxelles, l'école de programmation pour startups et entrepreneurs."
     role_margo: "Co-fondatrice"
-    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis une passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers ou gérer les opérations du Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées. Et puis dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
+    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis lors une grande passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers ou gérer les opérations du Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées. Dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
   contact:
     title: "Contact"
     intro:
       drop: "Contactez-nous"
-      text: "pour nous poser vos questions, nous faire part de vos commentaires et nous partager votre bonne humeur!"
+      text: "pour nous poser vos questions, nous faire part de vos commentaires et nous partager votre bonne humeur! :)"
     form:
       name: "Nom"
       email: "Email"
@@ -38,10 +41,10 @@ fr:
       submit: "Envoyer"
   workshops:
     upcoming: "Nos prochains ateliers"
-    date: "Date:  "
-    location: "Lieu: "
-    price: "Frais: "
-    age: "Âge: "
+    date: "Date"
+    location: "Lieu"
+    price: "Frais"
+    age: "Public cible"
     button: "Inscription"
   robotics:
     title: "Nos prochains ateliers en robotique"
@@ -55,7 +58,7 @@ fr:
         description: "Pour notre premier atelier en robotique, nous construiront le bras de l'avenir: un bras robotique! Soit, notre bras ne sera pas aussi sophistiqué que ceux dans les films, mais il sera tout de même diablement impressionant! Pour le construire, nous utiliseront notamment un Arduino (une sorte de mini ordi, pas plus grand qu'une main), des servomoteurs, des batons popsicle, des fers à souder...&nbsp; Et pour nous guider, nous accueillerons le grand maître bidouilleur-artiste-inventeur Julien Dutertre."
         date: "Mercredi 4 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-        age: "13 à 17 ans"
+        age: "Adolescents (garçons et filles), de 13 à 17 ans"
         price: "50 EUR par participant"
         price_why: "Pourquoi 50 EUR? Parce que nos coachs sont des pros et que les participants repartent chez eux avec leur bras... et tout le matériel qui le compose (Arduino, servomoteurs, potentiomètres, alimentation, etc.)"
         file: 'https://goo.gl/xbQvAY'
@@ -69,11 +72,11 @@ fr:
       event1:
         title: "Ma première page web"
         description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blogue de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
-        date: "Mercredi 2 novembre 2015, de 9h à 17h"
+        date: "Lundi 2 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-        age: "13 à 17 ans"
+        age: "Adolescents (garçons et filles), de 13 à 17 ans"
         price: "50 EUR par participant."
-        price_why: "Pourquoi 50 EUR? Pour couvrir nos frais et ceux de nos coachs qui préparent leurs ateliers à fond :) et pour que les participants puissent repartir chez eux avec tout le matériel pédagogique qui leur servira à continuer leur projet."
+        price_why: "Pourquoi 50 EUR? Pour couvrir nos frais et ceux de nos coaches qui préparent leurs ateliers à fond :) et pour que les participants puissent repartir chez eux avec tout le matériel pédagogique qui leur servira à continuer leur projet."
         file: 'https://goo.gl/xbQvAY'
   gaming:
     title: "Jeux vidéos"

@@ -14,21 +14,20 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
     <div class="wrapper">
       <div class="container">
         <%= image_tag "logo/robot.png", alt: "Logo", class: "main-logo" %>
-        <h1 class="heading"><span id="name">Techies Lab</span><br><%= t('.header.soon') %></h1>
- <!--        <p id="tagline">
-          <%= t('.header.subtitle') %>
-        </p> -->
-        <p><%= link_to t('header.button.registration'), "https://docs.google.com/forms/d/1y-plOlD84t0NUbT9xF74NYql8tbBrhChMPzv9uhMH-I/viewform?c=0&w=1", class: "btn btn-theme" %></p>
+        <h1 class="heading"><%= t('.header.title') %><br><span id="name">Techies Lab</span></h1>
+        <p id="tagline">
+          <span><%= t('.header.subtitle') %></span>
+        </p>
         <!-- <div class="row">
           <div id="countdown"></div>
         </div> -->
         <!-- Subscription form -->
-  <!--       <form class="signup" action="//techieslab.us11.list-manage.com/subscribe/post-json?u=4e5edbd56b4da2771ce53024c&amp;id=1c0ef6f860&c=?" role="form" id="signupForm">
+        <form class="signup" action="//techieslab.us11.list-manage.com/subscribe/post-json?u=4e5edbd56b4da2771ce53024c&amp;id=1c0ef6f860&c=?" role="form" id="signupForm">
           <div class="input-group" style="margin: 0 auto;">
             <div class="form-group pull-left">
               <input type="email" name="EMAIL" class="form-control" placeholder="<%= t('.header.email') %>">
             </div>
-            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label"><%= t('.header.button') %></span></button>
+            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label"><%= t('.header.button.notification') %></span></button>
           </div>
           <div id="mce-responses" class="clear">
             <div id="mce-error-response" class="response alert alert-danger alert-dismissible" style="display:none" role="alert">
@@ -39,20 +38,22 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               <span class="answer"></span>
             </div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-         <!--  <div style="position: absolute; left: -5000px;"><input type="text" name="b_4e5edbd56b4da2771ce53024c_1c0ef6f860" tabindex="-1" value=""></div>
-          <div class="clear">
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_4e5edbd56b4da2771ce53024c_1c0ef6f860" tabindex="-1" value="">
+          </div>
+          <div class="clear"></div>
         </form>
         <footer class="text-center">
           <div class="social">
-            <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
+            <a href="https://twitter.com/TechiesLab" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/TechiesLabBrussels" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
+            <!-- <a href="#" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
             <a href="#" class="btn btn-theme"><i class="fa fa-dribbble"></i></a>
-            <a href="#" class="btn btn-theme"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn btn-theme"><i class="fa fa-linkedin"></i></a> -->
           </div>
         </footer>
-      </div> -->
+      </div>
       <div class="arrow-down">
         <a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
       </div>
@@ -72,9 +73,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
     <div class="row">
       <div class="col-sm-12">
         <p class="lead">
-          <strong><%= t('about.lead.drop') %></strong> <%= t('about.lead.text') %>
+          <%= t('about.lead.intro') %> <%= t('about.lead.drop') %> <%= t('about.lead.text') %>
         </p>
-        <p><%= t('about.intro') %>
+        <p class="lead"><%= t('about.intro') %>
         </p>
         <div class="row">
           <% data.tracks.each do |track| %>
@@ -85,7 +86,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
                 </div>
                 <div class="description">
                   <h4><%= link_to t(track.name), track.file %></h4>
-                  <p><%= t(track.description) %>
+                  <p id="description"><%= t(track.description) %>
                   </p>
                   <p><%= link_to t('about.read_more'), track.file, class: "btn btn-theme" %></p>
                 </div>
@@ -113,6 +114,7 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
           <div class="team-member">
             <div class="team-member-img">
               <%= image_tag member.image , alt: member.name, class: "img-responsive" %>
+              <div class="team-member-img-filter"></div>
             </div>
             <div class="team-member-meta">
               <h4><%= member.name %></h4>
@@ -150,8 +152,10 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
         <ul class="list-contacts">
           <!-- <li><i class="fa fa-phone"></i> <%= data.settings.contact.tel %></li>
           <li><i class="fa fa-mobile-phone"></i> <%= data.settings.contact.cellphone %></li> -->
-          <li><i class="fa fa-map-marker"></i> <%= data.settings.contact.street %><br> <%= data.settings.contact.city %></li>
+          <li><i class="fa fa-map-marker"></i> <a href="https://www.google.be/maps/place/Co.Station/@50.8473558,4.3589762,15z/data=!4m2!3m1!1s0x0:0xa083255f82851545?sa=X&ved=0CHUQ_BIwC2oVChMIxp_Wp6DmyAIVig8aCh34eQ8K"><%= data.settings.contact.street %><br> <%= data.settings.contact.city %></a></li>
           <li><i class="fa fa-envelope-o"></i> <a href="mailto:<%= data.settings.contact.email %>"><%= data.settings.contact.email %></a></li>
+          <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/TechiesLab"><%= data.settings.social.twitter %></a></li>
+          <li><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/TechiesLabBrussels"><%= data.settings.social.facebook %></a></li>
         </ul>
       </div>
       <div class="col-sm-6">
@@ -179,6 +183,9 @@ title: Techies Lab - Playground for kids & teenagers to experiment with technolo
           <input type="text" name="_gotcha" style="display:none" />
         </form>
       </div>
+    </div>
+    <div class="row text-center copyright">
+      <div class="col-sm-12">© TechiesLab.org 2015 - Designed and build in Belgium with <i class="fa fa-heart-o"></i></div>
     </div>
   </div>
 </section>

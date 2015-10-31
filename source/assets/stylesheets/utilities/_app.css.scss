@@ -7,12 +7,16 @@
 
 ::selection {
 	color: #fff;
-	background: #666;
+	// background: #666;
+  // background: #408ebb;
+  background: #319cbd;
 }
 
 ::-moz-selection {
 	color: #fff;
-	background: #666;
+	// background: #666;
+  // background: #408ebb;
+  background: #319cbd;
 }
 
 html {
@@ -37,13 +41,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+	// font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: #fff;
 }
 
 h1 {
 	font-size: 40px;
+  line-height: 130%;
 }
 
 h3 {
@@ -61,7 +67,8 @@ p {
 }
 
 a {
-	color: #bdc3c7;
+	// color: #bdc3c7;
+  color: #fff;
 	word-wrap: break-word;
 	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -72,7 +79,9 @@ a {
 
 a:hover,
 a:focus {
-	color: #99a2a9;
+  // color: #99a2a9;
+  color: #fff;
+  font-weight: bold;
 	text-decoration: none;
 	outline: 0;
 }
@@ -104,10 +113,17 @@ a:after {
 
 #name {
   color: $red;
+  // color: #d73338;
+  font-size: 1.2em;
+  // line-height: 130%;
+  // font-family: 'Oswald', sans-serif;
+  // font-family: 'Fjalla One', sans-serif;
+  // font-family: 'Roboto Condensed', sans-serif;
+  // font-family: 'Raleway', sans-serif;
 }
 
 #tagline {
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 @media (min-width: 768px) {
@@ -144,7 +160,7 @@ a:after {
 .btn-theme {
 	color: #fff;
 	background-color: $red;
-	border-color: $red;
+	// border-color: $red;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -156,6 +172,9 @@ a:after {
 	background-color: #fff;
 }
 
+#cta {
+  text-transform: uppercase;
+}
 
 /*
  *	Forms
@@ -666,6 +685,10 @@ form.signup button.btn {
   }
 }
 
+#about .lead {
+  font-size: 16px;
+  text-align: justify;
+}
 
 .feature-box-container{
 	margin: 60px 0;
@@ -685,7 +708,9 @@ form.signup button.btn {
 	height: 55px;
 	color: #fff;
 	position: relative;
-	background: #bbbcbc;
+	// background: #bbbcbc;
+  // background: #408ebb;
+  background: #319cbd;
 	margin: 35px auto 20px;
 }
 
@@ -698,7 +723,9 @@ form.signup button.btn {
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 25px solid #bbbcbc;
+	// border-bottom: 25px solid #bbbcbc;
+  // border-bottom: 25px solid #408ebb;
+  border-bottom: 25px solid #319cbd;
 }
 
 .feature-box .icon:after {
@@ -710,7 +737,9 @@ form.signup button.btn {
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-top: 25px solid #bbbcbc;
+	// border-top: 25px solid #bbbcbc;
+  // border-top: 25px solid #408ebb;
+  border-top: 25px solid #319cbd;
 }
 
 .feature-box .icon i {
@@ -723,8 +752,9 @@ form.signup button.btn {
 	padding: 20px 15px 10px;
 }
 
-.feature-box .description p {
-	font-size: 14px;
+.feature-box .description #description {
+	font-size: 15px;
+  text-align: justify;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -737,22 +767,28 @@ form.signup button.btn {
 /* Team */
 
 .team-member-container{
-	max-width: 250px;
+	// max-width: 250px;
 	display: inline-block;
 	margin: 20px 0;
 }
 
 .team-member-container:first-child{
 	margin-top: 0;
+  margin-left: 20%;
+  float: left;
 }
 
 .team-member-container:last-child{
 	margin-bottom: 0;
+  margin-right: 20%;
+  float: right;
 }
 
 .team-member {
 	padding-bottom: 25px;
-	background: rgba(0,0,0,0.5);
+	// background: rgba(0,0,0,0.5);
+  // background: rgba(64,142,187,0.9);
+  background: rgba(49,156,189,0.9);
 }
 
 .team-member-profession{
@@ -769,7 +805,7 @@ form.signup button.btn {
 	height: 26px;
 	line-height: 25px;
 	margin: 0 7px;
-	border: 1px solid rgba(255,255,255,0.7);
+	// border: 1px solid rgba(255,255,255,0.7);
 }
 
 .team-member h4 {
@@ -781,6 +817,7 @@ form.signup button.btn {
 	font-size: 12px;
 	line-height: 18px;
 	margin: 5px 0;
+  text-align: justify;
 }
 
 .team-member h4,
@@ -799,7 +836,9 @@ form.signup button.btn {
 /* Contact */
 
 #contact{
-	background: #2d2e2e;
+  // background: #2d2e2e;
+  // background: #408ebb;
+  background: #319cbd;
 }
 
 .list-contacts {
@@ -836,6 +875,11 @@ form.signup button.btn {
 	}
 }
 
+.copyright {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
 
 /* ---------------------------------------------------------
  *	Footer
@@ -870,7 +914,7 @@ p.copyright {
 .social a {
 	font-size: 1.1em;
 	padding: 0 0.3em;
-	border: 1px solid #fff;
+	// border: 1px solid #fff;
 	margin: 0 5px;
 	width: 30px;
 	height: 30px;

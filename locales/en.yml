@@ -1,36 +1,39 @@
 ---
 en:
   header:
-    soon: "Workshops Nov 2 & 4, 2015:  Registration is open!"
-    subtitle:  "Kids, let's play with technology and build cool projects together!"
+    soon: "coming soon!"
+    title: "Welcome to the"
+    subtitle:  "Let's experiment with technology and build cool projects together!"
     email: "Email address"
+    event: "Workshops for teens on Nov 2 & 4, 2015"
     button:
-      notification: "Notify me"
+      notification: "Keep me informed!"
       registration: "Register now!"
   about:
     title: "About"
     lead:
+      intro: "The"
       drop: "Techies Lab "
-      text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...) Let's unlock their creativity!"
-    intro: "Our objective: instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things. Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
+      text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Trough one-week tech camps and one-day discovery workshops, we will guide our Techies to unlock their creativity!"
+    intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things.<br><br>Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
     robotic_name: "Robotics"
-    robotic_description: "Build a robotic arm that waves, make firs sing when they're thirsty... everything is possible with a little imagination!"
+    robotic_description: "Build a robotic arm that waves, make a Christmas trees sing or twinkle when thirsty..., everything is possible with a little imagination!"
     gaming_name: "Gaming"
     gaming_description: ""
     webdesign_name: "Web Design"
-    webdesign_description: "Personal landing page, blog, design: create yourself a beatiful presence on the web!"
-    read_more: "Read more"
+    webdesign_description: "First website, blog..., with some basics in HTML, CSS, JavaScript, you'll already be able to create a beautiful presence on the web!"
+    read_more: "Upcoming workshops"
   team:
     title: "Our team"
-    role_anne: "Driver"
-    description_anne: "Anne Collet is the amazing Driver of Techies Lab. She also starts a new project every week."
-    role_margo: "Happiness Concierge"
-    description_margo: "Margo is the magic Happiness Concierge of Techies Lab, answering all your questions and requests."
+    role_anne: "Co-founder"
+    description_anne: "Anne is the amazing Driver and one of the coaches of the Techies Lab. She has a dozen new ideas every day."
+    role_margo: "Co-founder"
+    description_margo: "Margo is the magic Happiness Officer of the Techies Lab, answering all your questions and requests."
   contact:
     title: "Contact"
     intro:
-      drop: "Contact us"
-      text: "to ask us questions, leave us comments and share your love!"
+      drop: "Contact us<br>"
+      text: "to ask us questions, leave us comments or share your love! :)"
     form:
       name: "Name"
       email: "Email"
@@ -38,10 +41,10 @@ en:
       submit: "Submit"
   workshops:
     upcoming: "Upcoming Workshops:"
-    date: "Date:  "
-    location: "Location: "
-    price: "Fees: "
-    age: "Age: "
+    date: "Date"
+    location: "Location"
+    price: "Fees"
+    age: "Target audience"
     button: "Registration"
   robotics:
     title: "Upcoming Workshops in Robotics"
@@ -52,13 +55,13 @@ en:
     workshops:
       event1:
         title: "Build Your Own Robotic Arm"
-        description: "For our first robotic workshop, we'll build a robotic arm! Sure, our arm won't be as sophisticated as the ones you see in movies, but we promise it'll be mighty impressive! To build it, we'll use lots of cool stuff, including an Arduino (a small computer which holds in your hand), servomotors, popsicle sticks, soldering irons... And to guide us, we'll have the great maker-artist-inventor master... Julien Dutertre."
+        description: "For our first robotic workshop, we'll build a robotic arm! Sure, our arm won't be as sophisticated as the ones you see in movies, but we promise it'll be mighty impressive! To build it, we'll use lots of cool stuff, including an Arduino board (a small computer which holds in your hand), servomotors, popsicle sticks, soldering irons... And to guide us, we'll have the great maker-artist-inventor master... Julien Dutertre."
         date: "Wednesday, November 4, 2015, from 9am to 5pm"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-        age: "13 to 17 y.o."
-        price: "EUR 50 per participant"
-        price_why: "Why 50 euros? Because our coaches are professionals and because participants will return home with their arm... and all its components (including the Arduino, the servomotors, potentiometers, power, etc.)"
-        file: 'https://goo.gl/xbQvAY'
+        location: "Co.Station, Place Sainte-Gudule 5, 1000 Bruxelles"
+        age: "Teenagers (boys and girls), from 13 to 17 years old"
+        price: "50 &#8364; per participant"
+        price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:
@@ -68,13 +71,13 @@ en:
     workshops:
       event1:
         title: "Create Your First Web Page"
-        description: "For our first web design workshop, we'll build a webpage from scratch! There are thousands of reasons why you should learn to code a webpage: launch your own fashion blog, showcase your latest sporting feats, prepare for your dream career in San Francisco...Each participant will code their own webpage, using HTML, CSS and JS languages. YES, these are programming languages, but don't fret, anybody can use them and we'll guide you through it. Also on the programme: choice and customization of a template (to beautify your webpage in a snap) and deployment of the webpage (i.e. making it available on the web). "
-        date: "Wednesday, November 2, 2015, from 9am to 5pm"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-        age: "13 to 17 y.o."
-        price: "EUR 50 per participant"
-        price_why: "Why 50 euros? To cover our fees and those of our coaches who prepare the workshops with lots of care and love. Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
-        file: 'https://goo.gl/xbQvAY'
+        description: "For our first web design workshop, we'll build a web page from scratch! There are thousands of reasons why you should learn to code a web page: launch your own fashion blog, showcase your latest sporting feats, prepare for your dream career in San Francisco... Each participant will code their own web page, using HTML, CSS and JS languages. YES, programming languages, but don't fret, anybody can use them and we'll guide you through it. Also on the programme: choice and customization of a template (to beautify your web page in a snap) and deployment of the web page (i.e. making it available on the web)."
+        date: "Monday, November 2, 2015, from 9am to 5pm"
+        location: "Co.Station, Place Sainte-Gudule 5, 1000 Bruxelles"
+        age: "Teenagers (boys and girls), from 13 to 17 years old"
+        price: "50 &#8364; per participant"
+        price_why: "Why 50 &#8364;? To cover our fees and those of our coaches who prepare the workshops with lots of care and love.<br>Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   gaming:
     title: "Gaming"
 

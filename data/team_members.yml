@@ -1,10 +1,12 @@
 - name: Anne Collet
   role: :team.role_anne
-  image: portraits/anne.png
+  image: portraits/anne.jpg
   description: :team.description_anne
   socials:
   - url: https://twitter.com/dianelanterman
     icon: twitter
+  - url: https://github.com/OObatwomanOO
+    icon: github
   - url: https://www.facebook.com/diane.lanterman
     icon: facebook
 - name: Margo Tinawi
@@ -12,7 +14,9 @@
   image: portraits/margo.jpg
   description: :team.description_margo
   socials:
-  - url: https://github.com/Margotte
-    icon: github
   - url: https://sa.linkedin.com/pub/margo-tinawi/32/661/960
     icon: linkedin
+  - url: https://github.com/Margotte
+    icon: github
+  - url: https://www.facebook.com/margattian
+    icon: facebook
