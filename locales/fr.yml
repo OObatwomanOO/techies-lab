@@ -19,7 +19,7 @@ fr:
     robotic_name: "Robotique"
     robotic_description: "Construire un bras robotique, faire chanter des sapins... tout est possible avec un peu d'imagination!"
     gaming_name: "Jeu video"
-    gaming_description: "Pour apprendre à coder des jeux du tonerre!"
+    gaming_description: "Pour apprendre à coder des jeux du tonnerre!"
     webdesign_name: "Design Web"
     webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Ateliers à venir"
@@ -57,11 +57,11 @@ fr:
     workshops:
       event1:
         title: "Mon bras robotique"
-        description: "Pour notre premier atelier en robotique, nous construiront le bras de l'avenir: un bras robotique! Soit, notre bras ne sera pas aussi sophistiqué que ceux dans les films, mais il sera tout de même diablement impressionant! Pour le construire, nous utiliseront notamment un Arduino (une sorte de mini ordi, pas plus grand qu'une main), des servomoteurs, des batons popsicle, des fers à souder...&nbsp; Et pour nous guider, nous accueillerons le grand maître bidouilleur-artiste-inventeur Julien Dutertre."
+        description: "Pour notre premier atelier en robotique, nous construirons le bras de l'avenir: un bras robotique! Soit, notre bras ne sera pas aussi sophistiqué que ceux dans les films, mais il sera tout de même diablement impressionnant! Pour le construire, nous utiliserons notamment un Arduino (une sorte de mini ordi, pas plus grand qu'une main), des servomoteurs, des batons popsicle, des fers à souder...&nbsp; Et pour nous guider, nous accueillerons le grand maître bidouilleur-artiste-inventeur Julien Dutertre."
         date: "Mercredi 4 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
-        price: "Cet atelier est gratuit. Toutefois, si vous souhaitez repartir avec votre bras robotisé (et son Arduino board),<br>vous pourrez emporter le matériel pour le prix réduit de 50 euros.<br><br>"
+        price: "Cet atelier est gratuit. Toutefois, si vous souhaitez repartir avec votre bras robotique (et son Arduino board),<br>vous pourrez emporter le matériel pour le prix réduit de 50 euros.<br><br>"
         price_why: "Pourquoi 50 EUR? Parce que nos coachs sont des pros et que les participants repartent chez eux avec leur bras... et tout le matériel qui le compose (Arduino, servomoteurs, potentiomètres, alimentation, etc.)"
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
@@ -73,7 +73,7 @@ fr:
     workshops:
       event1:
         title: "Ma première page web"
-        description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blogue de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
+        description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blog de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
         date: "Lundi 2 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
