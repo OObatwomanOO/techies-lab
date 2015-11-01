@@ -14,21 +14,21 @@ en:
     lead:
       intro: "The"
       drop: "Techies Lab "
-      text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Trough one-week tech camps and one-day discovery workshops, we will guide our Techies to unlock their creativity!"
-    intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things.<br><br>Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
+      text: "is a new initiative in Belgium for kids (from 8 to 12 years old) and teenagers (from 13 to 17 years old) to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...).Trough one-week tech camps and one-day discovery workshops, we will foster our Techies' creativity!"
+    intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things. Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
     robotic_name: "Robotics"
-    robotic_description: "Build a robotic arm that waves, make a Christmas tree sing or twinkle when thirsty..., everything is possible with a little imagination!"
+    robotic_description: "Build a robotic arm that waves, make a Christmas tree sing when thirsty... everything is possible with a little imagination!"
     gaming_name: "Gaming"
     gaming_description: ""
     webdesign_name: "Web Design"
-    webdesign_description: "First website, blog..., with some basics in HTML, CSS, JavaScript, you'll already be able to create a beautiful presence on the web!"
+    webdesign_description: "First website, blog... with some basic coding knowledge (in HTML & CSS), you'll be able to create a beautiful presence on the web!"
     read_more: "Upcoming workshops"
   team:
     title: "Our team"
     role_anne: "Co-founder"
-    description_anne: "Founder & driver of Le Wagon Brussels, the coding school for startups, Anne is a passionate trainer. An ambassador of Rails Girls, she loves helping new comers and seeing the bright light in their eyes when the magic of coding gets unveiled!"
+    description_anne: "Founder & driver of Le Wagon Brussels -the coding school for startups-, Anne is a passionate educator. An ambassador of Rails Girls, she loves helping newcomers and seeing the bright light in their eyes when the magic of coding gets unveiled!"
     role_margo: "Co-founder"
-    description_margo: "Formerly a litigation lawyer (^^), an alumnus from Le Wagon Brussels, Margo came back to her initial passion: education. One year ago, she founded and now develops Kidzeum, an app for kids to enjoy fun & educational experiences in museums."
+    description_margo: "At the age of 6, Margo was writing textbooks for her brothers. Since, her passion for education is unweavering. When she's not busy creating workshops and running the Techies Lab's operations, Margo develops Kidzeum, a fun and educative app for museums. In another life she was a lawyer in Canada... but that was before discovering Belgian fries!"
   contact:
     title: "Contact"
     intro:
@@ -43,9 +43,11 @@ en:
     upcoming: "Upcoming Workshops:"
     date: "Date"
     location: "Location"
-    price: "Fees"
+    price: "Fee"
     age: "Target audience"
-    button: "Registration"
+    button:
+      registration: "Registration"
+      not_available: "No longer available"
   robotics:
     title: "Upcoming Workshops in Robotics"
     lead:
@@ -59,7 +61,7 @@ en:
         date: "Wednesday, November 4, 2015, from 9am to 5pm"
         location: "Co.Station, Place Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
-        price: "50 &#8364; per participant"
+        price: "The workshop is free. However, if you wish to keep your robotic arm (and the Arduino board),<br>you will be able to buy the material at the end of the day at a discounted price of 50 euros.<br><br>"
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
@@ -75,7 +77,7 @@ en:
         date: "Monday, November 2, 2015, from 9am to 5pm"
         location: "Co.Station, Place Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
-        price: "50 &#8364; per participant"
+        price: "The workshop is free<br><br>"
         price_why: "Why 50 &#8364;? To cover our fees and those of our coaches who prepare the workshops with lots of care and love.<br>Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   gaming:

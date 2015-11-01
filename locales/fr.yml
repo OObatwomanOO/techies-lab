@@ -26,9 +26,9 @@ fr:
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
-    description_anne: "Anne imagine chaque jour 653 nouvelles idées pour le Techies Lab. Super connectée avec le monde de la tech et des startups, c'est elle qui insuffle la vision et trouve les partenaires et sponsors. Elle anime également certains de nos ateliers. A ses heures perdues, elle est aussi coach et conductrice du Wagon Bruxelles, l'école de programmation pour startups et entrepreneurs."
+    description_anne: "Anne imagine chaque jour 333 nouvelles idées pour le Techies Lab. Super connectée avec le monde de la tech et des startups, c'est elle qui insuffle la vision et trouve partenaires et sponsors. Bidouilleuse dans l'âme, elle anime également certains de nos ateliers. La majeure partie de son temps, elle est coach et conductrice du Wagon Bruxelles, l'école de programmation pour startups."
     role_margo: "Co-fondatrice"
-    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis lors une grande passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers ou gérer les opérations du Techies Lab, Margo développe Kidzeum, une app mobile pour les enfants dans les musées. Dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
+    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis lors une grande passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers et gérer les opérations du Techies Lab, Margo développe Kidzeum, une app ludique et éducative pour les musées. Dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
   contact:
     title: "Contact"
     intro:
@@ -45,7 +45,9 @@ fr:
     location: "Lieu"
     price: "Frais"
     age: "Public cible"
-    button: "Inscription"
+    button:
+      registration: "Inscription"
+      not_available: "Plus disponible"
   robotics:
     title: "Nos prochains ateliers en robotique"
     lead:
@@ -59,9 +61,9 @@ fr:
         date: "Mercredi 4 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
-        price: "50 EUR par participant"
+        price: "Cet atelier est gratuit. Toutefois, si vous souhaitez repartir avec votre bras robotisé (et son Arduino board),<br>vous pourrez emporter le matériel pour le prix réduit de 50 euros.<br><br>"
         price_why: "Pourquoi 50 EUR? Parce que nos coachs sont des pros et que les participants repartent chez eux avec leur bras... et tout le matériel qui le compose (Arduino, servomoteurs, potentiomètres, alimentation, etc.)"
-        file: 'https://goo.gl/xbQvAY'
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
     title: "Nos prochains ateliers web"
     lead:
@@ -75,8 +77,8 @@ fr:
         date: "Lundi 2 novembre 2015, de 9h à 17h"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
-        price: "50 EUR par participant."
+        price: "Cet atelier est gratuit<br><br>"
         price_why: "Pourquoi 50 EUR? Pour couvrir nos frais et ceux de nos coaches qui préparent leurs ateliers à fond :) et pour que les participants puissent repartir chez eux avec tout le matériel pédagogique qui leur servira à continuer leur projet."
-        file: 'https://goo.gl/xbQvAY'
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   gaming:
     title: "Jeux vidéos"

@@ -43,7 +43,7 @@ nl:
     upcoming: "Upcoming Workshops:"
     date: "Date"
     location: "Location"
-    price: "Fees"
+    price: "Fee"
     age: "Target audience"
     button: "Registration"
   robotics:
@@ -59,9 +59,9 @@ nl:
         date: "Wednesday, November 4, 2015, from 9am to 5pm"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
-        price: "EUR 50 per participant"
+        price: "The workshop is free. However, if you wish to keep your robotic arm (and the Arduino board),<br>you will be able to buy the material at the end of the day at a discounted price of 50 euros.<br><br>"
         price_why: "Why 50 euros? Because our coaches are professionals and because participants will return home with their arm... and all its components (including the Arduino, the servomotors, potentiometers, power, etc.)"
-        file: 'https://goo.gl/xbQvAY'
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:
@@ -75,9 +75,9 @@ nl:
         date: "Wednesday, November 2, 2015, from 9am to 5pm"
         location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
-        price: "EUR 50 per participant"
+        price: "The workshop is free<br><br>"
         price_why: "Why 50 euros? To cover our fees and those of our coaches who prepare the workshops with lots of care and love. Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
-        file: 'https://goo.gl/xbQvAY'
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   gaming:
     title: "Gaming"
 

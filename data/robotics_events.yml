@@ -9,5 +9,5 @@
   price_drop: :workshops.price
   price_text: :robotics.workshops.event1.price
   price_why: :robotics.workshops.event1.price_why
-  button: :workshops.button
+  button: :workshops.button.registration
   file: :robotics.workshops.event1.file

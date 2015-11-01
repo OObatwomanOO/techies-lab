@@ -124,6 +124,7 @@ a:after {
 
 #tagline {
   font-size: 1.4em;
+  font-weight: bolder;
 }
 
 @media (min-width: 768px) {
@@ -793,7 +794,7 @@ form.signup button.btn {
 
 .team-member-profession{
 	color: #ccc;
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: -3px;
 	display: block;
 	margin-bottom: 5px;
@@ -814,7 +815,7 @@ form.signup button.btn {
 }
 
 .team-member p{
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 18px;
 	margin: 5px 0;
   text-align: justify;

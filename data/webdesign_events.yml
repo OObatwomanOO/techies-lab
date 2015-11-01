@@ -9,5 +9,5 @@
   price_drop: :workshops.price
   price_text: :webdesign.workshops.event1.price
   price_why: :webdesign.workshops.event1.price_why
-  button: :workshops.button
+  button: :workshops.button.not_available
   file: :webdesign.workshops.event1.file
