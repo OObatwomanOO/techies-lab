@@ -14,21 +14,21 @@ nl:
     lead:
       intro: "The"
       drop: "Techies Lab "
-      text: "is a new initiative in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...), trough one-week tech camps and one-day discovery workshops. Let's unlock their creativity!"
+      text: "is a new initiative in Belgium for kids (from 8 to 12 years old) and teenagers (from 13 to 17 years old) to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Through one-week tech camps and one-day discovery workshops, we will foster our Techies' creativity!"
     intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things. Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
     robotic_name: "Robotics"
-    robotic_description: "Build a robotic arm that waves, make firs sing when they're thirsty... everything is possible with a little imagination!"
+    robotic_description: "Build a robotic arm that waves, make a Christmas tree sing when thirsty... everything is possible with a little imagination!"
     gaming_name: "Gaming"
     gaming_description: ""
     webdesign_name: "Web Design"
-    webdesign_description: "Personal landing page, blog, design: create yourself a beatiful presence on the web!"
+    webdesign_description: "First website, blog... with some basic coding knowledge (in HTML & CSS), you'll be able to create a beautiful presence on the web!"
     read_more: "Upcoming workshops"
   team:
     title: "Our team"
-    role_anne: "Driver"
-    description_anne: "Anne Collet is the amazing Driver of Techies Lab. She also starts a new project every week."
-    role_margo: "Happiness Concierge"
-    description_margo: "Margo is the magic Happiness Concierge of Techies Lab, answering all your questions and requests."
+    role_anne: "Co-founder"
+    description_anne: "A (cub) scout leader for many years, Anne is a passionate educator. An ambassador of Rails Girls, she loves helping newcomers to see the bright light in their eyes when the magic of coding gets unveiled! One year ago, she launched (and since then, drives) Le Wagon Brussels, the coding school for startups and entrepreneurs."
+    role_margo: "Co-founder"
+    description_margo: "At the age of 6, Margo was writing textbooks for her brothers. Since, her passion for education is unweavering. When she's not busy creating workshops and running the Techies Lab's operations, Margo develops Kidzeum, a fun and educative app for museums. In another life she was a lawyer in Canada... but that was before discovering Belgian fries!"
   contact:
     title: "Contact"
     intro:
