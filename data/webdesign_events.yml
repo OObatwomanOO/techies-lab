@@ -1,13 +1,13 @@
-- title: :webdesign.workshops.event1.title
-  description: :webdesign.workshops.event1.description
+- title: :webdesign.workshops.event2.title
+  description: :webdesign.workshops.event2.description
   date_drop: :workshops.date
-  date_text: :webdesign.workshops.event1.date
+  date_text: :webdesign.workshops.event2.date
   location_drop: :workshops.location
-  location_text: :webdesign.workshops.event1.location
+  location_text: :webdesign.workshops.event2.location
   age_drop: :workshops.age
-  age_text: :webdesign.workshops.event1.age
+  age_text: :webdesign.workshops.event2.age
   price_drop: :workshops.price
-  price_text: :webdesign.workshops.event1.price
-  price_why: :webdesign.workshops.event1.price_why
+  price_text: :webdesign.workshops.event2.price
+  price_why: :webdesign.workshops.event2.price_why
   button: :workshops.button.not_available
-  file: :webdesign.workshops.event1.file
+  file: :webdesign.workshops.event2.file

@@ -41,6 +41,7 @@ fr:
       submit: "Envoyer"
   workshops:
     upcoming: "Nos prochains ateliers"
+    past: "Nos ateliers passés"
     date: "Date"
     location: "Lieu"
     price: "Frais"
@@ -72,6 +73,15 @@ fr:
     intro:
     workshops:
       event1:
+        title: "Ma première page web"
+        description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blog de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
+        date: "Lundi 2 novembre 2015, de 9h à 17h"
+        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
+        age: "Adolescents (garçons et filles), de 13 à 17 ans"
+        price: "Cet atelier est gratuit<br><br>"
+        price_why: "Pourquoi 50 EUR? Pour couvrir nos frais et ceux de nos coaches qui préparent leurs ateliers à fond :) et pour que les participants puissent repartir chez eux avec tout le matériel pédagogique qui leur servira à continuer leur projet."
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
+      event2:
         title: "Ma première page web"
         description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blog de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
         date: "Lundi 2 novembre 2015, de 9h à 17h"
