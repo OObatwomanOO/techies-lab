@@ -22,7 +22,7 @@ fr:
     gaming_description: "Pour apprendre à coder des jeux du tonnerre!"
     webdesign_name: "Web Design"
     webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
-    read_more: "Ateliers à venir"
+    read_more: "Trouver un atelier"
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
@@ -41,12 +41,15 @@ fr:
       submit: "Envoyer"
   workshops:
     upcoming: "Nos prochains ateliers"
+    past: "Nos ateliers passés"
     date: "Date"
-    location: "Lieu"
+    location:
+      drop: "Lieu"
+      costation: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
     price: "Frais"
     age: "Public cible"
     button:
-      registration: "Inscription"
+      registration: "Je m'inscris!"
       not_available: "Plus disponible"
   robotics:
     title: "Nos prochains ateliers en robotique"
@@ -59,11 +62,18 @@ fr:
         title: "Mon bras robotique"
         description: "Pour notre premier atelier en robotique, nous construirons le bras de l'avenir: un bras robotique! Soit, notre bras ne sera pas aussi sophistiqué que ceux dans les films, mais il sera tout de même diablement impressionnant! Pour le construire, nous utiliserons notamment un Arduino (une sorte de mini ordi, pas plus grand qu'une main), des servomoteurs, des batons popsicle, des fers à souder...&nbsp; Et pour nous guider, nous accueillerons le grand maître bidouilleur-artiste-inventeur Julien Dutertre."
         date: "Mercredi 4 novembre 2015, de 9h à 17h"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
         price: "Cet atelier est gratuit. Toutefois, si vous souhaitez repartir avec votre bras robotique (et son Arduino board),<br>vous pourrez emporter le matériel pour le prix réduit de 50 euros.<br><br>"
         price_why: "Pourquoi 50 EUR? Parce que nos coachs sont des pros et que les participants repartent chez eux avec leur bras... et tout le matériel qui le compose (Arduino, servomoteurs, potentiomètres, alimentation, etc.)"
         file: 'http://goo.gl/forms/GhRSMOL1QG'
+      event2:
+        title: "Let's make Christmas trees sing!"
+        description: "You will learn, step by step with us, how to make your plant (mini Xmas tree) twinkle, sing (no kidding) and/or alert you when it needs watering, by using an Arduino board to measure the humidity of the ground and to produce various sounds accordingly."
+        date: "Saturday, December 12, 2015, from 9am to 5pm"
+        age: "From 16 to 99 y.o. Kids coming with their parent(s) are also welcome. No previous experience in electronics nor IT is required, just an open, curious & creative mind ! :)"
+        price: "The workshop is free. You will be able to buy the material (including the Arduino board) at the end of the day at a discounted price of 50 euros.<br><br>"
+        price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
+        file: ''
   webdesign:
     title: "Nos prochains ateliers web"
     lead:
@@ -75,10 +85,17 @@ fr:
         title: "Ma première page web"
         description: "Pour notre premier atelier en web design, nous allons construire une page web, de A à Z! Il y a mille et une raisons pour apprendre à coder une page web: que ce soit pour lancer ton propre blog de mode, créer une vitrine pour tes derniers exploits sportifs, préparer ta carrière de rêve à San Francisco... Chaque participant codera sa propre page, en se servant des languages HTML, CSS et JS. Oui, ce sont des languages de programmation, mais pas de panique Monique, n'importe qui peut s'en servir! Au programme également: choisir un modèle (pour rendre la page plus attrayante en deux temps trois mouvements), le personnaliser et finalement déployer la page (autrement dit, la rendre accessible sur le web)"
         date: "Lundi 2 novembre 2015, de 9h à 17h"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Adolescents (garçons et filles), de 13 à 17 ans"
         price: "Cet atelier est gratuit<br><br>"
         price_why: "Pourquoi 50 EUR? Pour couvrir nos frais et ceux de nos coaches qui préparent leurs ateliers à fond :) et pour que les participants puissent repartir chez eux avec tout le matériel pédagogique qui leur servira à continuer leur projet."
         file: 'http://goo.gl/forms/GhRSMOL1QG'
+      event2:
+        title: "Filles, garçons, parents, codons ensemble! "
+        description: "Les bases pour apprendre à coder un site web et pour le rendre plus joli, ajouter des vidéos, et peut-être même ajouter un peu d'animation! Pour finir, on verra comment mettre en ligne notre site. Enfin!"
+        date: "Samedi 21 novembre 2015, de 14h à 18h"
+        age: "10-15 équipes parents-enfants; 10 ans et +"
+        price: "Cet atelier est gratuit<br><br>"
+        price_why: "Why 50 &#8364;? To cover our fees and those of our coaches who prepare the workshops with lots of care and love.<br>Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
+        file: 'http://www.meetup.com/Le-Wagon-Brussels-Coding-Station/events/226460974/'
   gaming:
     title: "Jeux vidéos"
