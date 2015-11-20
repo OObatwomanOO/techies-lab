@@ -43,7 +43,9 @@ nl:
     upcoming: "Upcoming Workshops:"
     past: "Past Workshops"
     date: "Date"
-    location: "Location"
+    location:
+      drop: "Location"
+      costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussel"
     price: "Fee"
     age: "Target audience"
     button: "Registration"
@@ -58,11 +60,18 @@ nl:
         title: "Build Your Own Robotic Arm"
         description: "For our first robotic workshop, we'll build a robotic arm! Sure, our arm won't be as sophisticated as the ones you see in movies, but we promise it'll be mighty impressive! To build it, we'll use lots of cool stuff, including an Arduino (a small computer which holds in your hand), servomotors, popsicle sticks, soldering irons... And to guide us, we'll have the great maker-artist-inventor master... Julien Dutertre."
         date: "Wednesday, November 4, 2015, from 9am to 5pm"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
         price: "The workshop is free. However, if you wish to keep your robotic arm (and the Arduino board),<br>you will be able to buy the material at the end of the day at a discounted price of 50 euros.<br><br>"
         price_why: "Why 50 euros? Because our coaches are professionals and because participants will return home with their arm... and all its components (including the Arduino, the servomotors, potentiometers, power, etc.)"
         file: 'http://goo.gl/forms/GhRSMOL1QG'
+      event2:
+        title: "Let's make Christmas trees sing!"
+        description: "You will learn, step by step with us, how to make your plant (mini Xmas tree) twinkle, sing (no kidding) and/or alert you when it needs watering, by using an Arduino board to measure the humidity of the ground and to produce various sounds accordingly."
+        date: "Saturday, December 12, 2015, from 9am to 5pm"
+        age: "From 16 to 99 y.o. Kids coming with their parent(s) are also welcome. No previous experience in electronics nor IT is required, just an open, curious & creative mind ! :)"
+        price: "The workshop is free. You will be able to buy the material (including the Arduino board) at the end of the day at a discounted price of 50 euros.<br><br>"
+        price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
+        file: ''
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:
@@ -74,20 +83,18 @@ nl:
         title: "Create Your First Web Page"
         description: "For our first web design workshop, we'll build a webpage from scratch! There are thousands of reasons why you should learn to code a webpage: launch your own fashion blog, showcase your latest sporting feats, prepare for your dream career in San Francisco...Each participant will code their own webpage, using HTML, CSS and JS languages. YES, these are programming languages, but don't fret, anybody can use them and we'll guide you through it. Also on the programme: choice and customization of a template (to beautify your webpage in a snap) and deployment of the webpage (i.e. making it available on the web). "
         date: "Wednesday, November 2, 2015, from 9am to 5pm"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
         age: "Teenagers (boys and girls), from 13 to 17 years old"
         price: "The workshop is free<br><br>"
         price_why: "Why 50 euros? To cover our fees and those of our coaches who prepare the workshops with lots of care and love. Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
         file: 'http://goo.gl/forms/GhRSMOL1QG'
       event2:
-        title: "Create Your First Web Page"
-        description: "For our first web design workshop, we'll build a webpage from scratch! There are thousands of reasons why you should learn to code a webpage: launch your own fashion blog, showcase your latest sporting feats, prepare for your dream career in San Francisco...Each participant will code their own webpage, using HTML, CSS and JS languages. YES, these are programming languages, but don't fret, anybody can use them and we'll guide you through it. Also on the programme: choice and customization of a template (to beautify your webpage in a snap) and deployment of the webpage (i.e. making it available on the web). "
-        date: "Wednesday, November 2, 2015, from 9am to 5pm"
-        location: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-        age: "Teenagers (boys and girls), from 13 to 17 years old"
+        title: "Girls, Boys, Parents, Let's Code Together! "
+        description: "Girls, boys, mothers, fathers,... come and discover with us how fun, creative and powerful code can be, by learning in a few hours to design and build together your first web page from scratch! We'll pick up where we left off last workshop: we'll go deeper in CSS, we'll learn how to add videos, and we'll maybe even add a spark of JavaScript (that's the language to create animations). To finish, we'll learn how to deploy, i.e. make our pages accessible on the web!"
+        date: "Saturday, November 21, 2015, from 2 to 6pm"
+        age: "10-15 kid-parent teams; 10 years old and up"
         price: "The workshop is free<br><br>"
-        price_why: "Why 50 euros? To cover our fees and those of our coaches who prepare the workshops with lots of care and love. Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
-        file: 'http://goo.gl/forms/GhRSMOL1QG'
+        price_why: "Why 50 &#8364;? To cover our fees and those of our coaches who prepare the workshops with lots of care and love.<br>Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
+        file: 'http://www.meetup.com/Le-Wagon-Brussels-Coding-Station/events/226460974/'
   gaming:
     title: "Gaming"
 

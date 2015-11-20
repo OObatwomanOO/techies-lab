@@ -2,8 +2,8 @@
   description: :webdesign.workshops.event1.description
   date_drop: :workshops.date
   date_text: :webdesign.workshops.event1.date
-  location_drop: :workshops.location
-  location_text: :webdesign.workshops.event1.location
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.costation
   age_drop: :workshops.age
   age_text: :webdesign.workshops.event1.age
   price_drop: :workshops.price

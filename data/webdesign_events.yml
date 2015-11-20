@@ -2,12 +2,12 @@
   description: :webdesign.workshops.event2.description
   date_drop: :workshops.date
   date_text: :webdesign.workshops.event2.date
-  location_drop: :workshops.location
-  location_text: :webdesign.workshops.event2.location
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.costation
   age_drop: :workshops.age
   age_text: :webdesign.workshops.event2.age
   price_drop: :workshops.price
   price_text: :webdesign.workshops.event2.price
   price_why: :webdesign.workshops.event2.price_why
-  button: :workshops.button.not_available
+  button: :workshops.button.registration
   file: :webdesign.workshops.event2.file
