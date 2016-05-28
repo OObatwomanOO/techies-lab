@@ -92,10 +92,18 @@ fr:
       event2:
         title: "Filles, garçons, parents, codons ensemble! "
         description: "Les bases pour apprendre à coder un site web et pour le rendre plus joli, ajouter des vidéos, et peut-être même ajouter un peu d'animation! Pour finir, on verra comment mettre en ligne notre site. Enfin!"
-        date: "Samedi 21 novembre 2015, de 14h à 18h"
+        date: "<s> Samedi 21 novembre 2015, de 14h à 18h</s> REPORTÉ"
         age: "10-15 équipes parents-enfants; 10 ans et +"
         price: "Cet atelier est gratuit<br><br>"
         price_why: "Why 50 &#8364;? To cover our fees and those of our coaches who prepare the workshops with lots of care and love.<br>Also, each participant will return home with all the pedagogical material, allowing them to continue their project."
         file: 'http://www.meetup.com/Le-Wagon-Brussels-Coding-Station/events/226460974/'
+      event3:
+        title: "Atelier parents-enfants: codons ensemble! "
+        description: "Les bases pour apprendre à coder un site web et pour le rendre plus joli, ajouter des vidéos, et peut-être même ajouter un peu d'animation!"
+        date: "Samedi 9 juillet 2016, de 14h à 18h"
+        age: "10-15 équipes parent-enfant; 10 ans et +"
+        price: "5 euros par personne<br><br>"
+        price_why: "Pour pouvoir vous offir une collation et couvrir nos frais de coaching!"
+        file: 'http://goo.gl/forms/ssFAg2Z1XKoZgRkw1'
   gaming:
     title: "Jeux vidéos"
