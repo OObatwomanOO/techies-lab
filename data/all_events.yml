@@ -1,0 +1,40 @@
+- icon: pencil-square-o
+  title: :webdesign.workshops.event3.title
+  description: :webdesign.workshops.event3.description
+  date_drop: :workshops.date
+  date_text: :webdesign.workshops.event3.date
+  time_drop: :workshops.time
+  time_text: :webdesign.workshops.event3.time
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.costation
+  short_location_text: :workshops.location.brussels
+  age_drop: :workshops.age
+  age_text: :webdesign.workshops.event3.age
+  price_drop: :workshops.price
+  price_text: :webdesign.workshops.event3.price
+  price_why: :webdesign.workshops.event3.price_why
+  button: :workshops.button.registration
+  file: all_events.html
+- icon: android
+  title: :robotics.workshops.event3.title
+  description: :robotics.workshops.event3.description
+  date_drop: :workshops.date
+  date_text: :robotics.workshops.event3.date
+  time_drop: :workshops.time
+  time_text: :robotics.workshops.event3.time
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.costation
+  short_location_text: :workshops.location.brussels
+  age_drop: :workshops.age
+  age_text: :robotics.workshops.event3.age
+  price_drop: :workshops.price
+  price_text: :robotics.workshops.event3.price
+  price_why: :robotics.workshops.event3.price_why
+  button: :workshops.button.registration
+  file: all_events.html
+
+
+# - name: :about.robotic_name
+#   description: :about.robotic_description
+#   icon: android
+#   file: all_events.html

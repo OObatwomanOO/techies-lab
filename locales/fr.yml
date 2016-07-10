@@ -23,6 +23,9 @@ fr:
     webdesign_name: "Web Design"
     webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Trouver un atelier"
+  upcoming:
+    title: "Prochains ateliers et événements"
+    read_more: "En savoir plus"
   team:
     title: "Notre équipe"
     role_anne: "Co-fondatrice"
@@ -43,9 +46,11 @@ fr:
     upcoming: "Nos prochains ateliers"
     past: "Nos ateliers passés"
     date: "Date"
+    time: "Heure"
     location:
       drop: "Lieu"
       costation: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
+      brussels: "Bruxelles"
     price: "Frais"
     age: "Public cible"
     button:
@@ -74,6 +79,14 @@ fr:
         price: "The workshop is free. You will be able to buy the material (including the Arduino board) at the end of the day at a discounted price of 50 euros.<br><br>"
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
         file: ''
+      event3:
+        title: "Sauvez vos plantes de la canicule belge!"
+        description: "For our first robotic workshop, we'll build a robotic arm! Sure, our arm won't be as sophisticated as the ones you see in movies, but we promise it'll be mighty impressive! To build it, we'll use lots of cool stuff, including an Arduino board (a small computer which holds in your hand), servomotors, popsicle sticks, soldering irons... And to guide us, we'll have the great maker-artist-inventor master... Julien Dutertre."
+        date: "Samedi 30 juillet"
+        time: "10h à 17h"
+        age: "20 équipes parent-enfant; 12 ans et +"
+        price: "Le prix de 50€ par binôme comprend tout le matériel électronique que vous pourrez ramener chez vous ainsi qu’une légère collation. Pour la pause déjeuner, pensez à apporter vos tartines."
+        file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
     title: "Nos prochains ateliers web"
     lead:
@@ -100,9 +113,10 @@ fr:
       event3:
         title: "Atelier parents-enfants: codons ensemble! "
         description: "Les bases pour apprendre à coder un site web et pour le rendre plus joli, ajouter des vidéos, et peut-être même ajouter un peu d'animation!"
-        date: "Samedi 9 juillet 2016, de 14h à 18h"
+        date: "Samedi 16 juillet 2016"
+        time: "14h à 18h"
         age: "10-15 équipes parent-enfant; 10 ans et +"
-        price: "5 euros par personne<br><br>"
+        price: "Une contribution volontaire de 10 euros par équipe serait grandement appréciée.<br><br>"
         price_why: "Pour pouvoir vous offir une collation et couvrir nos frais de coaching!"
         file: 'http://goo.gl/forms/ssFAg2Z1XKoZgRkw1'
   gaming:
