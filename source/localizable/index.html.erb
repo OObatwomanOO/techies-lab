@@ -152,12 +152,12 @@ title: Techies Lab
         <div class="col-sm-3 text-center team-member-container wow fadeInDown">
           <div class="team-member">
             <div class="team-member-img">
-              <%= image_tag member.image , alt: member.name, class: "img-responsive" %>
+              <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
               <div class="team-member-img-filter"></div>
             </div>
             <div class="team-member-meta">
               <h4><%= member.name %></h4>
-              <span class="team-member-profession"><%= t(member.role) %></span>
+              <span class="team-member-profession"></span>
               <p><%= t(member.description) %></p>
               <div class="social">
                 <% member.socials.each do |social| %>

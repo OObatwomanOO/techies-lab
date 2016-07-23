@@ -28,10 +28,24 @@ en:
     read_more: "More"
   team:
     title: "Our Team"
-    role_anne: "Co-founder"
-    description_anne: "A (cub) scout leader for many years, Anne is a passionate educator. An ambassador of Rails Girls, she loves helping newcomers to see the bright light in their eyes when the magic of coding gets unveiled! One year ago, she put on rails (and since then, drives) Le Wagon Brussels, the coding school for startups, creative people and entrepreneurs."
-    role_margo: "Co-founder"
-    description_margo: "At the age of 6, Margo was writing textbooks for her brothers. Since, her passion for education is unweavering. When she's not busy creating workshops and running the Techies Lab's operations, Margo develops Kidzeum, a fun and educative app for museums. In another life she was a lawyer in Canada... but that was before discovering Belgian fries!"
+    # role_anne: "Co-founder"
+    description_anne: "A (cub) scout leader for many years, Anne is a passionate educator.
+    An ambassador of Rails Girls, she loves helping newcomers to see the bright light in
+    their eyes when the magic of coding gets unveiled! In 2014, she put on rails
+    (and since then, drives) Le Wagon Brussels, the coding school for startups,
+    creative people and entrepreneurs."
+    # role_hugo: "Hacker"
+    description_hugo: "A professional developer, with a background in bio-informatics and artificial
+    intelligence, Hugo builds web applications
+    using free and open source software. A volunteer at JSB (Jeunesses Scientifiques de Belgique),
+    he likes teaching new technologies to both adult and teenagers. Some of his favourite
+    tools include Python, Processing, Linux and Arduino."
+    # role_margo: "Co-founder"
+    description_margo: "At the age of 6, Margo was writing textbooks for her brothers.
+    Since, her passion for education is unweavering. When she's not busy creating workshops
+    and running the Techies Lab's operations, Margo develops Kidzeum, a fun and educative app
+    for museums. In another life she was a lawyer in Canada... but that was before discovering
+    Belgian fries!"
   contact:
     title: "Contact"
     intro:
