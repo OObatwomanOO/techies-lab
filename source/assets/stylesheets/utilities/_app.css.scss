@@ -773,21 +773,22 @@ form.signup button.btn {
 /* Team */
 
 .team-member-container{
-	// max-width: 250px;
+	max-width: 250px;
 	display: inline-block;
-	margin: 10px 0;
+  text-align:center;
+	margin: 20px 0;
 }
 
 .team-member-container:first-child{
 	margin-top: 0;
-  margin-left: 10%;
-  float: left;
+  // margin-left: 20%;
+  // float: left;
 }
 
 .team-member-container:last-child{
 	margin-bottom: 0;
-  margin-right: 10%;
-  float: right;
+  // margin-right: 20%;
+  // float: right;
 }
 
 .team-member {
@@ -800,7 +801,7 @@ form.signup button.btn {
 .team-member-profession{
 	color: #ccc;
 	font-size: 14px;
-	margin-top: -3px;
+	margin-top: 3px;
 	display: block;
 	margin-bottom: 5px;
 }
