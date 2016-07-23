@@ -35,12 +35,6 @@ fr:
     voir leurs yeux s'émerveiller quand la magie des nouvelles technologies se dévoile!
     En 2014, elle a mis sur les rails (et depuis, conduit) Le Wagon Brussels,
     l'école de code pour startups et entrepreneurs."
-    # role_hugo: "Hacker"
-    description_hugo: "Développeur passionné d'intelligence artificielle et
-    de bio-informatique, Hugo est un vrai bidouilleur, qui construit des applications
-    web principalement à l'aide d'outils open-source. Collaborateur aux JSB (Jeunesses
-    Scientifiques de Belgique), il aime enseigner l'usage des nouvelles technologies
-    aux adultes comme aux enfants. Ses outils favoris sont Python, Linux, Processing et Arduino."
     # role_margo: "Co-fondatrice"
     description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères.
     Elle garde depuis lors une grande passion pour l'enseignement. Quand elle
@@ -48,6 +42,20 @@ fr:
     Margo développe Kidzeum, une app ludique et éducative pour les musées.
     Dans une vie antérieure, elle était avocate au Canada... mais ça,
     c'était avant de découvrir les frites belges!"
+    # role_hugo: "Hacker"
+    description_hugo: "Développeur professionel, féru d'intelligence artificielle et
+    de bio-informatique, Hugo est un vrai bidouilleur, qui construit des applications
+    principalement à l'aide de technologies open-source. Animateur bénévole aux JSB (Jeunesses
+    Scientifiques de Belgique), il aime partager et enseigner l'usage des nouvelles technologies,
+    aux enfants comme aux adultes. Ses outils favoris sont Python, Django, Linux, Processing et Arduino."
+    # role_alexandre: "Hacker"
+    description_alexandre: "Ingénieur software de formation et de profession,
+    Alexandre a continuellement en tête des dizaines d'idées innovantes qu'il
+    prend plaisir à prototyper, au travail à l'aide de ses collègues,
+    à la maison avec ses trois enfants ingénieux! :)
+    Papa soucieux d'éducation aux nouvelles technologies pour tous,
+    il souhaite aujourd'hui transmettre sa passion à d'autres jeunes enfants curieux,
+    petits comme plus grands!"
   contact:
     title: "Contact"
     intro:

@@ -28,3 +28,13 @@
     icon: twitter
   - url: https://github.com/hoh
     icon: github
+- name: Alexandre Roba
+  image: portraits/alexandre.jpg
+  description: :team.description_alexandre
+  socials:
+  - url: http://alexandreroba.com/about/
+    icon: linkedin
+  - url: https://twitter.com/alexandreroba
+    icon: twitter
+  - url: https://github.com/AlexandreRoba
+    icon: github
