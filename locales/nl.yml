@@ -59,10 +59,10 @@ nl:
   workshops:
     upcoming: "Upcoming Workshops:"
     past: "Past Workshops"
-    date: "Date"
-    time: "Time"
+    date: "Datum"
+    time: "Tijd"
     location:
-      drop: "Location"
+      drop: "Locatie"
       costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussel"
       brussels: "Brussel"
     price: "Fee"
@@ -92,12 +92,12 @@ nl:
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
         file: ''
       event3:
-        title: "Save your greens plants from the Belgian heat wave!"
+        title: "Water uw planten slim dankzij de technologie! ;-)"
         description: ""
-        date: "Saturday, July 30, 2016"
-        time: "10:00 am to 5:00 pm"
-        age: "20 parent-child teams; 12 y.o. and +"
-        price: "Le prix de 50€ par binôme comprend tout le matériel électronique que vous pourrez ramener chez vous ainsi qu’une légère collation. Pour la pause déjeuner, pensez à apporter vos tartines."
+        date: "Zaterdag 30 juli 2016"
+        time: "10:00-17:00"
+        age: "Volwassenen en tieners van 12 y.o. en ouder"
+        price: ""
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
     title: "Upcoming Workshops in Web Design"
