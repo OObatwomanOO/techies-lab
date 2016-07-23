@@ -28,10 +28,26 @@ fr:
     read_more: "En savoir plus"
   team:
     title: "Notre équipe"
-    role_anne: "Co-fondatrice"
-    description_anne: "Animatrice louveteaux pendant de nombreuses années, Anne a la passion de transmettre. Ambassadrice des initiatives Rails Girls, elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir leurs yeux s'émerveiller quand la magie des nouvelles technologies se dévoile! Il y a un an, elle a mis sur les rails (et depuis, conduit) Le Wagon Brussels, l'école de code pour startups et entrepreneurs."
-    role_margo: "Co-fondatrice"
-    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères. Elle garde depuis lors une grande passion pour l'enseignement. Quand elle n'est pas occupée à créer des ateliers et gérer les opérations du Techies Lab, Margo développe Kidzeum, une app ludique et éducative pour les musées. Dans une vie antérieure, elle était avocate au Canada... mais ça, c'était avant de découvrir les frites belges!"
+    # role_anne: "Co-fondatrice"
+    description_anne: "Animatrice louveteaux pendant de nombreuses années, Anne
+    a la passion de transmettre. Ambassadrice des initiatives Rails Girls,
+    elle aime aider les nouveaux venus à surmonter leurs appréhensions et
+    voir leurs yeux s'émerveiller quand la magie des nouvelles technologies se dévoile!
+    En 2014, elle a mis sur les rails (et depuis, conduit) Le Wagon Brussels,
+    l'école de code pour startups et entrepreneurs."
+    # role_hugo: "Hacker"
+    description_hugo: "Développeur software passionné d'intelligence artificielle et
+    de bio-informatique, Hugo est un vrai dicouilleur, qui construit des applications
+    web principalement à l'aide d'outils open-source. Collaborateur aux Jeunesses
+    Scientifiques de Belgique, il aime enseigner l'usage des nouvelles technologies
+    aux adultes comme aux enfants. Ses outils favoris sont Python, Linux, Processing et Arduino."
+    # role_margo: "Co-fondatrice"
+    description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères.
+    Elle garde depuis lors une grande passion pour l'enseignement. Quand elle
+    n'est pas occupée à créer des ateliers et gérer les opérations du Techies Lab,
+    Margo développe Kidzeum, une app ludique et éducative pour les musées.
+    Dans une vie antérieure, elle était avocate au Canada... mais ça,
+    c'était avant de découvrir les frites belges!"
   contact:
     title: "Contact"
     intro:

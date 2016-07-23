@@ -1,5 +1,5 @@
 - name: Anne Collet
-  role: :team.role_anne
+  # role: :team.role_anne
   image: portraits/anne.jpg
   description: :team.description_anne
   socials:
@@ -9,8 +9,19 @@
     icon: github
   - url: https://www.facebook.com/diane.lanterman
     icon: facebook
+- name: Hugo Herter
+  # role: :team.role_hugo
+  image: portraits/hugo.jpg
+  description: :team.description_hugo
+  socials:
+  - url: https://be.linkedin.com/in/hherter
+  icon: linkedin
+  - url: https://twitter.com/hugoherter
+  icon: twitter
+  - url: https://github.com/hoh
+  icon: github
 - name: Margo Tinawi
-  role: :team.role_margo
+  # role: :team.role_margo
   image: portraits/margo.jpg
   description: :team.description_margo
   socials:
