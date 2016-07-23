@@ -80,11 +80,11 @@ en:
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
         file: ''
       event3:
-        title: "Save your greens plants from the Belgian heat wave!"
+        title: "Water your plants smartly thanks to technology! ;-)"
         description: ""
         date: "Saturday, July 30, 2016"
         time: "10:00 am to 5:00 pm"
-        age: "20 parent-child teams; 12 y.o. and +"
+        age: "Adults and teens of 12 y.o. and over"
         price: "Le prix de 50€ par binôme comprend tout le matériel électronique que vous pourrez ramener chez vous ainsi qu’une légère collation. Pour la pause déjeuner, pensez à apporter vos tartines."
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:

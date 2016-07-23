@@ -114,7 +114,7 @@ title: Techies Lab
       <div class="col-sm-12">
         <div class="row">
           <% data.all_events.each do |event| %>
-            <div class="col-sm-6 feature-box-container">
+            <div class="col-sm-12 feature-box-container">
               <div class="feature-box wow fadeInDown">
                 <div class="icon">
                   <i class="fa fa-<%= event.icon %>"></i>
@@ -122,11 +122,11 @@ title: Techies Lab
                 <div class="description">
                   <h4><%= link_to t(event.title), event.file %></h4>
                   <p id="description"></p>
-                  <p><strong><%= t(event.date_drop) %></strong> <%= t(event.date_text) %></p>
-                  <p><strong><%= t(event.time_drop) %></strong> <%= t(event.time_text) %></p>
-                  <p><strong><%= t(event.location_drop) %></strong> <%= t(event.short_location_text) %></p>
-                  <p><strong><%= t(event.age_drop) %></strong> <%= t(event.age_text) %></p>
-                  <p><%= link_to t('upcoming.read_more'), event.file, class: "btn btn-theme" %></p>
+                  <p><strong><%= t(event.date_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.date_text) %></p>
+                  <p><strong><%= t(event.time_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.time_text) %></p>
+                  <p><strong><%= t(event.location_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.short_location_text) %></p>
+                  <p><strong><%= t(event.age_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.age_text) %></p>
+                  <p><%= link_to t(event.button), event.file, class: "btn btn-theme", target: "_blank" %></p>
                 </div>
               </div>
             </div>

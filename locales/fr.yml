@@ -80,11 +80,11 @@ fr:
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
         file: ''
       event3:
-        title: "Sauvez vos plantes de la canicule belge!"
-        description: "For our first robotic workshop, we'll build a robotic arm! Sure, our arm won't be as sophisticated as the ones you see in movies, but we promise it'll be mighty impressive! To build it, we'll use lots of cool stuff, including an Arduino board (a small computer which holds in your hand), servomotors, popsicle sticks, soldering irons... And to guide us, we'll have the great maker-artist-inventor master... Julien Dutertre."
-        date: "Samedi 30 juillet"
+        title: "Arrosez vos plantes de façon optimale grâce à la technologie ;-)"
+        description: ""
+        date: "Samedi 30 juillet 2016"
         time: "10h à 17h"
-        age: "20 équipes parent-enfant; 12 ans et +"
+        age: "Adultes et jeunes de 12 ans et +"
         price: "Le prix de 50€ par binôme comprend tout le matériel électronique que vous pourrez ramener chez vous ainsi qu’une légère collation. Pour la pause déjeuner, pensez à apporter vos tartines."
         file: 'http://goo.gl/forms/GhRSMOL1QG'
   webdesign:
