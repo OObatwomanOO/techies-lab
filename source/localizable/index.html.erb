@@ -120,7 +120,7 @@ title: Techies Lab
                   <i class="fa fa-<%= event.icon %>"></i>
                 </div>
                 <div class="description">
-                  <h4><%= link_to t(event.title), event.file %></h4>
+                  <h4 id="workshop-title"><%= t(event.title) %></h4>
                   <p id="description"></p>
                   <p><strong><%= t(event.date_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.date_text) %></p>
                   <p><strong><%= t(event.time_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.time_text) %></p>

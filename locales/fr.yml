@@ -83,7 +83,7 @@ fr:
       costation: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
       brussels: "Bruxelles"
     price: "Frais"
-    age: "Public cible"
+    age: "Public"
     button:
       registration: "Je m'inscris!"
       not_available: "Plus disponible"

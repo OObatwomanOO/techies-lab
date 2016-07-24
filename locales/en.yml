@@ -79,7 +79,7 @@ en:
       costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussels"
       brussels: "Brussels"
     price: "Fee"
-    age: "Target audience"
+    age: "Audience"
     button:
       registration: "Register!"
       not_available: "No longer available"

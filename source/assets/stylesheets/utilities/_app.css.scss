@@ -738,7 +738,9 @@ form.signup button.btn {
 
 .feature-box {
 	text-align: center;
-	background: #e4e4e4;
+  background: #e4e4e4;
+  // background-image: url(image_path('featured/screen.jpg'));
+  // background: rgba(90, 175, 202, 0.5);
 }
 
 .feature-box .icon {
@@ -785,6 +787,13 @@ form.signup button.btn {
 	padding-top: 12px;
 	display: block;
 }
+
+// .feature-box #workshop-title a:hover, a:focus {
+//   color: #DB484D;
+//   font-weight: bold;
+//   text-decoration: none;
+//   outline: 0;
+// }
 
 .feature-box .description {
 	padding: 20px 15px 10px;
