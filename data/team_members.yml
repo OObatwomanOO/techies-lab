@@ -33,6 +33,8 @@
   description: :team.description_alexandre
   socials:
   - url: http://alexandreroba.com/about/
+    icon: file-o
+  - url: https://be.linkedin.com/in/alexandreroba
     icon: linkedin
   - url: https://twitter.com/alexandreroba
     icon: twitter
