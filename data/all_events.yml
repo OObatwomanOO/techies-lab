@@ -14,7 +14,7 @@
   price_text: :robotics.workshops.event3.price
   price_why: :robotics.workshops.event3.price_why
   button: :workshops.button.registration
-  file: 'http://www.eventbrite.com/e/listen-to-your-plants-learn-by-tinkering-with-electronics-arduino-tickets-26684119921'
+  file: 'http://www.eventbrite.com/e/parent-teen-workshop-learn-by-tinkering-with-electronics-arduino-tickets-26684119921'
 
 - icon: pencil-square-o
   title: :webdesign.workshops.event4.title
@@ -32,7 +32,7 @@
   price_text: :webdesign.workshops.event4.price
   price_why: :webdesign.workshops.event4.price_why
   button: :workshops.button.registration
-  file: 'http://goo.gl/uXiRFp'
+  file: 'http://www.eventbrite.com/e/parent-kid-workshop-discover-by-playing-with-html-css-tickets-26742611872'
 
 # - name: :about.robotic_name
 #   description: :about.robotic_description
