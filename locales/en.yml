@@ -52,6 +52,13 @@ en:
     the help of his geeky colleagues, at home with the help of his three ingenious kids!
     Loving father deeply concerned by education to tech for all, he's
     now willing to pass on his passion to other children and curious grown-ups!"
+    # role_you: "You"
+    description_you: "You're a hacker, developer, tinkerer, engineer, inventor,
+    visual artist,... and above all, you're curious and love sharing
+    your passion and knowledge?! You speak English and/or French and/or Dutch
+    and/or more? :) You're ready to join us in Brussels from time to time?
+    Just drop us a line: we'll invite you to come and brainstorm with us about
+    new workshops!"
   contact:
     title: "Contact"
     intro:

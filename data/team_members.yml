@@ -40,3 +40,9 @@
 #     icon: twitter
 #   - url: https://github.com/AlexandreRoba
 #     icon: github
+- name: Join us :)
+  image: portraits/you.jpg
+  description: :team.description_you
+  socials:
+  - url: mailto:info@techieslab.org
+    icon: envelope-o

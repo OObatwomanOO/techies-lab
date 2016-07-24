@@ -56,6 +56,13 @@ fr:
     Papa soucieux d'éducation aux nouvelles technologies pour tous,
     il souhaite aujourd'hui transmettre sa passion à d'autres jeunes enfants curieux,
     petits comme plus grands!"
+    # role_you: "You"
+    description_you: "Vous êtes un hacker, développeur, bidouilleur, artiste,
+    inventeur,... et par dessus tout, vous êtes curieux et aimez partager
+    vos passion et votre savoir?! Vous parlez anglais et/ou français et/ou néerlandais
+    et/ou d'autres langues encore? Vous êtes prêt à nous rejoindre de temps en temps
+    sur Bruxelles? Ecrivez-nous un petit mot: nous vous inviterons à venir cogiter
+    avec nous sur de nouveaux ateliers! :)"
   contact:
     title: "Contact"
     intro:
