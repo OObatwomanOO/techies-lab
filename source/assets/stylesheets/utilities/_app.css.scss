@@ -669,9 +669,9 @@ form.signup button.btn {
 /* About */
 
 #about{
-	background: #ededed;
-	// color: #626262;
-  color: #515151;
+  background: #ededed;
+  color: #404040;
+  padding-bottom: 0px;
 }
 
 #about h1,
@@ -680,7 +680,7 @@ form.signup button.btn {
 #about h4,
 #about h5,
 #about h6{
-	color: #626262;
+  color: #626262;
   & a {
     color: inherit;
 
@@ -693,6 +693,37 @@ form.signup button.btn {
 }
 
 #about .lead {
+  font-size: 17px;
+  text-align: justify;
+}
+
+
+/* Workshops */
+
+#workshops{
+	background: #ededed;
+  color: #404040;
+}
+
+#workshops h1,
+#workshops h2,
+#workshops h3,
+#workshops h4,
+#workshops h5,
+#workshops h6{
+	color: #626262;
+  & a {
+    color: inherit;
+
+    &:hover, &:focus {
+      color: #99a2a9;
+      text-decoration: none;
+      outline: 0;
+    }
+  }
+}
+
+#workshops .lead {
   font-size: 16px;
   text-align: justify;
 }
