@@ -28,21 +28,15 @@
     icon: twitter
   - url: https://github.com/hoh
     icon: github
-# - name: Alexandre Roba
-#   image: portraits/alexandre.jpg
-#   description: :team.description_alexandre
-#   socials:
-#   - url: http://alexandreroba.com/about/
-#     icon: file-o
-#   - url: https://be.linkedin.com/in/alexandreroba
-#     icon: linkedin
-#   - url: https://twitter.com/alexandreroba
-#     icon: twitter
-#   - url: https://github.com/AlexandreRoba
-#     icon: github
-- name: Join us !
-  image: portraits/you.jpg
-  description: :team.description_you
+- name: Alexandre Roba
+  image: portraits/alexandre.jpg
+  description: :team.description_alexandre
   socials:
-  - url: mailto:info@techieslab.org
-    icon: envelope-o
+  - url: http://alexandreroba.com/about/
+    icon: file-o
+  - url: https://be.linkedin.com/in/alexandreroba
+    icon: linkedin
+  - url: https://twitter.com/alexandreroba
+    icon: twitter
+  - url: https://github.com/AlexandreRoba
+    icon: github

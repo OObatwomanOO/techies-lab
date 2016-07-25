@@ -821,6 +821,10 @@ form.signup button.btn {
 
 /* Team */
 
+#team{
+  padding-bottom: 20px;
+}
+
 .team-member-container{
 	max-width: 250px;
 	display: inline-block;
@@ -888,6 +892,14 @@ form.signup button.btn {
 	.team-member-container{
 		margin: 0;
 	}
+}
+
+#you-member-container{
+  max-width: 250px;
+  display: inline-block;
+  text-align:center;
+  margin: 20px 0;
+  padding-top: 20px;
 }
 
 /* Contact */
