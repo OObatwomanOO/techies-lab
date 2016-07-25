@@ -97,7 +97,7 @@ en:
         age: "Teenagers (boys and girls), from 13 to 17 years old"
         price: "The workshop is free. However, if you wish to keep your robotic arm (and the Arduino board),<br>you will be able to buy the material at the end of the day at a discounted price of 50 euros.<br><br>"
         price_why: "Why 50 &#8364;? Because our coaches are professionals and because participants will return home with their arm... and all its components<br>(including the Arduino board, the servomotors, potentiometers, power, etc.)"
-        file: 'http://goo.gl/forms/GhRSMOL1QG'
+        file: ''
       event2:
         title: "Let's make Christmas trees sing!"
         description: "You will learn, step by step with us, how to make your plant (mini Xmas tree) twinkle, sing (no kidding) and/or alert you when it needs watering, by using an Arduino board to measure the humidity of the ground and to produce various sounds accordingly."
@@ -112,8 +112,8 @@ en:
         date: "Saturday, July 30, 2016"
         time: "10:00 am to 5:00 pm"
         age: "Adults and teens of 12 y.o. and over"
-        price: "Le prix de 50€ par binôme comprend tout le matériel électronique que vous pourrez ramener chez vous ainsi qu’une légère collation. Pour la pause déjeuner, pensez à apporter vos tartines."
-        file: 'http://goo.gl/forms/GhRSMOL1QG'
+        price: ""
+        file: ''
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:
