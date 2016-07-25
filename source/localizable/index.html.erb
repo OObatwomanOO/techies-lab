@@ -121,11 +121,11 @@ title: Techies Lab
                 </div>
                 <div class="description">
                   <h4 id="workshop-title"><%= t(event.title) %></h4>
-                  <p id="description"></p>
+                  <h4 id="description"><%= t(event.description) %></h4>
+                  <p><strong><%= t(event.age_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.age_text) %></p>
                   <p><strong><%= t(event.date_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.date_text) %></p>
                   <p><strong><%= t(event.time_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.time_text) %></p>
                   <p><strong><%= t(event.location_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.short_location_text) %></p>
-                  <p><strong><%= t(event.age_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.age_text) %></p>
                   <p><%= link_to t(event.button), event.file, class: "btn btn-theme", target: "_blank" %></p>
                 </div>
               </div>
