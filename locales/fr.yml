@@ -112,7 +112,7 @@ fr:
         file: ''
       event3:
         title: "Atelier Parent & Ado - Faites parler vos plantes!"
-        description: "Apprenez (en bidouillant avec) l'électronique & Arduino"
+        description: "Apprenez (en bidouillant) l'électronique & Arduino"
         date: "Samedi 30 juillet 2016"
         time: "10h à 17h"
         age: "Adultes et jeunes de 12 ans et +"
@@ -154,7 +154,7 @@ fr:
         file: 'http://goo.gl/forms/ssFAg2Z1XKoZgRkw1'
       event4:
         title: "Atelier Parent & Enfant - Construisez une page web!"
-        description: "Découvrez (en jouant avec) HTML & CSS"
+        description: "Découvrez (en vous amusant) HTML & CSS"
         date: "Samedi 20 août 2016"
         time: "14h à 18h"
         age: "Adultes et enfants de 8 ans et +"
