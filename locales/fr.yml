@@ -161,5 +161,14 @@ fr:
         price: "A voluntary contribution of 10 euros per team<br><br>"
         price_why: "For the snaks and the coaches!"
         file: ''
+      event5:
+        title: "Atelier Parent & Enfant - Construisez une page web!"
+        description: "Découvrez (en vous amusant) HTML & CSS"
+        date: "Mercredi 26 octobre 2016"
+        time: "14h à 18h"
+        age: "Adultes et enfants de 8 ans et +"
+        price: "Une contribution volontaire de 10 euros par équipe serait grandement appréciée<br><br>"
+        price_why: "Pour pouvoir vous offir une collation et couvrir nos frais de coaching!"
+        file: 'https://www.eventbrite.com/e/parent-kid-workshop-discover-by-playing-with-html-css-tickets-26742611872?aff=erelexpmlt'
   gaming:
     title: "Jeux vidéos"

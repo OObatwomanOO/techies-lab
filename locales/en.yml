@@ -185,6 +185,15 @@ en:
         price: "A voluntary contribution of 10 euros per team<br><br>"
         price_why: "For the snaks and the coaches!"
         file: 'http://goo.gl/forms/r3Rl0mDCLc31rNDJ2'
+      event5:
+        title: "Parent & Kid Workshop - Build your first web page!"
+        description: "Discover (by playing with) HTML & CSS"
+        date: "Wednesday, October 26, 2016"
+        time: "2:00 to 6:00 pm"
+        age: "Adults and kids of 8 y.o. and over"
+        price: "A voluntary contribution of 10 euros per team<br><br>"
+        price_why: "For the snaks and the coaches!"
+        file: 'https://www.eventbrite.com/e/parent-kid-workshop-discover-by-playing-with-html-css-tickets-26742611872?aff=erelexpmlt'
   gaming:
     title: "Gaming"
 
