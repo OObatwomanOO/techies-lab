@@ -76,14 +76,16 @@ fr:
   workshops:
     upcoming: "Nos prochains ateliers"
     past: "Nos ateliers passés"
-    date: "Date"
-    time: "Heure"
+    date: "Date?"
+    time: "Heure?"
     location:
-      drop: "Lieu"
+      drop: "Lieu?"
       costation: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
       brussels: "Bruxelles"
-    price: "Frais"
-    age: "Public"
+    price: "Frais?"
+    age: "Qui peut participer?"
+    language: "Langue de l'atelier?"
+    equipment: "Materiel requis?"
     button:
       registration: "Je m'inscris!"
       not_available: "Plus disponible"
@@ -170,5 +172,23 @@ fr:
         price: "Une contribution volontaire de 10 euros par équipe serait grandement appréciée<br><br>"
         price_why: "Pour pouvoir vous offir une collation et couvrir nos frais de coaching!"
         file: 'https://www.eventbrite.com/e/parent-kid-workshop-discover-by-playing-with-html-css-tickets-26742611872?aff=erelexpmlt'
+      event6:
+        title1: "Atelier parent-enfant. Créez votre première page web! ;-)"
+        title2: ""
+        description1: "Venez découvrir avec le Techies Lab à quel point coder peut-être amusant, créatif et instructif!
+        En quelques heures, vous apprendrez avec votre enfant comment construire une première page web!"
+        description2: "Oubliez les solutions toutes faites comme Wordpress, Wix ou Weebly.
+        Avec nous, vous apprendrez à coder en HTML et CSS, à l'instar des pros. N'ayez crainte! Nos ateliers sont conçus pour que des enfants aussi jeunes que 8 ans puissent participer pleinement.
+        Et nous serons là pour vous guider pas à pas! :)"
+        description3: "Une activité idéale pour créer un blog familial, mettre en lumière les exploits sportifs de vos petits loups, rendre hommage à un super-héros favori,...
+        mais surtout pour créer, apprendre et s'amuser - en famille, tous ensemble!"
+        description4: "PS: Prêts pour la gloire? Des étudiants de l’IHECS feront une courte vidéo de l'atelier."
+        date: "Dimanche 27 novembre 2016"
+        time: "14h à 17h"
+        age: "L’atelier est ouvert à tout binôme composé d’un(e) adulte et d’un(e) enfant de 8 ans et plus.
+        Les mineurs restent sous la responsabilité de l’adulte qui les accompagne."
+        language: "Atelier dispensé en français mais nous pouvons également répondre aux questions en anglais."
+        equipment: "Un ordinateur portable par binôme."
+        price: "Cet atelier est complètement gratuit :)"
   gaming:
     title: "Jeux vidéos"

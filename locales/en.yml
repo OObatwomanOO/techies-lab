@@ -205,16 +205,14 @@ en:
         We will show you how to code with HTML and CSS, just like the pros. Don't fret, we'll guide you step by step. If kids of 8 y.o. can do it, you can too!"
         description3: "A great activity to launch your family’s blog, showcase your kids’ latest sporting feats,
         pay a tribute to a favorite superhero... and above all, a unique moment to create, learn and have fun - all at once - with your kid!"
-        description4: "Last thing we should mention: a team of students from the IHECS will make a short video of the workshop."
-        date: "Saturday, November 27, 2016"
+        description4: "NB. Got your best smile ready? A team of students from the IHECS will make a short video of the workshop."
+        date: "Sunday, November 27, 2016"
         time: "2:00 to 5:00 pm"
         age: "The workshop is opened to any team composed of an adult and a child of 8 y.o. and more.
         Minors remain under the responsibility of the accompanying adult."
-        language: "The workshop will be delivered mainly in French but questions can be answered in English as well."
+        language: "The workshop will be delivered mainly in French but we can answer questions in English as well."
         equipment: "One laptop per family."
         price: "Completely free :)"
-        price_why: ""
-        file: ''
   gaming:
     title: "Gaming"
 
