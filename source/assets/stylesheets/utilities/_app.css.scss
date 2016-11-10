@@ -800,16 +800,17 @@ form.signup button.btn {
 }
 
 .feature-box .description {
-	padding: 20px 15px 10px;
+	padding: 20px 80px 10px;
 }
 
-.feature-box .description #description {
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
-  color: #DB484D;
+.feature-box .description .description-details {
+  padding: 20px 120px 10px;
+  text-align: left;
+}
+
+.feature-box .description .description-details #bb {
+
   text-align: center;
-  padding: 5px 0px;
 }
 
 /* Small devices (tablets, 768px and up) */

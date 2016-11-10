@@ -114,22 +114,46 @@ title: Techies Lab
       <div class="col-sm-12">
         <div class="row">
           <% data.all_events.each do |event| %>
-            <div class="col-sm-6 feature-box-container">
-              <div class="feature-box wow fadeInDown">
-                <div class="icon">
-                  <i class="fa fa-<%= event.icon %>"></i>
-                </div>
-                <div class="description">
-                  <h4 id="workshop-title"><%= t(event.title) %></h4>
-                  <h4 id="description"><%= t(event.description) %></h4>
-                  <p><strong><%= t(event.age_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.age_text) %></p>
-                  <p><strong><%= t(event.date_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.date_text) %></p>
-                  <p><strong><%= t(event.time_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.time_text) %></p>
-                  <p><strong><%= t(event.location_drop) %></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= t(event.short_location_text) %></p>
-                  <p><%= link_to t(event.button), event.file, class: "btn btn-theme", target: "_blank" %></p>
-                </div>
+          <div class="col-sm-12 feature-box-container">
+            <div class="feature-box wow fadeInDown">
+
+              <div class="icon"><i class="fa fa-<%= event.icon %>"></i></div>
+
+              <div class="description">
+                <h4 id="workshop-title"><%= t(event.title1) %></h4>
+                <p><%= t(event.description1) %></p>
+                <p><%= t(event.description2) %></p>
+                <p><%= t(event.description3) %></p>
+                <p><%= t(event.description4) %></p>
+
+                <div class="description-details">
+
+                  <div class="col-sm-4"><p><strong><%= t(event.date_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.date_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.time_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.time_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.location_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.location_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.age_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.age_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.language_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.language_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.price_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.price_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.equipment_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.equipment_text) %></div>
+
+                  <p id="bb"><%= link_to t(event.button), event.file, class: "btn btn-theme", target: "_blank" %></p>
               </div>
+
             </div>
+          </div>
           <% end %>
         </div>
       </div>
@@ -138,81 +162,81 @@ title: Techies Lab
 </section>
 
 
-<!-- Team -->
-<section id="team" class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h3 class="section-title"><%= t('.team.title') %></h3>
-        <div class="section-title-border"></div>
+    <!-- Team -->
+    <section id="team" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="section-title"><%= t('.team.title') %></h3>
+            <div class="section-title-border"></div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <% data.team_members.each do |member| %>
+          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+            <div class="team-member">
+              <div class="team-member-img">
+                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+                <div class="team-member-img-filter"></div>
+              </div>
+              <div class="team-member-meta">
+                <h4><%= member.name %></h4>
+                <span class="team-member-profession"></span>
+                <p><%= t(member.description) %></p>
+                <div class="social">
+                  <% member.socials.each do |social| %>
+                  <% link_to social.url, class: "btn btn-theme" do %>
+                  <i class="fa fa-<%= social.icon %>"></i>
+                  <% end %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
+        <div class="row text-center">
+          <% data.you_member.each do |member| %>
+          <div id="you-member-container" class="col-sm-3 text-center wow fadeInDown">
+            <div class="team-member">
+              <div class="team-member-img">
+                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+                <div class="team-member-img-filter"></div>
+              </div>
+              <div class="team-member-meta">
+                <h4><%= member.name %></h4>
+                <span class="team-member-profession"></span>
+                <p><%= t(member.description) %></p>
+                <div class="social">
+                  <% member.socials.each do |social| %>
+                  <% link_to social.url, class: "btn btn-theme" do %>
+                  <i class="fa fa-<%= social.icon %>"></i>
+                  <% end %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
       </div>
-    </div>
-    <div class="row text-center">
-      <% data.team_members.each do |member| %>
-        <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-          <div class="team-member">
-            <div class="team-member-img">
-              <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-              <div class="team-member-img-filter"></div>
-            </div>
-            <div class="team-member-meta">
-              <h4><%= member.name %></h4>
-              <span class="team-member-profession"></span>
-              <p><%= t(member.description) %></p>
-              <div class="social">
-                <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme" do %>
-                    <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                <% end %>
-              </div>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    </div>
-    <div class="row text-center">
-      <% data.you_member.each do |member| %>
-        <div id="you-member-container" class="col-sm-3 text-center wow fadeInDown">
-          <div class="team-member">
-            <div class="team-member-img">
-              <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-              <div class="team-member-img-filter"></div>
-            </div>
-            <div class="team-member-meta">
-              <h4><%= member.name %></h4>
-              <span class="team-member-profession"></span>
-              <p><%= t(member.description) %></p>
-              <div class="social">
-                <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme" do %>
-                    <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                <% end %>
-              </div>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Contact -->
-<section id="contact" class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h3 class="section-title"><%= t('.contact.title') %></h3>
-        <div class="section-title-border"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <p>
-          <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
-        </p>
-        <ul class="list-contacts">
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="section-title"><%= t('.contact.title') %></h3>
+            <div class="section-title-border"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p>
+              <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
+            </p>
+            <ul class="list-contacts">
           <!-- <li><i class="fa fa-phone"></i> <%= data.settings.contact.tel %></li>
           <li><i class="fa fa-mobile-phone"></i> <%= data.settings.contact.cellphone %></li> -->
           <li><i class="fa fa-map-marker"></i> <a href="https://www.google.be/maps/place/Co.Station/@50.8473558,4.3589762,15z/data=!4m2!3m1!1s0x0:0xa083255f82851545?sa=X&ved=0CHUQ_BIwC2oVChMIxp_Wp6DmyAIVig8aCh34eQ8K"><%= data.settings.contact.street %><br> <%= data.settings.contact.city %></a></li>
