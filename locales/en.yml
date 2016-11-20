@@ -83,7 +83,7 @@ en:
     language: "Languages?"
     equipment: "Equipment required?"
     button:
-      registration: "Register!"
+      registration: "Register now!"
       not_available: "No longer available"
   robotics:
     title: "Upcoming Workshops in Robotics"
@@ -201,17 +201,18 @@ en:
         title2: ""
         description1: "Come and discover with us how fun, creative and powerful code can be!
         In a few hours, you and your little one will learn how to build a web page from scratch!"
-        description2: "Forget about prefab services like Wordpress, Wix or Weebly.
+        description2: "Forget about prefab services like WordPress, Wix or Weebly.
         We will show you how to code with HTML and CSS, just like the pros. Don't fret, we'll guide you step by step. If kids of 8 y.o. can do it, you can too!"
         description3: "A great activity to launch your family’s blog, showcase your kids’ latest sporting feats,
         pay a tribute to a favorite superhero... and above all, a unique moment to create, learn and have fun - all at once - with your kid!"
         description4: "NB. Got your best smile ready? A team of students from the IHECS will make a short video of the workshop."
         date: "Sunday, November 27, 2016"
         time: "2:00 to 5:00 pm"
-        age: "The workshop is opened to any team composed of an adult and a child of 8 y.o. and more.
-        Minors remain under the responsibility of the accompanying adult."
-        language: "The workshop will be delivered mainly in French but we can answer questions in English as well."
-        equipment: "One laptop per family."
+        age: |
+          The workshop is opened to any team composed of an adult and a child of 8 y.o. and more.
+          Minors remain under the responsibility of the accompanying adult.
+        language: "The workshop will be delivered mainly in French but we will answer questions in English as well"
+        equipment: "One laptop per family"
         price: "Completely free :)"
   gaming:
     title: "Gaming"
