@@ -1,9 +1,10 @@
 # techies-lab
 
-You want to contribute?
+## You want to contribute?
 
-Open your terminal, and cd to the right directory. You will work in a branch, and submit a pull request!
+Open your terminal, and `cd` to the right directory. You will work in a branch, and submit a pull request!
 
+```bash
 # First get up to date
 $ git checkout master        # Go back to master branch
 $ git pull origin master     # Fetch latest version
@@ -24,3 +25,4 @@ $ git add .  # Git add the stuff you changed
 $ git commit -m "a descriptive message about your change"
 $ git push origin your-new-feature  # push YOUR branch
 # Then go to GitHub and open a pull-request
+```
