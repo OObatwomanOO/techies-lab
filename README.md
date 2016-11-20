@@ -12,7 +12,7 @@ $ git sweep                  # Get rid of merged branches (Download)[http://lab.
 $ bundle install             # Maybe the guys changed the Gemfile :)
 
 # Launch the server, then go to http://localhost:4567/
-$ bundle exec rerun rackup   # You may do this in another tab.
+$ bundle exec middleman server   # You may do this in another tab.
 
 # Open another terminal, and create a branch to work in
 $ git checkout -b your-new-feature  # Please choose a descriptive name
