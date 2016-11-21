@@ -21,8 +21,6 @@
   price_why: :webdesign.workshops.event6.price_why
   equipment_drop: :workshops.equipment
   equipment_text: :webdesign.workshops.event6.equipment
-  button: :workshops.button.registration
-  file: 'https://margo33.typeform.com/to/obPDKF'
 
 # - name: :about.robotic_name
 #   description: :about.robotic_description

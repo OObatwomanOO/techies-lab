@@ -190,5 +190,6 @@ fr:
         language: "Atelier dispensé en français mais nous pouvons également répondre aux questions en anglais."
         equipment: "Un ordinateur portable par binôme"
         price: "Cet atelier est complètement gratuit :)"
+        file: 'https://margo33.typeform.com/to/obPDKF'
   gaming:
     title: "Jeux vidéos"
