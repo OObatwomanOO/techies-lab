@@ -70,17 +70,21 @@ nl:
       message: "Message"
       submit: "Submit"
   workshops:
-    upcoming: "Upcoming Workshops:"
+    upcoming: "Upcoming Workshops"
     past: "Past Workshops"
-    date: "Datum"
-    time: "Tijd"
+    date: "When?"
+    time: "What time?"
     location:
-      drop: "Locatie"
-      costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussel"
-      brussels: "Brussel"
-    price: "Fee"
-    age: "Audience"
-    button: "Registration"
+      drop: "Where?"
+      costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussels"
+      brussels: "Brussels"
+    price: "How much?"
+    age: "Who can attend?"
+    language: "Languages?"
+    equipment: "Equipment required?"
+    button:
+      registration: "Register now!"
+      not_available: "No longer available"
   robotics:
     title: "Upcoming Workshops in Robotics"
     lead:
