@@ -184,10 +184,12 @@ fr:
         description4: "PS: Prêts pour la gloire? Des étudiants de l’IHECS feront une courte vidéo de l'atelier."
         date: "Dimanche 27 novembre 2016"
         time: "14h à 17h"
-        age: "L’atelier est ouvert à tout binôme composé d’un(e) adulte et d’un(e) enfant de 8 ans et plus.
-        Les mineurs restent sous la responsabilité de l’adulte qui les accompagne."
+        age: |
+          L’atelier est ouvert à tout binôme composé d’un(e) adulte et d’un(e) enfant de 8 ans et plus.
+          Les mineurs restent sous la responsabilité de l’adulte qui les accompagne.
         language: "Atelier dispensé en français mais nous pouvons également répondre aux questions en anglais."
-        equipment: "Un ordinateur portable par binôme."
+        equipment: "Un ordinateur portable par binôme"
         price: "Cet atelier est complètement gratuit :)"
+        file: 'https://margo33.typeform.com/to/obPDKF'
   gaming:
     title: "Jeux vidéos"
