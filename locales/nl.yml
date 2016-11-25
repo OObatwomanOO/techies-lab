@@ -85,6 +85,7 @@ nl:
     button:
       registration: "Register now!"
       not_available: "No longer available"
+      full: "Registration closed"
   robotics:
     title: "Upcoming Workshops in Robotics"
     lead:

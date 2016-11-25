@@ -89,6 +89,7 @@ fr:
     button:
       registration: "Je m'inscris!"
       not_available: "Plus disponible"
+      full: "Atlelier complet"
   robotics:
     title: "Nos prochains ateliers en robotique"
     lead:
