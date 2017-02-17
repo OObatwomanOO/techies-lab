@@ -6,6 +6,8 @@
     icon: linkedin
   - url: https://www.facebook.com/arthur.paquot
     icon: facebook
+  - url: https://github.com/arthur92
+    icon: github
 - name: Jean-Christophe Bauduin
   image: portraits/jean-christophe.jpg
   description: :team.description_jean-christophe
