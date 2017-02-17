@@ -14,7 +14,7 @@ en:
     lead:
       intro: "The"
       drop: "Techies Lab "
-      text: "is an initiative launched in 2015 in Belgium for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Through one-week tech camps and one-day discovery workshops, we foster our Techies' creativity!"
+      text: "is a initiative launched in 2015 in Belgium, by a happy bunch of passionate volunteers, for kids and teenagers to discover, experiment, learn and play with technology (robots, coding, gaming, 3D printing...). Through one-week tech camps and one-day/afternoon discovery workshops, we foster our Techies' creativity!"
     intro: "Our objective is to instill the maker's spirit, deconstruct to better reconstruct and understand the inner working of things. Our workshops are fun (we laugh!), hands-on (we make things) and long-lived (we take back our projects home to further develop them)."
     robotic_name: "Robotics"
     robotic_description: "Build a robotic arm that waves, make a Christmas tree sing when thirsty... everything is possible with a little imagination!"
@@ -52,6 +52,18 @@ en:
     the help of his geeky colleagues, at home with the help of his three ingenious kids!
     Loving father deeply concerned by education to tech for all, he's
     now willing to pass on his passion to other children and curious grown-ups!"
+    # role_arthur: "Hacker"
+    description_arthur: "Arthur has a MSc in Software Engineering. Pursuing his
+    passion for education, he decided to study one more year at the university
+    to become a Mathematics teacher. During his studies, he worked as a Teaching
+    Assistant and gave several IT workshops in high schools. He's eager to
+    share with the little ones his love for science and technology!"
+    # role_jean-christophe: "Hacker"
+    description_jean-christophe: "Our 16 years old whizz-kid, Jean-Christophe,
+    developed a passion for computer science when he decided to repair
+    his family's PC at the age of 10 :) Since then, a self–taught programmer,
+    he has gained a solid expertise in open source technologies. His favorite playgrounds:
+    Linux, C++, PHP, Laravel, Python, Ruby, Rails and Raspberry Pi!"
     # role_you: "You"
     description_you: "You're a hacker, developer, tinkerer, engineer, inventor,
     visual artist,... and above all, you're curious and love sharing

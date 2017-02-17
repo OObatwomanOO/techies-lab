@@ -13,8 +13,8 @@ fr:
     title: "À propos"
     lead:
       intro: "Le"
-      drop: "Techies Lab"
-      text: " est une initiative lancée en 2015 en Belgique pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les nouvelles technologies (robots, code, jeux vidéos, impression 3D...) Ouvrons-leur les portes de la créativité!"
+      drop: "Techies Lab "
+      text: "est une initiative lancée en 2015 en Belgique, par une joyeuse bande de bénévoles passionnés, pour permettre aux enfants et adolescents de découvrir, expérimenter, apprendre et s'amuser avec les nouvelles technologies (robots, code, jeux vidéos, impression 3D...) Au travers de stages d'une semaine et d'ateliers d'une après-midi/journée, ouvrons-leur les portes de la créativité!"
     intro: "Notre objectif est transmettre la joie du bidouillage, déconstruire pour mieux reconstruire et comprendre l'envers du décor. Nos ateliers sont amusants (on rit!), pratiques (on fait soi-même!) et recyclables (on ramène chez soi nos projets pour les bichonner et continuer à les développer)."
     robotic_name: "Robotique"
     robotic_description: "Construire un bras robotique, faire chanter des sapins... tout est possible avec un peu d'imagination!"
@@ -56,6 +56,19 @@ fr:
     Papa soucieux d'éducation aux nouvelles technologies pour tous,
     il souhaite aujourd'hui transmettre sa passion à d'autres jeunes enfants curieux,
     petits comme plus grands!"
+    # role_arthur: "Hacker"
+    description_arthur: "Ingénieur civil en informatique, souhaitant poursuivre
+    sa passion pour l'éducation, Arthur a présenté l'agrégation afin d'enseigner
+    les mathématiques. Pendant ses études, il a encadré de nombreux travaux pratiques
+    comme assistant universitaire et des ateliers d'introduction à l'informatique
+    en écoles secondaires. Il se réjouit de pouvoir transmettre aux plus petits
+    son amour des sciences et des technologies!"
+    # role_jean-christophe: "Hacker"
+    description_jean-christophe: "Du haut de ses 16 printemps, Jean-Christophe,
+    notre whizz-kid de la bande, s'est découvert une passion pour l'informatique
+    lorsqu'à l'âge de 10 ans il s'est mis en tête de réparer le PC familial :)
+    Depuis lors, féru autodidacte du code, il s'est forgé une solide expertise en technologies open source.
+    Ses terrains d'expérimentation et de jeu favoris: Linux, C++, PHP, Laravel, Python, Ruby, Rails et Raspberry Pi!"
     # role_you: "You"
     description_you: "Vous êtes un hacker, développeur, bidouilleur, artiste,
     inventeur,... et par dessus tout, vous êtes curieux et aimez partager

@@ -16,8 +16,6 @@
     icon: linkedin
   - url: https://github.com/Margotte
     icon: github
-  - url: https://www.facebook.com/margattian
-    icon: facebook
 - name: Hugo Herter
   image: portraits/hugo.jpg
   description: :team.description_hugo
