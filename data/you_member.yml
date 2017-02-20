@@ -12,7 +12,7 @@
   image: portraits/jean-christophe.jpg
   description: :team.description_jean-christophe
   socials:
-  - url: https://github.com/AlexandreRoba
+  - url: https://github.com/jbd0101
     icon: github
 - name: Join us !
   image: portraits/you.jpg
