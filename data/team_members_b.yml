@@ -1,0 +1,41 @@
+- name: Hugo Herter
+  image: portraits/hugo.jpg
+  description: :team.description_hugo
+  socials:
+  - url: https://be.linkedin.com/in/hherter
+    icon: linkedin
+  - url: https://twitter.com/hugoherter
+    icon: twitter
+  - url: https://github.com/hoh
+    icon: github
+- name: Rosanna Kurrer
+  image: portraits/rosanna.jpg
+  description: :team.description_rosanna
+  socials:
+  - url: https://www.linkedin.com/in/rosannakurrer/
+    icon: linkedin
+  - url: https://twitter.com/rosannakurrer
+    icon: twitter
+- name: Arthur Paquot
+  image: portraits/arthur.jpg
+  description: :team.description_arthur
+  socials:
+  - url: https://www.linkedin.com/in/arthur-paquot-121692122
+    icon: linkedin
+  - url: https://www.facebook.com/arthur.paquot
+    icon: facebook
+  - url: https://github.com/arthur92
+    icon: github
+- name: Alexandre Roba
+  image: portraits/alexandre.jpg
+  description: :team.description_alexandre
+  socials:
+  - url: http://alexandreroba.com/about/
+    icon: file-o
+  - url: https://be.linkedin.com/in/alexandreroba
+    icon: linkedin
+  - url: https://twitter.com/alexandreroba
+    icon: twitter
+  - url: https://github.com/AlexandreRoba
+    icon: github
+

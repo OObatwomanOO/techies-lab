@@ -88,7 +88,7 @@ title: Techies Lab
     <div class="row">
       <div class="col-sm-12">
         <div class="row text-center">
-          <p>New program coming soon! Stay tuned! ;)</p>
+          <p>Our next workshop will take place January 27, 2018! Stay tuned! ;)</p>
 <!--           <div class="col-sm-9 feature-box-container">
             <div class="feature-box wow fadeInDown">
               <div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/e/atelier-parent-enfant-creez-ensemble-votre-premiere-page-web-12-tickets-36983629030?ref=eweb"
@@ -115,6 +115,7 @@ title: Techies Lab
             <div class="section-title-border"></div>
           </div>
         </div>
+
         <div class="row text-center">
           <% data.team_members.each do |member| %>
           <div class="col-sm-3 text-center team-member-container wow fadeInDown">
@@ -129,7 +130,7 @@ title: Techies Lab
                 <p><%= t(member.description) %></p>
                 <div class="social">
                   <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme" do %>
+                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
                   <i class="fa fa-<%= social.icon %>"></i>
                   <% end %>
                   <% end %>
@@ -145,8 +146,8 @@ title: Techies Lab
         </div>
 
         <div class="row text-center">
-          <% data.you_member.each do |member| %>
-          <div class="col-sm-3 text-center wow fadeInDown">
+          <% data.team_members_b.each do |member| %>
+          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
             <div class="team-member">
               <div class="team-member-img">
                 <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
@@ -158,7 +159,65 @@ title: Techies Lab
                 <p><%= t(member.description) %></p>
                 <div class="social">
                   <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme" do %>
+                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+                  <i class="fa fa-<%= social.icon %>"></i>
+                  <% end %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
+
+        <div class="row">
+          <p>  </p>
+        </div>
+
+                <div class="row text-center">
+          <% data.team_members_c.each do |member| %>
+          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+            <div class="team-member">
+              <div class="team-member-img">
+                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+                <div class="team-member-img-filter"></div>
+              </div>
+              <div class="team-member-meta">
+                <h4><%= member.name %></h4>
+                <span class="team-member-profession"></span>
+                <p><%= t(member.description) %></p>
+                <div class="social">
+                  <% member.socials.each do |social| %>
+                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+                  <i class="fa fa-<%= social.icon %>"></i>
+                  <% end %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
+
+        <div class="row">
+          <p>  </p>
+        </div>
+
+        <div class="row text-center">
+          <% data.team_members_d.each do |member| %>
+          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+            <div class="team-member">
+              <div class="team-member-img">
+                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+                <div class="team-member-img-filter"></div>
+              </div>
+              <div class="team-member-meta">
+                <h4><%= member.name %></h4>
+                <span class="team-member-profession"></span>
+                <p><%= t(member.description) %></p>
+                <div class="social">
+                  <% member.socials.each do |social| %>
+                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
                   <i class="fa fa-<%= social.icon %>"></i>
                   <% end %>
                   <% end %>
@@ -170,6 +229,8 @@ title: Techies Lab
         </div>
       </div>
     </section>
+
+
 
     <!-- Contact -->
     <section id="contact" class="section">

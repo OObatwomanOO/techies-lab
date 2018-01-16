@@ -1,3 +1,17 @@
+- name: Laszlo Arnould
+  image: portraits/laszlo.jpg
+  description: :team.description_laszlo
+  socials:
+  - url: https://www.linkedin.com/in/laszlo-arnould-96746196/
+    icon: linkedin
+  - url: https://github.com/lazarnould
+    icon: github
+- name: Jean-Christophe Bauduin
+  image: portraits/jean-christophe.jpg
+  description: :team.description_jean-christophe
+  socials:
+  - url: https://github.com/jbd0101
+    icon: github
 - name: Anne Collet
   image: portraits/anne.jpg
   description: :team.description_anne
@@ -8,33 +22,9 @@
     icon: github
   - url: https://www.facebook.com/diane.lanterman
     icon: facebook
-- name: Margo Tinawi
-  image: portraits/margo.jpg
-  description: :team.description_margo
+- name: Hugo Godfroid
+  image: portraits/hugo_g.jpg
+  description: :team.description_hugo_g
   socials:
-  - url: https://sa.linkedin.com/pub/margo-tinawi/32/661/960
+  - url: https://www.linkedin.com/in/hugo-godfroid-0022a3125/
     icon: linkedin
-  - url: https://github.com/Margotte
-    icon: github
-- name: Hugo Herter
-  image: portraits/hugo.jpg
-  description: :team.description_hugo
-  socials:
-  - url: https://be.linkedin.com/in/hherter
-    icon: linkedin
-  - url: https://twitter.com/hugoherter
-    icon: twitter
-  - url: https://github.com/hoh
-    icon: github
-- name: Alexandre Roba
-  image: portraits/alexandre.jpg
-  description: :team.description_alexandre
-  socials:
-  - url: http://alexandreroba.com/about/
-    icon: file-o
-  - url: https://be.linkedin.com/in/alexandreroba
-    icon: linkedin
-  - url: https://twitter.com/alexandreroba
-    icon: twitter
-  - url: https://github.com/AlexandreRoba
-    icon: github
