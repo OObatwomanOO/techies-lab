@@ -85,11 +85,11 @@ title: Techies Lab
         <div class="section-title-border"></div>
       </div>
     </div>
-    <div class="row">
+ <!--    <div class="row">
       <div class="col-sm-12">
         <div class="row text-center">
           <p>Our next workshop will take place January 27, 2018! Stay tuned! ;)</p>
-<!--           <div class="col-sm-9 feature-box-container">
+          <div class="col-sm-9 feature-box-container">
             <div class="feature-box wow fadeInDown">
               <div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/e/atelier-parent-enfant-creez-ensemble-votre-premiere-page-web-12-tickets-36983629030?ref=eweb"
               frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ></div></div>
@@ -98,10 +98,60 @@ title: Techies Lab
 
           <div class="col-sm-3 feature-box-container">
               <div style="width:195px; text-align:center;" ><iframe  src="https://www.eventbrite.com/calendar-widget?eid=32090594833" frameborder="0" height="614" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:195px; text-align:center;" ></div></div>
-          </div> -->
+          </div>
         </div>
       </div>
-    </div>
+    </div>-->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <% data.all_events.each do |event| %>
+          <div class="col-sm-12 feature-box-container">
+            <div class="feature-box wow fadeInDown">
+
+              <div class="icon"><i class="fa fa-<%= event.icon %>"></i></div>
+
+              <div class="description">
+                <h4 id="workshop-title"><%= t(event.title1) %></h4>
+                <div class="description-content">
+                  <br>
+                  <p><%= t(event.description1) %></p>
+                  <p><%= t(event.description2) %></p>
+                  <p><%= t(event.description3) %></p>
+                </div>
+
+                <div class="description-details">
+
+                  <div class="col-sm-4"><p><strong><%= t(event.date_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.date_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.time_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.time_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.location_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.location_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.age_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.age_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.language_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.language_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.price_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.price_text) %></div>
+
+                  <div class="col-sm-4"><p><strong><%= t(event.equipment_drop) %></strong></div>
+                  <div class="col-sm-8"><p><%= t(event.equipment_text) %></div>
+                  <div id="bb"><%= link_to t(event.button), t(event.file), class: "bb btn btn-theme", target: "_blank" %></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+</div>
   </div>
 </section>
 

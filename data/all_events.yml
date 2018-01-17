@@ -1,28 +1,27 @@
 - icon: pencil-square-o
-  title1: :webdesign.workshops.event6.title1
-  title2: :webdesign.workshops.event6.title2
-  description1: :webdesign.workshops.event6.description1
-  description2: :webdesign.workshops.event6.description2
-  description3: :webdesign.workshops.event6.description3
-  description4: :webdesign.workshops.event6.description4
+  title1: :webdesign.workshops.event7.title1
+  title2: :webdesign.workshops.event7.title2
+  description1: :webdesign.workshops.event7.description1
+  description2: :webdesign.workshops.event7.description2
+  description3: :webdesign.workshops.event7.description3
   date_drop: :workshops.date
-  date_text: :webdesign.workshops.event6.date
+  date_text: :webdesign.workshops.event7.date
   time_drop: :workshops.time
-  time_text: :webdesign.workshops.event6.time
+  time_text: :webdesign.workshops.event7.time
   location_drop: :workshops.location.drop
-  location_text: :workshops.location.costation
+  location_text: :workshops.location.becentral
   short_location_text: :workshops.location.brussels
   age_drop: :workshops.age
-  age_text: :webdesign.workshops.event6.age
+  age_text: :webdesign.workshops.event7.age
   language_drop: :workshops.language
-  language_text: :webdesign.workshops.event6.language
+  language_text: :webdesign.workshops.event7.language
   price_drop: :workshops.price
-  price_text: :webdesign.workshops.event6.price
-  price_why: :webdesign.workshops.event6.price_why
+  price_text: :webdesign.workshops.event7.price
+  price_why: :webdesign.workshops.event7.price_why
   equipment_drop: :workshops.equipment
-  equipment_text: :webdesign.workshops.event6.equipment
-  button: :workshops.button.full
-  file: :webdesign.workshops.event6.file
+  equipment_text: :webdesign.workshops.event7.equipment
+  button: :workshops.button.registration
+  file: :webdesign.workshops.event7.file
 
 # - name: :about.robotic_name
 #   description: :about.robotic_description
