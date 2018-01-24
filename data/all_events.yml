@@ -20,7 +20,7 @@
   price_why: :webdesign.workshops.event7.price_why
   equipment_drop: :workshops.equipment
   equipment_text: :webdesign.workshops.event7.equipment
-  button: :workshops.button.registration
+  button: :workshops.button.full
   file: :webdesign.workshops.event7.file
 
 # - name: :about.robotic_name
