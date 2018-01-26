@@ -23,6 +23,19 @@ fr:
     webdesign_name: "Web Design"
     webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Trouver un atelier"
+  poll:
+    title: "Ateliers hebdomadaires - Votre avis compte!"
+    text: "Cette année, nous voulons vous proposer des ateliers hebdomadaires. Coder des jeux vidéo, construire un robot et le programmer pour lui faire dire des bêtises, découvrir les bases de la cryptologie... nous avons plein d'idées en tête!
+
+Reste à savoir quelle formule vous conviendrait le mieux:
+
+    ateliers parents-enfants ou seulement pour jeunes?
+    quelle tranche d'âge?
+    mercredi, samedi, dimanche?
+
+Nous serions très intéressés à connaître votre avis. Si vous avez 2 minutes, remplissez ce court sondage:"
+    button: "Donnez-nous votre avis"
+    link: "https://goo.gl/forms/wnwYbpcvwXEPuEip1"
   upcoming:
     title: "Prochains ateliers et événements"
     read_more: "En savoir plus"
