@@ -52,7 +52,7 @@ Nous serions très intéressés à connaître votre avis. Si vous avez 2 minutes
     description_margo: "À 6 ans, Margo écrivait des manuels scolaires pour ses frères.
     Elle garde depuis lors une grande passion pour l'enseignement. Quand elle
     n'est pas occupée à créer des ateliers et gérer les opérations du Techies Lab,
-    Margo développe Kidzeum, une app ludique et éducative pour les musées.
+    Margo enseigne la programmation aux adultes, notamment au Wagon.
     Dans une vie antérieure, elle était avocate au Canada... mais ça,
     c'était avant de découvrir les frites belges!"
     # role_hugo: "Hacker"
@@ -83,11 +83,17 @@ Nous serions très intéressés à connaître votre avis. Si vous avez 2 minutes
     Depuis lors, féru autodidacte du code, il s'est forgé une solide expertise en technologies open source.
     Ses terrains d'expérimentation et de jeu favoris: Linux, C++, PHP, Laravel, Python, Ruby, Rails et Raspberry Pi!"
     # role_you: "You"
-    description_laszlo: ""
-    description_hugo_g: ""
-    description_rosanna: ""
+    description_laszlo: "Lazlo a la transmission du savoir dans le sang! Doté d'un esprit curieux et d'une approche pragmatique, il s'est lancé dans plusieurs projets avant de trouver la lumière: travailler comme développeur, pirate de croissance (growth hacker en anglais) et designer. Entrepreneur dans l'âme, il a fondé l'agence JDi en mai 2017."
+    description_hugo_g: "Hugo étudie pour devenir ingénieur de gestion. Il a géré une académie de mini-tennis pendant plusieurs années et s'investit aujourd'hui dans le réseau Alumni Jean23 pour l'amélioration de l'orientation scolaire des 15-18 ans."
+    description_rosanna: "Rosanna est engagée depuis plusieurs années dans la promotion des sciences et des compétences numériques, particulièrement auprès des jeunes filles et des femmes. Ingénieure architecte de formation, elle a programmé en Fortran (un vieux vieux langage de programmation!) pour modéliser les transferts de chaleur dans les bâtiments. Elle dirige maintenant CyberFinderWay pour former les femmes à la cybersécurité.
+Rosanna est également formatrice certifiée du MIT en informatique mobile."
     description_ana: "Intéressée par la pédagogie, Ana a choisi une spécialisation en animation socioculturelle et éducation permanente pour compléter son master en communication digitale. Passionnée par l’égalité des genres, elle a débuté dans le milieu associatif avant de se plonger dans le monde de la tech. Désormais, elle est manager pour l’école de code Le Wagon."
-    description_chris: ""
+    description_chris: "Chris est notre expert de l’open-source et de la confidentialité des données. Il a travaillé 3 ans avec l’ONG française La Quadrature du Net. Il donne des ateliers sur la sécurité informatique, sur l’open-source et les droits civils numériques."
+    description_robert: "Animateur socio-culturel, master en politique économique et sociale,
+Robert a travaillé 30 ans dans le secteur informatique. Actuellement
+pensionné, il souhaite partager son expérience à travers des projets
+pédagogiques permettant d'acquérir une culture de base informatique. Et
+pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
     description_charlotte: ""
     description_you: "Vous êtes un hacker, développeur, bidouilleur, artiste,
     inventeur,... et par dessus tout, vous êtes curieux et aimez partager

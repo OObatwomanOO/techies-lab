@@ -24,9 +24,11 @@
     icon: linkedin
   - url: https://github.com/Margotte
     icon: github
-- name: Charlotte Vahsen
-  image: portraits/charlotte.jpg
-  description: :team.description_charlotte
+- name: Robert Sebille
+  image: portraits/robert.png
+  description: :team.description_robert
   socials:
-  - url: https://www.linkedin.com/in/charlottevahsen
+  - url: http://conception.sebille.name/culture_code.php
+    icon: file-o
+  - url: https://www.linkedin.com/in/robertsebille/
     icon: linkedin

@@ -50,8 +50,7 @@ nl:
     # role_margo: "Co-founder"
     description_margo: "At the age of 6, Margo was writing textbooks for her brothers.
     Since, her passion for education is unweavering. When she's not busy creating workshops
-    and running the Techies Lab's operations, Margo develops Kidzeum, a fun and educative
-    app for museums. In another life she was a lawyer in Canada...
+    and running the Techies Lab's operations, Margo teaches programming to adults at Le Wagon and other organizations. In another life she was a lawyer in Canada...
     but that was before discovering Belgian fries!"
     # role_hugo: "Hacker"
     description_hugo: "A professional developer, with a background in bio-informatics and artificial
@@ -79,11 +78,12 @@ nl:
     Linux, C++, PHP, Laravel, Python, Ruby, Rails and Raspberry Pi!"
     # role_you: "You"
     description_laszlo: ""
-    description_hugo_g: ""
-    description_rosanna: ""
+    description_hugo_g: "Hugo studies in management engineering. He managed a mini tennis academy for many years. Hugo is now involved in the Alumni Jean 23 network, a network promoting better academic orientation for 15-18 year olds."
+    description_rosanna: "Rosanna has been promoting science and digital literacy amongst girls and women for many years. She is a trained engineer and architect who coded in Fortran (that's an ooold programming language!) heat transfer models. She now leads CyberFinderway, an organization traning women in the cybersecurity field. Rosanna is also a certified MIT Master Trainer in Educational Mobile Computing."
     description_ana: "To fulfill her interest in education, Ana chose to specialize in sociocultural activities and lifelong learning in addition to her masters in digital communications. Driven by her passion in gender equality, she worked in several non-profit organizations before diving into the tech world by becoming a manager for the coding school Le Wagon.
 "
-    description_chris: ""
+    description_chris: "Chris is our opens source and privacy expert. He worked 3 years with the French nonprofit La Quadrature du Net. He gives workshops on cybersecurity, open source technologies and digital civil rights."
+    description_robert: "A socio-cultural animator with a master's in economic and social policy, Robert has 30 years of work experience in the IT sector. He is currently a pensioner and wants to share his experience with others via projects dedicated to familiarizing and engaging people with the broader tech culture."
     description_charlotte: ""
     description_you: "You're a hacker, developer, tinkerer, engineer, inventor,
     visual artist,... and above all, you're curious and love sharing

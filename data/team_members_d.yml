@@ -1,3 +1,9 @@
+- name: Charlotte Vahsen
+  image: portraits/charlotte.jpg
+  description: :team.description_charlotte
+  socials:
+  - url: https://www.linkedin.com/in/charlottevahsen
+    icon: linkedin
 - name: Join us !
   image: portraits/you.jpg
   description: :team.description_you
