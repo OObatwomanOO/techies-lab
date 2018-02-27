@@ -26,3 +26,15 @@ $ git commit -m "a descriptive message about your change"
 $ git push origin your-new-feature  # push YOUR branch
 # Then go to GitHub and open a pull-request
 ```
+
+## Deploy
+
+With the `middleman-gh-pages` gem, you can deploy by production with the publish rake taks:
+
+```sh
+rake publish
+```
+
+It will automatically build and deploy into the `gh-pages` branch.
+
+More info and options: [https://github.com/edgecase/middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages)
