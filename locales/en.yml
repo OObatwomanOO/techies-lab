@@ -150,6 +150,20 @@ en:
         age: "Adults and teens of 12 y.o. and over"
         price: ""
         file: ''
+      event4:
+        title1: "A Warm Tea!"
+        title2: "A series of 3 electronic workshops for teens"
+        description1: "A perfectly brewed tea: mission impossible? Not for those who master electronics!"
+        description2: "During three Sundays in a row, our Chief Maker, Hugo, will help your teens create the perfect tea infuser thanks to electronics and a tad of code."
+        description3: "No prior electronics/programming knowledge required"
+        date: "Three Sundays: March 11, 18 and 25, 2018"
+        time: "10am to 12pm (noon)"
+        age: |
+          Teens between 12 and 16 y.o.
+        language: "The workshop will be delivered mainly in French but our team can answer questions in English."
+        equipment: ""
+        price: "€30 per particpant for the 3 workshops"
+        file: 'https://www.eventbrite.com/e/lelectronique-cest-therrible-tickets-43715753997'
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:

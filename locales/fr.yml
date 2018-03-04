@@ -126,7 +126,7 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
     language: "Langue de l'atelier?"
     equipment: "Materiel requis?"
     button:
-      registration: "Je m'inscris!"
+      registration: "Inscriptions"
       not_available: "Plus disponible"
       full: "Atlelier complet :("
   robotics:
@@ -162,6 +162,20 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         que vous pourrez ramener chez vous ainsi qu’une légère collation.
         Pour la pause déjeuner, pensez à apporter vos tartines."
         file: ''
+      event4:
+        title1: "L’électronique, c’est THÉrrible!"
+        title2: "MODULE DE TROIS ATELIERS POUR JEUNES DE 12-16 ANS!"
+        description1: "Un thé à la bonne température et infusé juste ce qu’il faut, un impossible rêve? Pas pour ceux qui maîtrisent l’électronique!"
+        description2: "Durant trois dimanches, notre bidouilleur en chef, Hugo, nous guidera pour construire pas à pas un dispositif d’infusion de thé à base de composants électroniques et d’une touche de programmation."
+        description3: "Aucune connaissance préalable en électronique ou en programmation n’est nécessaire."
+        date: "Dimanches 11, 18 et 25, 2018"
+        time: "10h à 12h"
+        age: |
+          Jeunes de 12 à 16 ans.
+        language: "Français"
+        equipment: ""
+        price: "30€ par participant pour les 3 ateliers"
+        file: 'https://www.eventbrite.com/e/lelectronique-cest-therrible-tickets-43715753997'
   webdesign:
     title: "Nos prochains ateliers web"
     lead:
