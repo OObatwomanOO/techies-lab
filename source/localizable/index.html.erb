@@ -73,8 +73,20 @@ title: Techies Lab
         </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <%= image_tag "featured/techiesLab39.png", alt: "Dad and Son Coding" %>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+      <%= image_tag "featured/techiesLab40.png", alt: "Female Coach Teaching" %>
+      </div>
+    </div>
   </div>
+
+
 </section>
+
+
 
 <!-- Poll -->
 <section id="about" class="section">
@@ -162,9 +174,9 @@ title: Techies Lab
                   <div class="col-sm-4"><p><strong><%= t(event.price_drop) %></strong></div>
                   <div class="col-sm-8"><p><%= t(event.price_text) %></div>
 
-                  <div class="col-sm-4"><p><strong><%= t(event.equipment_drop) %></strong></div>
-                  <div class="col-sm-8"><p><%= t(event.equipment_text) %></div>
-                  <div id="bb"><%= link_to t(event.button), t(event.file), class: "bb btn btn-theme", disabled: true  %></div>
+                  <!-- <div class="col-sm-4"><p><strong><%= t(event.equipment_drop) %></strong></div> -->
+                  <!-- <div class="col-sm-8"><p><%= t(event.equipment_text) %></div> -->
+                  <div id="bb"><%= link_to t(event.button), t(event.file), target: "_blank", class: "bb btn btn-theme"  %></div>
                 </div>
               </div>
             </div>
@@ -172,157 +184,157 @@ title: Techies Lab
           <% end %>
         </div>
       </div>
-</div>
+    </div>
   </div>
 </section>
 
 
-    <!-- Team -->
-    <section id="team" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="section-title"><%= t('.team.title') %></h3>
-            <div class="section-title-border"></div>
-          </div>
-        </div>
+<!-- Team -->
+<section id="team" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="section-title"><%= t('.team.title') %></h3>
+        <div class="section-title-border"></div>
+      </div>
+    </div>
 
-        <div class="row text-center">
-          <% data.team_members.each do |member| %>
-          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-            <div class="team-member">
-              <div class="team-member-img">
-                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-                <div class="team-member-img-filter"></div>
-              </div>
-              <div class="team-member-meta">
-                <h4><%= member.name %></h4>
-                <span class="team-member-profession"></span>
-                <p><%= t(member.description) %></p>
-                <div class="social">
-                  <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
-                  <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                  <% end %>
-                </div>
-              </div>
+    <div class="row text-center">
+      <% data.team_members.each do |member| %>
+      <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+        <div class="team-member">
+          <div class="team-member-img">
+            <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+            <div class="team-member-img-filter"></div>
+          </div>
+          <div class="team-member-meta">
+            <h4><%= member.name %></h4>
+            <span class="team-member-profession"></span>
+            <p><%= t(member.description) %></p>
+            <div class="social">
+              <% member.socials.each do |social| %>
+              <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+              <i class="fa fa-<%= social.icon %>"></i>
+              <% end %>
+              <% end %>
             </div>
           </div>
-          <% end %>
-        </div>
-
-        <div class="row">
-          <p>  </p>
-        </div>
-
-        <div class="row text-center">
-          <% data.team_members_b.each do |member| %>
-          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-            <div class="team-member">
-              <div class="team-member-img">
-                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-                <div class="team-member-img-filter"></div>
-              </div>
-              <div class="team-member-meta">
-                <h4><%= member.name %></h4>
-                <span class="team-member-profession"></span>
-                <p><%= t(member.description) %></p>
-                <div class="social">
-                  <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
-                  <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                  <% end %>
-                </div>
-              </div>
-            </div>
-          </div>
-          <% end %>
-        </div>
-
-        <div class="row">
-          <p>  </p>
-        </div>
-
-                <div class="row text-center">
-          <% data.team_members_c.each do |member| %>
-          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-            <div class="team-member">
-              <div class="team-member-img">
-                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-                <div class="team-member-img-filter"></div>
-              </div>
-              <div class="team-member-meta">
-                <h4><%= member.name %></h4>
-                <span class="team-member-profession"></span>
-                <p><%= t(member.description) %></p>
-                <div class="social">
-                  <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
-                  <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                  <% end %>
-                </div>
-              </div>
-            </div>
-          </div>
-          <% end %>
-        </div>
-
-        <div class="row">
-          <p>  </p>
-        </div>
-
-        <div class="row text-center">
-          <% data.team_members_d.each do |member| %>
-          <div class="col-sm-3 text-center team-member-container wow fadeInDown">
-            <div class="team-member">
-              <div class="team-member-img">
-                <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
-                <div class="team-member-img-filter"></div>
-              </div>
-              <div class="team-member-meta">
-                <h4><%= member.name %></h4>
-                <span class="team-member-profession"></span>
-                <p><%= t(member.description) %></p>
-                <div class="social">
-                  <% member.socials.each do |social| %>
-                  <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
-                  <i class="fa fa-<%= social.icon %>"></i>
-                  <% end %>
-                  <% end %>
-                </div>
-              </div>
-            </div>
-          </div>
-          <% end %>
         </div>
       </div>
-    </section>
+      <% end %>
+    </div>
 
+    <div class="row">
+      <p>  </p>
+    </div>
 
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="section-title"><%= t('.contact.title') %></h3>
-            <div class="section-title-border"></div>
+    <div class="row text-center">
+      <% data.team_members_b.each do |member| %>
+      <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+        <div class="team-member">
+          <div class="team-member-img">
+            <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+            <div class="team-member-img-filter"></div>
+          </div>
+          <div class="team-member-meta">
+            <h4><%= member.name %></h4>
+            <span class="team-member-profession"></span>
+            <p><%= t(member.description) %></p>
+            <div class="social">
+              <% member.socials.each do |social| %>
+              <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+              <i class="fa fa-<%= social.icon %>"></i>
+              <% end %>
+              <% end %>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <p>
-              <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
-            </p>
-            <ul class="list-contacts">
-              <li><i class="fa fa-map-marker"></i> <a href="https://www.google.be/maps/place/Co.Station/@50.8473558,4.3589762,15z/data=!4m2!3m1!1s0x0:0xa083255f82851545?sa=X&ved=0CHUQ_BIwC2oVChMIxp_Wp6DmyAIVig8aCh34eQ8K"><%= data.settings.contact.street %><br> <%= data.settings.contact.city %></a></li>
-              <li><i class="fa fa-envelope-o"></i> <a href="mailto:<%= data.settings.contact.email %>"><%= data.settings.contact.email %></a></li>
-              <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/TechiesLab"><%= data.settings.social.twitter %></a></li>
-              <li><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/TechiesLabBrussels"><%= data.settings.social.facebook %></a></li>
-            </ul>
+      </div>
+      <% end %>
+    </div>
+
+    <div class="row">
+      <p>  </p>
+    </div>
+
+    <div class="row text-center">
+      <% data.team_members_c.each do |member| %>
+      <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+        <div class="team-member">
+          <div class="team-member-img">
+            <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+            <div class="team-member-img-filter"></div>
+          </div>
+          <div class="team-member-meta">
+            <h4><%= member.name %></h4>
+            <span class="team-member-profession"></span>
+            <p><%= t(member.description) %></p>
+            <div class="social">
+              <% member.socials.each do |social| %>
+              <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+              <i class="fa fa-<%= social.icon %>"></i>
+              <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+
+    <div class="row">
+      <p>  </p>
+    </div>
+
+    <div class="row text-center">
+      <% data.team_members_d.each do |member| %>
+      <div class="col-sm-3 text-center team-member-container wow fadeInDown">
+        <div class="team-member">
+          <div class="team-member-img">
+            <%= image_tag member.image, alt: member.name, class: "img-responsive" %>
+            <div class="team-member-img-filter"></div>
+          </div>
+          <div class="team-member-meta">
+            <h4><%= member.name %></h4>
+            <span class="team-member-profession"></span>
+            <p><%= t(member.description) %></p>
+            <div class="social">
+              <% member.socials.each do |social| %>
+              <% link_to social.url, class: "btn btn-theme", target: "_blank" do %>
+              <i class="fa fa-<%= social.icon %>"></i>
+              <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="section-title"><%= t('.contact.title') %></h3>
+        <div class="section-title-border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <p>
+          <strong><%= t('.contact.intro.drop') %></strong> <%= t('.contact.intro.text') %>
+        </p>
+        <ul class="list-contacts">
+          <li><i class="fa fa-map-marker"></i> <a href="https://www.google.be/maps/place/Co.Station/@50.8473558,4.3589762,15z/data=!4m2!3m1!1s0x0:0xa083255f82851545?sa=X&ved=0CHUQ_BIwC2oVChMIxp_Wp6DmyAIVig8aCh34eQ8K"><%= data.settings.contact.street %><br> <%= data.settings.contact.city %></a></li>
+          <li><i class="fa fa-envelope-o"></i> <a href="mailto:<%= data.settings.contact.email %>"><%= data.settings.contact.email %></a></li>
+          <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/TechiesLab"><%= data.settings.social.twitter %></a></li>
+          <li><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/TechiesLabBrussels"><%= data.settings.social.facebook %></a></li>
+        </ul>
       </div>
       <div class="col-sm-6">
         <form class="form-horizontal" action="//formspree.io/anne@techieslab.org" method="post" role="form" id="contactForm">
