@@ -161,7 +161,7 @@ nl:
         age: |
           Teens between 12 and 16 y.o.
         language: "The workshop will be delivered mainly in French but our team can answer questions in English."
-        equipment: ""
+        equipment: "Each participant should bring a laptop. If you don't own one, contact us at info@techieslab.org"
         price: "€30 per particpant for the 3 workshops"
         file: 'https://www.eventbrite.com/e/lelectronique-cest-therrible-tickets-43715753997'
   webdesign:

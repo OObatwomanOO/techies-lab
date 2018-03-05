@@ -18,8 +18,8 @@
   price_drop: :workshops.price
   price_text: :robotics.workshops.event4.price
   price_why: :robotics.workshops.event4.price_why
-  # equipment_drop: :workshops.equipment
-  # equipment_text: :robotics.workshops.event4.equipment
+  equipment_drop: :workshops.equipment
+  equipment_text: :robotics.workshops.event4.equipment
   button: :workshops.button.registration
   file: :robotics.workshops.event4.file
 
