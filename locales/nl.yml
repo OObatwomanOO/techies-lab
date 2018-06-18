@@ -77,7 +77,7 @@ nl:
     he has gained a solid expertise in open source technologies. His favorite playgrounds:
     Linux, C++, PHP, Laravel, Python, Ruby, Rails and Raspberry Pi!"
     # role_you: "You"
-    description_laszlo: ""
+    description_laszlo: "Whatever side of his life, Laszlo's always had the transmission virus. Curious mind with a pragmatic approach, he tried few projects until the illuminating one. The one that has opened his third eye and started his digital trip. Working as software developer, growth hacker or designer. His entrepreneur's mantra got him back as he founded JDi agency in May 2017."
     description_hugo_g: "Hugo studies in management engineering. He managed a mini tennis academy for many years. Hugo is now involved in the Alumni Jean 23 network, a network promoting better academic orientation for 15-18 year olds."
     description_rosanna: "Rosanna has been promoting science and digital literacy amongst girls and women for many years. She is a trained engineer and architect who coded in Fortran (that's an ooold programming language!) heat transfer models. She now leads CyberFinderway, an organization traning women in the cybersecurity field. Rosanna is also a certified MIT Master Trainer in Educational Mobile Computing."
     description_ana: "To fulfill her interest in education, Ana chose to specialize in sociocultural activities and lifelong learning in addition to her masters in digital communications. Driven by her passion in gender equality, she worked in several non-profit organizations before diving into the tech world by becoming a manager for the coding school Le Wagon.
@@ -254,4 +254,21 @@ nl:
         file: 'https://goo.gl/forms/i3gsaYxqNnbzmW0x2'
   gaming:
     title: "Gaming"
+  youtube:
+    workshops:
+      event1:
+        title1: "Become a YouTuber!"
+        title2: "A 4 days stage for teens to learn the basics of YouTube"
+        description1: "Always dreamt of becoming a YouTuber? Just do good videos regularly, says French YouTuber Cyprien."
+        description2: "Not as easy as it sounds!"
+        description3: "During this 4 days summer stage, we'll create a YouTube channel, we'll see how to film and edit a video and we'll explore all sorts of techniques to find our \"voice\" and make great videos! Not forgetting technical details, such as adds and IP rights!"
+
+        date: "From Tuesday, July 31st to Friday, August 3, 2018"
+        time: "9am to 4 pm"
+        age: |
+          Teens between 12 and 16 y.o.
+        language: "The workshop will be delivered mainly in French but our team can answer questions in English."
+        equipment: "Participants can bring their own laptop or use one of ours."
+        price: "€150 per particpant"
+        file: 'https://goo.gl/forms/h2devFoQc5CkvJfc2'
 

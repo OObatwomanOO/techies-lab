@@ -265,3 +265,19 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         file: 'https://goo.gl/forms/i3gsaYxqNnbzmW0x2'
   gaming:
     title: "Jeux vidéos"
+  youtube:
+    workshops:
+      event1:
+        title1: "Deviens youtubeur!"
+        title2: "Un stage de 4 jours pour apprendre les bases de YouTube"
+        description1: "Toujours rêvé de devenir youtubeur? Faites des bonnes videos régulièrement, qu'il dit Cyprien."
+        description2: "Oui mais après, on fait comment?"
+        description3: "Pendant ce stage de 4 jours, on créera une chaîne YouTube, on verra comment filmer et éditer une vidéo et on explorera toutes sortes de techniques pour trouver notre \"voix\" et créer de chouettes vidéos! Sans oublier, les détails plus techniques de YouTube, comme les publicités et les droits de propriété intellectuelle."
+        date: "du mardi 31 juillet au vendredi 3 août 2018"
+        time: "de 9h à 16h"
+        age: |
+          ados entre 12 et 16 ans
+        language: "Français"
+        equipment: "Les participants peuvent venir avec leur propre laptop ou utiliser ceux du Techies Lab."
+        price: "150€ par participant"
+        file: 'https://goo.gl/forms/h2devFoQc5CkvJfc2'

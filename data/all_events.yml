@@ -1,27 +1,27 @@
 - icon: pencil-square-o
-  title1: :robotics.workshops.event4.title1
-  title2: :robotics.workshops.event4.title2
-  description1: :robotics.workshops.event4.description1
-  description2: :robotics.workshops.event4.description2
-  description3: :robotics.workshops.event4.description3
+  title1: :youtube.workshops.event1.title1
+  title2: :youtube.workshops.event1.title2
+  description1: :youtube.workshops.event1.description1
+  description2: :youtube.workshops.event1.description2
+  description3: :youtube.workshops.event1.description3
   date_drop: :workshops.date
-  date_text: :robotics.workshops.event4.date
+  date_text: :youtube.workshops.event1.date
   time_drop: :workshops.time
-  time_text: :robotics.workshops.event4.time
+  time_text: :youtube.workshops.event1.time
   location_drop: :workshops.location.drop
-  location_text: :workshops.location.costation
+  location_text: :workshops.location.becentral
   short_location_text: :workshops.location.brussels
   age_drop: :workshops.age
-  age_text: :robotics.workshops.event4.age
+  age_text: :youtube.workshops.event1.age
   language_drop: :workshops.language
-  language_text: :robotics.workshops.event4.language
+  language_text: :youtube.workshops.event1.language
   price_drop: :workshops.price
-  price_text: :robotics.workshops.event4.price
-  price_why: :robotics.workshops.event4.price_why
+  price_text: :youtube.workshops.event1.price
+  price_why: :youtube.workshops.event1.price_why
   equipment_drop: :workshops.equipment
-  equipment_text: :robotics.workshops.event4.equipment
+  equipment_text: :youtube.workshops.event1.equipment
   button: :workshops.button.registration
-  file: :robotics.workshops.event4.file
+  file: :youtube.workshops.event1.file
 
 # - name: :about.robotic_name
 #   description: :about.robotic_description

@@ -283,6 +283,23 @@ en:
         file: 'https://goo.gl/forms/i3gsaYxqNnbzmW0x2'
   gaming:
     title: "Gaming"
+  youtube:
+    workshops:
+      event1:
+        title1: "Become a YouTuber!"
+        title2: "A 4 days stage for teens to learn the basics of YouTube"
+        description1: "Always dreamt of becoming a YouTuber? Just do good videos regularly, says French YouTuber Cyprien."
+        description2: "Not as easy as it sounds!"
+        description3: "During this 4 days summer stage, we'll create a YouTube channel, we'll see how to film and edit a video and we'll explore all sorts of techniques to find our \"voice\" and make great videos! Not forgetting technical details, such as adds and IP rights!"
+
+        date: "From Tuesday, July 31st to Friday, August 3, 2018"
+        time: "9am to 4 pm"
+        age: |
+          Teens between 12 and 16 y.o.
+        language: "The workshop will be delivered mainly in French but our team can answer questions in English."
+        equipment: "Participants can bring their own laptop or use one of ours."
+        price: "€150 per particpant"
+        file: 'https://goo.gl/forms/h2devFoQc5CkvJfc2'
 
 
 
