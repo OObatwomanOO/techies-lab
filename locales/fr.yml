@@ -24,8 +24,8 @@ fr:
     webdesign_description: "Page perso, blog, design: se faire une place en beauté sur le web tout en apprenant à dompter le code!"
     read_more: "Trouver un atelier"
   poll:
-    title: "Ateliers hebdomadaires - Votre avis compte!"
-    text: "Cette année, nous voulons vous proposer des ateliers hebdomadaires. Coder des jeux vidéo, construire un robot et le programmer pour lui faire dire des bêtises, découvrir les bases de la cryptologie... nous avons plein d'idées en tête!
+    title: "Ateliers, stages... - Votre avis compte!"
+    text: "Coder des jeux vidéo, construire un robot et le programmer pour lui faire dire des bêtises, découvrir les bases de la cryptologie... nous avons plein d'idées en tête!
 
 Reste à savoir quelle formule vous conviendrait le mieux:
 
@@ -176,6 +176,19 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         equipment: "Chaque participant doit amener son propre laptop. Si vous n'en avez pas, contactez-nous à info@techieslab.org"
         price: "30€ par participant pour les 3 ateliers"
         file: 'https://www.eventbrite.com/e/lelectronique-cest-therrible-tickets-43715753997'
+      event5:
+        title: "Ateliers de robotique (First Lego League)"
+        description1: "L'objectif de ces 10 ateliers est de monter une équipe pour participer au championnat First Lego League France."
+        description2: "La First Lego League (FLL) est un championnat mondial mêlant d’une part un concours de robotique avec des robots Lego et d’autre part une défense écrite et orale d’un dossier de recherche scientifique. Cette compétition menée en équipe place le respect des valeurs telles que la coopération et l’adoption d’une démarche positive au centre de son attention."
+        description3: "Cette année, la thématique retenue s’intéresse à l’exploration spatiale et aux nombreux défis auxquels elle nous confronte. Les équipes exploreront ainsi comment il sera possible de faire vivre l’homme en dehors de notre planète bleue, comment anticiper les défis médicaux et techniques, identifier les enjeux qu’offre un voyage « INTO Orbit »."
+        date: "Les dimanches 23/09, 30/09 ,7/10, 14/10, 21/10, 11/11, 18/11, 25/11, 2/12 et 9/12"
+        time: "11h à 12h30"
+        age: "Adolescents (filles et garçons), de 12 à 15 ans"
+        language: "Français"
+        equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
+        price: "150 EUR par participant"
+        price_why: "Des frais supplémentaires pourront être requis pour le déplacement jusqu'au championnat régional (à Ciney)."
+        file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
   webdesign:
     title: "Nos prochains ateliers web"
     lead:

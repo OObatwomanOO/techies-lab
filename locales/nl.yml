@@ -24,8 +24,8 @@ nl:
     webdesign_description: "First website, blog... with some basic coding knowledge (in HTML & CSS), you'll be able to create a beautiful presence on the web!"
     read_more: "Upcoming workshops"
   poll:
-    title: "Workshops in 2018 - Would you be interested?"
-    text: "This year we would like to offer you weekly workshops. We have lots of fun ideas: coding video games, building and programming badly-behaved robots, discovering the basics of cryptology...
+    title: "Stages and workshops in the future: Would you be interested?"
+    text: "We have lots of fun ideas: coding video games, building and programming badly-behaved robots, discovering the basics of cryptology...
 
       This said, what would you like best?
 
@@ -164,6 +164,19 @@ nl:
         equipment: "Each participant should bring a laptop. If you don't own one, contact us at info@techieslab.org"
         price: "€30 per particpant for the 3 workshops"
         file: 'https://www.eventbrite.com/e/lelectronique-cest-therrible-tickets-43715753997'
+      event5:
+        title: "Robotics Workshops (First Lego League)"
+        description1: "We have a crazy ambitious goal for this year: set up a First Lego League team! The First Lego League is one of the biggest robotics championship in the world!"
+        description2: "This year, the theme is spacial exploration. Teams will reflect on the social, medical and technical challenges humans will face going \"Into Orbit\". In doing so, they will learn to build and program complex Lego robots!"
+        description3: "To set up our team, we need participants with stellar motivation ;) !"
+        date: "On Sundays 23/09, 30/09 ,7/10, 14/10, 21/10, 11/11, 18/11, 25/11, 2/12 and 9/12"
+        time: "11:00 am to 12:30 pm"
+        age: "Teens (girls and boys), from 12 to 15 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops and robots during the workshops."
+        price: "EUR 150  per participant"
+        price_why: "Additional costs could be required to travel to the regional championship (in Ciney, Belgium)."
+        file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:
