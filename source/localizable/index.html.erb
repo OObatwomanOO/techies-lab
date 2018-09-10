@@ -152,7 +152,10 @@ title: Techies Lab
                   <p><%= t(event.description1) %></p>
 
                   <p><%= t(event.description2) %></p>
+
+                  <% if event.description3 %>
                   <p><%= t(event.description3) %></p>
+                  <% end %>
                 </div>
 
                 <div class="description-details">

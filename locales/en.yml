@@ -174,7 +174,7 @@ en:
         age: "Teens (girls and boys), from 12 to 15 y.o."
         language: "French"
         equipment: "No equipment needed, we provide laptops and robots during the workshops."
-        price: "EUR 150  per participant"
+        price: "€150  per participant"
         price_why: "Additional costs could be required to travel to the regional championship (in Ciney, Belgium)."
         file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
   webdesign:
@@ -294,6 +294,17 @@ en:
         equipment: "One laptop per family"
         price: "Completely free :)"
         file: 'https://goo.gl/forms/i3gsaYxqNnbzmW0x2'
+      event8:
+        title: "Coding and Robotics Workshops in the Heart of Brussels!"
+        description1: "Ten weekly workshops to discover coding and robotics! Your children will code cute games with Scratch (a visual programming language), control funky robots, decrypt encoded secrets, etc."
+        description2: "If they have special wishes, we're all ears!"
+        date: "On Sundays 23/09, 30/09 ,7/10, 14/10, 21/10, 11/11, 18/11, 25/11, 2/12 and 9/12"
+        time: "9:30 to 10:30 am"
+        age: "8-11 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops and robots during the workshops."
+        price: "€110 per participant"
+        file: 'https://goo.gl/forms/R69LZzye6fqT5F6F2'
   gaming:
     title: "Gaming"
   youtube:

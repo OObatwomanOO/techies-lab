@@ -1,3 +1,25 @@
+- icon: android
+  title1: :webdesign.workshops.event8.title
+  description1: :webdesign.workshops.event8.description1
+  description2: :webdesign.workshops.event8.description2
+  date_drop: :workshops.date
+  date_text: :webdesign.workshops.event8.date
+  time_drop: :workshops.time
+  time_text: :webdesign.workshops.event8.time
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.becentral
+  short_location_text: :workshops.location.brussels
+  age_drop: :workshops.age
+  age_text: :webdesign.workshops.event8.age
+  language_drop: :workshops.language
+  language_text: :webdesign.workshops.event8.language
+  price_drop: :workshops.price
+  price_text: :webdesign.workshops.event8.price
+  price_why: :webdesign.workshops.event8.price_why
+  equipment_drop: :workshops.equipment
+  equipment_text: :webdesign.workshops.event8.equipment
+  button: :workshops.button.registration
+  file: :webdesign.workshops.event8.file
 - icon: pencil-square-o
   title1: :robotics.workshops.event5.title
   description1: :robotics.workshops.event5.description1
@@ -21,6 +43,7 @@
   equipment_text: :robotics.workshops.event5.equipment
   button: :workshops.button.registration
   file: :robotics.workshops.event5.file
+
 
 # - name: :about.robotic_name
 #   description: :about.robotic_description

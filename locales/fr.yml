@@ -186,7 +186,7 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         age: "Adolescents (filles et garçons), de 12 à 15 ans"
         language: "Français"
         equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
-        price: "150 EUR par participant"
+        price: "150€ par participant"
         price_why: "Des frais supplémentaires pourront être requis pour le déplacement jusqu'au championnat régional (à Ciney)."
         file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
   webdesign:
@@ -276,6 +276,18 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         equipment: "Un ordinateur portable par binôme"
         price: "Cet atelier est complètement gratuit :)"
         file: 'https://goo.gl/forms/i3gsaYxqNnbzmW0x2'
+        file: 'https://margo33.typeform.com/to/obPDKF'
+      event8:
+        title: "Ateliers codage et robotique en plein centre de Bruxelles!"
+        description1: "Dix ateliers hebdomadaires pour s'initier au codage et à la robotique! Vos enfants auront l'occasion de coder de chouettes animations grâce à Scratch (un langage de programmation visuel), de donner des ordres très précis à des robots multicolores, de s'initier à l'art de la cryptologie, etc."
+        description2: "S'ils ont des demandes spéciales, nous serons tout ouïe!"
+        date: "Les dimanches 23/09, 30/09 ,7/10, 14/10, 21/10, 11/11, 18/11, 25/11, 2/12 et 9/12"
+        time: "9h30 à 10h30"
+        age: "8 à 11 ans"
+        language: "Français"
+        equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
+        price: "110€ par participant"
+        file: 'https://goo.gl/forms/R69LZzye6fqT5F6F2'
   gaming:
     title: "Jeux vidéos"
   youtube:
