@@ -189,6 +189,18 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         price: "150€ par participant"
         price_why: "Des frais supplémentaires pourront être requis pour le déplacement jusqu'au championnat régional (à Ciney)."
         file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
+      event6:
+        title: "Danse Robota, Danse!"
+        description1: "Jeunes gens! Venez faire danser Robota et ses amies robots! Leurs mouvements ne sont peut-être pas aussi fluides que les vôtres, mais vous pourrez programmer ces dames mécaniques pour qu'elles soient complètement synchro et qu'elles dansent jusqu'au petit matin!"
+        description2: "La #codeweek débute tout bientôt et nous sommes ravis d'offrir 3 ateliers de robotique gratuits grâce au soutien de Google."
+        description3: "Ces trois ateliers d'une heure sont ouverts aux filles et garçons de 8 à 12 ans. Inscription prioritaire pour les filles."
+        date: "Dimanche 14 octobre 2018"
+        time: "13h30 à 14h30, 15h à 16h, 16h30 à 17h30"
+        age: "Filles et garçons de 8 à 12 ans.  Aucune connaissance préalable nécessaire."
+        language: "Français, anglais et néerlandais"
+        equipment: "Aucun équipement nécessaire, nous fournissons tablettes et robots."
+        price: "Entièrement GRATUIT. Merci Google <3"
+        file: 'https://goo.gl/forms/2bZdUOaRxbIDhz7T2'
   webdesign:
     title: "Nos prochains ateliers web"
     lead:

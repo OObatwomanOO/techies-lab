@@ -110,6 +110,7 @@ en:
       drop: "Where?"
       costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussels"
       becentral: "BeCentral, Cantersteen 12, 1000 Brussels"
+      google_atelier: "Google Digital Atelier, Cantersteen 10, 1000 Brussels"
       brussels: "Brussels"
     price: "How much?"
     age: "Who can attend?"
@@ -177,6 +178,18 @@ en:
         price: "€150  per participant"
         price_why: "Additional costs could be required to travel to the regional championship (in Ciney, Belgium)."
         file: 'https://goo.gl/forms/QesjAmmpvfuNw1sI3'
+      event6:
+        title: "Dance Robota, Dance!"
+        description1: "Girls and boys! Come make Robota and her fellow robot-friends dance! Their moves might not be as smooth as yours but you can program those mechanical ladies to be perfectly synchronized and dance till the end of the night!"
+        description2: "#codeweek is starting soon and we are delighted to host 3 free robotics workshop thanks to Google's' support."
+        description3: "These one-hour workshops are opened to all girls and boys aged between 8 and 12. Priority registration for girls."
+        date: "Sunday, October 14, 2018"
+        time: "1:30-2:30 pm, 3:00-4:00pm, 4:30-5:30pm"
+        age: "Girls and boys, aged 8-12 y.o. No prior knowledge required."
+        language: "English, French and Dutch"
+        equipment: "No equipment needed, we provide tablets and robots during the workshops."
+        price: "Completely FREE. Thanks Google <3"
+        file: 'https://goo.gl/forms/2bZdUOaRxbIDhz7T2'
   webdesign:
     title: "Upcoming Workshops in Web Design"
     lead:

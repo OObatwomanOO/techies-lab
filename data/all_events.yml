@@ -1,48 +1,27 @@
 - icon: android
-  title1: :webdesign.workshops.event8.title
-  description1: :webdesign.workshops.event8.description1
-  description2: :webdesign.workshops.event8.description2
+  title1: :robotics.workshops.event6.title
+  description1: :robotics.workshops.event6.description1
+  description2: :robotics.workshops.event6.description2
+  description3: :robotics.workshops.event6.description3
   date_drop: :workshops.date
-  date_text: :webdesign.workshops.event8.date
+  date_text: :robotics.workshops.event6.date
   time_drop: :workshops.time
-  time_text: :webdesign.workshops.event8.time
+  time_text: :robotics.workshops.event6.time
   location_drop: :workshops.location.drop
-  location_text: :workshops.location.becentral
+  location_text: :workshops.location.google_atelier
   short_location_text: :workshops.location.brussels
   age_drop: :workshops.age
-  age_text: :webdesign.workshops.event8.age
+  age_text: :robotics.workshops.event6.age
   language_drop: :workshops.language
-  language_text: :webdesign.workshops.event8.language
+  language_text: :robotics.workshops.event6.language
   price_drop: :workshops.price
-  price_text: :webdesign.workshops.event8.price
-  price_why: :webdesign.workshops.event8.price_why
+  price_text: :robotics.workshops.event6.price
+  price_why: :robotics.workshops.event6.price_why
   equipment_drop: :workshops.equipment
-  equipment_text: :webdesign.workshops.event8.equipment
+  equipment_text: :robotics.workshops.event6.equipment
   button: :workshops.button.registration
-  file: :webdesign.workshops.event8.file
-- icon: pencil-square-o
-  title1: :robotics.workshops.event5.title
-  description1: :robotics.workshops.event5.description1
-  description2: :robotics.workshops.event5.description2
-  description3: :robotics.workshops.event5.description3
-  date_drop: :workshops.date
-  date_text: :robotics.workshops.event5.date
-  time_drop: :workshops.time
-  time_text: :robotics.workshops.event5.time
-  location_drop: :workshops.location.drop
-  location_text: :workshops.location.becentral
-  short_location_text: :workshops.location.brussels
-  age_drop: :workshops.age
-  age_text: :robotics.workshops.event5.age
-  language_drop: :workshops.language
-  language_text: :robotics.workshops.event5.language
-  price_drop: :workshops.price
-  price_text: :robotics.workshops.event5.price
-  price_why: :robotics.workshops.event5.price_why
-  equipment_drop: :workshops.equipment
-  equipment_text: :robotics.workshops.event5.equipment
-  button: :workshops.button.registration
-  file: :robotics.workshops.event5.file
+  file: :robotics.workshops.event6.file
+
 
 
 # - name: :about.robotic_name
