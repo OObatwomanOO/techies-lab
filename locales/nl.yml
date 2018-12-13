@@ -42,6 +42,7 @@ nl:
   team:
     title: "Our team"
     # role_anne: "Co-founder"
+    description_generic: "Another great coach at the Techies Lab!"
     description_anne: "A (cub) scout leader for many years, Anne is a passionate educator.
     An ambassador of Rails Girls, she loves helping newcomers to see the bright light
     in their eyes when the magic of coding gets unveiled! One year ago, she launched

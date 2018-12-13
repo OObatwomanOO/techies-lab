@@ -1,8 +1,22 @@
+- name: Robert Sebille
+  image: portraits/robert.png
+  description: :team.description_robert
+  socials:
+  - url: http://conception.sebille.name/culture_code.php
+    icon: file-o
+  - url: https://www.linkedin.com/in/robertsebille/
+    icon: linkedin
 - name: Charlotte Vahsen
-  image: portraits/charlotte.jpg
+  image: portraits/charlotte.png
   description: :team.description_charlotte
   socials:
   - url: https://www.linkedin.com/in/charlottevahsen
+    icon: linkedin
+- name: Erland Van Reet
+  image: portraits/erland.png
+  description: :team.description_generic
+  socials:
+  - url: https://www.linkedin.com/in/erlandvr/
     icon: linkedin
 - name: Join us !
   image: portraits/you.jpg

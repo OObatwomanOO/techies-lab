@@ -1,5 +1,5 @@
 - name: Laszlo Arnould
-  image: portraits/laszlo.jpg
+  image: portraits/laszlo.png
   description: :team.description_laszlo
   socials:
   - url: https://www.linkedin.com/in/laszlo-arnould-96746196/
@@ -7,7 +7,7 @@
   - url: https://github.com/lazarnould
     icon: github
 - name: Jean-Christophe Bauduin
-  image: portraits/jean-christophe.jpg
+  image: portraits/jc.png
   description: :team.description_jean-christophe
   socials:
   - url: https://github.com/jbd0101

@@ -1,5 +1,5 @@
 - name: Hugo Herter
-  image: portraits/hugo.jpg
+  image: portraits/hugo_h.png
   description: :team.description_hugo
   socials:
   - url: https://be.linkedin.com/in/hherter
@@ -17,7 +17,7 @@
   - url: https://twitter.com/rosannakurrer
     icon: twitter
 - name: Arthur Paquot
-  image: portraits/arthur.jpg
+  image: portraits/arthur.png
   description: :team.description_arthur
   socials:
   - url: https://www.linkedin.com/in/arthur-paquot-121692122
@@ -27,7 +27,7 @@
   - url: https://github.com/arthur92
     icon: github
 - name: Alexandre Roba
-  image: portraits/alexandre.jpg
+  image: portraits/alex.png
   description: :team.description_alexandre
   socials:
   - url: http://alexandreroba.com/about/

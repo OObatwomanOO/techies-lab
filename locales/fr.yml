@@ -42,6 +42,7 @@ Nous serions très intéressés à connaître votre avis. Si vous avez 2 minutes
   team:
     title: "Notre équipe"
     # role_anne: "Co-fondatrice"
+    description_generic: "Super coach au Techies Lab!"
     description_anne: "Animatrice louveteaux pendant de nombreuses années, Anne
     a la passion de transmettre. Ambassadrice des initiatives Rails Girls,
     elle aime aider les nouveaux venus à surmonter leurs appréhensions et
