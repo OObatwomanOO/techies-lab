@@ -110,7 +110,7 @@ nl:
     location:
       drop: "Where?"
       costation: "Co.Station, Place Sainte-Gudule 5, 1000 Brussels"
-      becentral: "BeCentral, Cantersteen 12, 1000 Brussels"
+      becentral: "BeCentral, Cantersteen 10, 1000 Brussels"
       brussels: "Brussels"
     price: "How much?"
     age: "Who can attend?"
@@ -277,6 +277,17 @@ nl:
         equipment: "No equipment needed, we provide laptops and robots during the workshops."
         price: "€110 per participant"
         file: 'https://goo.gl/forms/R69LZzye6fqT5F6F2'
+      event9:
+        title: "Coding and Robotics Workshops in the Heart of Brussels!"
+        description1: "Ten weekly workshops to discover coding and robotics! Your children will code cute games with Scratch (a visual programming language), control funky robots, decrypt encoded secrets, etc."
+        description2: "If they have special wishes, we're all ears!"
+        date: "On Sundays 13/01/2019, 20/01, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 and 31/03."
+        time: "9:30 to 10:30 am"
+        age: "8-11 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops and robots during the workshops."
+        price: "€120 per participant"
+        file: 'https://goo.gl/forms/wOSex8nyYeKJ4QC93'
   gaming:
     title: "Gaming"
   youtube:

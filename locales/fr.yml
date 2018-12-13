@@ -120,7 +120,7 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
     location:
       drop: "Lieu?"
       costation: "Co.Station, Parvis Sainte-Gudule 5, 1000 Bruxelles"
-      becentral: "BeCentral, Cantersteen 12, 1000 Bruxelles"
+      becentral: "BeCentral, Cantersteen 10, 1000 Bruxelles"
       brussels: "Bruxelles"
     price: "Frais?"
     age: "Qui peut participer?"
@@ -301,6 +301,17 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
         price: "110€ par participant"
         file: 'https://goo.gl/forms/R69LZzye6fqT5F6F2'
+      event9:
+        title: "Ateliers codage et robotique en plein centre de Bruxelles!"
+        description1: "Dix ateliers hebdomadaires pour s'initier au codage et à la robotique! Vos enfants auront l'occasion de coder de chouettes animations grâce à Scratch (un langage de programmation visuel), de donner des ordres très précis à des robots multicolores, de s'initier à l'art de la cryptologie, etc."
+        description2: "S'ils ont des demandes spéciales, nous serons tout ouïe!"
+        date: "Les dimanches 13/01/2019, 20/01, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 et 31/03."
+        time: "9h30 à 10h30"
+        age: "8 à 11 ans"
+        language: "Français"
+        equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
+        price: "120€ par participant"
+        file: 'https://goo.gl/forms/wOSex8nyYeKJ4QC93'
   gaming:
     title: "Jeux vidéos"
   youtube:

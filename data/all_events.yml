@@ -1,26 +1,25 @@
 - icon: android
-  title1: :robotics.workshops.event6.title
-  description1: :robotics.workshops.event6.description1
-  description2: :robotics.workshops.event6.description2
-  description3: :robotics.workshops.event6.description3
+  title1: :webdesign.workshops.event9.title
+  description1: :webdesign.workshops.event9.description1
+  description2: :webdesign.workshops.event9.description2
   date_drop: :workshops.date
-  date_text: :robotics.workshops.event6.date
+  date_text: :webdesign.workshops.event9.date
   time_drop: :workshops.time
-  time_text: :robotics.workshops.event6.time
+  time_text: :webdesign.workshops.event9.time
   location_drop: :workshops.location.drop
-  location_text: :workshops.location.google_atelier
+  location_text: :workshops.location.becentral
   short_location_text: :workshops.location.brussels
   age_drop: :workshops.age
-  age_text: :robotics.workshops.event6.age
+  age_text: :webdesign.workshops.event9.age
   language_drop: :workshops.language
-  language_text: :robotics.workshops.event6.language
+  language_text: :webdesign.workshops.event9.language
   price_drop: :workshops.price
-  price_text: :robotics.workshops.event6.price
-  price_why: :robotics.workshops.event6.price_why
+  price_text: :webdesign.workshops.event9.price
+  price_why: :webdesign.workshops.event9.price_why
   equipment_drop: :workshops.equipment
-  equipment_text: :robotics.workshops.event6.equipment
+  equipment_text: :webdesign.workshops.event9.equipment
   button: :workshops.button.registration
-  file: :robotics.workshops.event6.file
+  file: :webdesign.workshops.event9.file
 
 
 
