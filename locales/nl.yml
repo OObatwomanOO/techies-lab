@@ -288,6 +288,18 @@ nl:
         equipment: "No equipment needed, we provide laptops and robots during the workshops."
         price: "€120 per participant"
         file: 'https://goo.gl/forms/wOSex8nyYeKJ4QC93'
+      event10:
+        title: "Code your own website from scratch!"
+        description1: "Nine workshops to learn how to code a website, just like pros do."
+        description2: "We'll cover the basics, from sketching to coding in HTML and CSS, and we'll touch upon JavaScript, a powerful language to code animations and simple games."
+        description3: "Along the way, we'll discuss Internet related topics such as submarine cables, domain names, data centers and the like."
+        date: "On Sundays 20/01/2019, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 et 31/03."
+        time: "1pm to 2:30pm"
+        age: "Teens between 12 and 15 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops, wifi, etc."
+        price: "€135 per participant"
+        file: 'https://goo.gl/forms/tAM5tloLZ9bA82ZH2'
   gaming:
     title: "Gaming"
   youtube:

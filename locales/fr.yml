@@ -307,11 +307,23 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         description2: "S'ils ont des demandes spéciales, nous serons tout ouïe!"
         date: "Les dimanches 13/01/2019, 20/01, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 et 31/03."
         time: "9h30 à 10h30"
-        age: "8 à 11 ans"
+        age: "Enfants de 8 à 11 ans"
         language: "Français"
         equipment: "Aucun matériel n'est requis, nous fournissons ordinateurs, robots, etc."
         price: "120€ par participant"
         file: 'https://goo.gl/forms/wOSex8nyYeKJ4QC93'
+      event10:
+        title: "Code ton site web de A à Z!"
+        description1: "Neuf ateliers pour apprendre à coder un site web de A à Z, comme les pros."
+        description2: "On commencera par dessiner une ébauche du site, pour ensuite coder la structure en HTML et rajouter du style avec du CSS et plein d'outils de design gratuits. Finalement, on abordera les bases de JavaScript, un language super puissant (et très en demande sur le marché du travail!) qui permet non seulement d'ajouter des effets d'animation aux sites web mais également de créer de petits jeux sympas."
+        description3: "On en profitera aussi pour discuter de ce qui se cache derrière un site web: les noms de domaine qui se vendent à des millions, les câbles sous-marins qui jalonnent nos océans, les gigantesques centres de données qui archivent notre vie, etc."
+        date: "Les dimanches 20/01/2019, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 et 31/03."
+        time: "13h à 14h30"
+        age: "Ados de 12 à 15 ans"
+        language: "Français"
+        equipment: "Aucun matériel n'est requis, nous fournissons laptops, wifi, etc."
+        price: "135€ par participant"
+        file: 'https://goo.gl/forms/tAM5tloLZ9bA82ZH2'
   gaming:
     title: "Jeux vidéos"
   youtube:

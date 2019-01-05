@@ -20,7 +20,29 @@
   equipment_text: :webdesign.workshops.event9.equipment
   button: :workshops.button.registration
   file: :webdesign.workshops.event9.file
-
+- icon: pencil-square-o
+  title1: :webdesign.workshops.event10.title
+  description1: :webdesign.workshops.event10.description1
+  description2: :webdesign.workshops.event10.description2
+  description3: :webdesign.workshops.event10.description3
+  date_drop: :workshops.date
+  date_text: :webdesign.workshops.event10.date
+  time_drop: :workshops.time
+  time_text: :webdesign.workshops.event10.time
+  location_drop: :workshops.location.drop
+  location_text: :workshops.location.becentral
+  short_location_text: :workshops.location.brussels
+  age_drop: :workshops.age
+  age_text: :webdesign.workshops.event10.age
+  language_drop: :workshops.language
+  language_text: :webdesign.workshops.event10.language
+  price_drop: :workshops.price
+  price_text: :webdesign.workshops.event10.price
+  price_why: :webdesign.workshops.event10.price_why
+  equipment_drop: :workshops.equipment
+  equipment_text: :webdesign.workshops.event10.equipment
+  button: :workshops.button.registration
+  file: :webdesign.workshops.event10.file
 
 
 # - name: :about.robotic_name
