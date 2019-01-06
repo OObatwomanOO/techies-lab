@@ -324,6 +324,17 @@ pourquoi pas, ensuite, susciter l'envie de devenir développeur ?"
         equipment: "Aucun matériel n'est requis, nous fournissons laptops, wifi, etc."
         price: "135€ par participant"
         file: 'https://goo.gl/forms/tAM5tloLZ9bA82ZH2'
+      event11:
+        title: "Équipe FLL 2019-2020: ateliers de robotique pour ados"
+        description1: "Le 12 janvier 2019, nous enverrons pour la première fois une équipe Techies Lab à la compétition First Lego League (FLL) à Ciney. Les 9 jeunes qui forment l'équipe ont tôt fait de réaliser que les défis sont multiples et de taille! Ils doivent non seulement construire et programmer un robot pour accomplir des missions complexes mais également plancher sur un projet de recherche concernant l'espace."
+        description2: "Pour la saison FLL 2019-2020, nous commençons déjà à entraîner l'équipe du Techies Lab! Nous proposons une session de 9 ateliers pour découvrir et approfondir les bases de la robotique. Nous utiliserons la table de jeu officielle de la compétition FLL et notre belle flotte de robots Lego Mindstorm."
+        date: "Les dimanches 20/01/2019, 27/01, 3/02, 10/02, 17/02, 24/02, 17/03, 24/03 et 31/03."
+        time: "11h à 12h30"
+        age: "Ados de 12 à 15 ans"
+        language: "Français"
+        equipment: "Aucun matériel n'est requis, nous fournissons ordianteurs, robots, etc."
+        price: "135€ par participant"
+        file: 'https://goo.gl/forms/bE9rejAWEj37LXMu1'
   gaming:
     title: "Jeux vidéos"
   youtube:
