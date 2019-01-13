@@ -1,25 +1,3 @@
-- icon: android
-  title1: :webdesign.workshops.event9.title
-  description1: :webdesign.workshops.event9.description1
-  description2: :webdesign.workshops.event9.description2
-  date_drop: :workshops.date
-  date_text: :webdesign.workshops.event9.date
-  time_drop: :workshops.time
-  time_text: :webdesign.workshops.event9.time
-  location_drop: :workshops.location.drop
-  location_text: :workshops.location.becentral
-  short_location_text: :workshops.location.brussels
-  age_drop: :workshops.age
-  age_text: :webdesign.workshops.event9.age
-  language_drop: :workshops.language
-  language_text: :webdesign.workshops.event9.language
-  price_drop: :workshops.price
-  price_text: :webdesign.workshops.event9.price
-  price_why: :webdesign.workshops.event9.price_why
-  equipment_drop: :workshops.equipment
-  equipment_text: :webdesign.workshops.event9.equipment
-  button: :workshops.button.registration
-  file: :webdesign.workshops.event9.file
 - icon: pencil-square-o
   title1: :webdesign.workshops.event10.title
   description1: :webdesign.workshops.event10.description1
