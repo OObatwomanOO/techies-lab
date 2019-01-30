@@ -58,6 +58,15 @@
       icon: facebook
     - url: https://github.com/arthur92
       icon: github
+  - name: Louise Picot
+    image: portraits/louise.jpg
+    description: :team.description_louise
+    socials:
+    - url: https://www.linkedin.com/in/louise-picot-a91255108/
+      icon: linkedin
+    - url: https://twitter.com/louisetopic
+      icon: twitter
+- list3:
   - name: Alexandre Roba
     image: portraits/alexandre.jpg
     description: :team.description_alexandre
@@ -70,7 +79,6 @@
       icon: twitter
     - url: https://github.com/AlexandreRoba
       icon: github
-- list3:
   - name: Ana Sere
     image: portraits/ana.jpg
     description: :team.description_ana
@@ -97,13 +105,13 @@
       icon: linkedin
     - url: https://github.com/Margotte
       icon: github
+- list4:
   - name: Charlotte Vahsen
     image: portraits/charlotte.jpg
     description: :team.description_charlotte
     socials:
     - url: https://www.linkedin.com/in/charlottevahsen
       icon: linkedin
-- list4:
   - name: Join us !
     image: portraits/you.jpg
     description: :team.description_you

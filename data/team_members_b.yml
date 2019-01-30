@@ -26,16 +26,11 @@
     icon: facebook
   - url: https://github.com/arthur92
     icon: github
-- name: Alexandre Roba
-  image: portraits/alex.png
-  description: :team.description_alexandre
+- name: Louise Picot
+  image: portraits/louise.png
+  description: :team.description_louise
   socials:
-  - url: http://alexandreroba.com/about/
-    icon: file-o
-  - url: https://be.linkedin.com/in/alexandreroba
+  - url: https://www.linkedin.com/in/louise-picot-a91255108/
     icon: linkedin
-  - url: https://twitter.com/alexandreroba
+  - url: https://twitter.com/louisetopic
     icon: twitter
-  - url: https://github.com/AlexandreRoba
-    icon: github
-
