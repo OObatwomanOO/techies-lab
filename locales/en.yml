@@ -379,6 +379,18 @@ en:
         equipment: "Participants can bring their own laptop or use one of ours."
         price: "€150 per particpant"
         file: 'https://goo.gl/forms/h2devFoQc5CkvJfc2'
-
-
-
+  other_workshops:
+    workshops:
+      event1:
+        title1: "Become a Coach at Techies Lab!"
+        description1: "An afternoon to train future coaches 👩‍🏫 👨‍🏫"
+        description2:
+            You will meet the team and discover the tech (and lo-tech) tools we use for our activities. To celebrate our achievements, we'll organize an (optional, but highly recommended) team meal between 6 and 8pm.
+        description3: "We'll make the training as hands on as possible, so bring your laptop 💻 (if you have one)."
+        date: "Sunday, February 24, 2019"
+        time: "3 to 6 pm"
+        age: |
+          16 y.o. +
+        language: "French, English, Dutch"
+        price: "Free"
+        file: 'https://goo.gl/forms/TfcXtr4sUOpsPEdI2'

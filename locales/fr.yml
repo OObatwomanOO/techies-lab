@@ -361,3 +361,17 @@ Toujours soucieux de faire de son mieux, il a hâte de se faire de nouveaux amis
         equipment: "Les participants peuvent venir avec leur propre laptop ou utiliser ceux du Techies Lab."
         price: "150€ par participant"
         file: 'https://goo.gl/forms/h2devFoQc5CkvJfc2'
+  other_workshops:
+    workshops:
+      event1:
+        title1: "Deviens animateur au Techies Lab!"
+        description1: "Une après-midi de formation pour nos futurs animateurs 👩‍🏫 👨‍🏫"
+        description2: "Vous aurez l'occasion de rencontrer l'équipe et de découvrir les outils technologiques (et non-tech) que nous utilisons pour nos activités."
+        description3: "La formation sera pratique, alors apportez votre laptop 💻, (si vous en avez un)!"
+        date: "Dimanche 24 février 2019"
+        time: "15h à 18h"
+        age: |
+          16 ans et plus
+        language: "Français, anglais et néerlandais"
+        price: "Gratuit"
+        file: 'https://goo.gl/forms/TfcXtr4sUOpsPEdI2'
