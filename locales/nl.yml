@@ -44,10 +44,10 @@ nl:
     # role_anne: "Co-founder"
     description_generic: "Another great coach at the Techies Lab!"
     description_anne: "A (cub) scout leader for many years, Anne is a passionate educator.
-    An ambassador of Rails Girls, she loves helping newcomers to see the bright light
-    in their eyes when the magic of coding gets unveiled! One year ago, she launched
-    (and since then, drives) Le Wagon Brussels, the coding school for startups and
-    entrepreneurs."
+    An ambassador of Rails Girls, she loves helping newcomers to see the bright light in
+    their eyes when the magic of coding gets unveiled! In 2014, she put on rails
+    Le Wagon Brussels, the coding school for startups,
+    creative people and entrepreneurs."
     # role_margo: "Co-founder"
     description_margo: "At the age of 6, Margo was writing textbooks for her brothers.
     Since, her passion for education is unweavering. When she's not busy creating workshops
@@ -90,9 +90,9 @@ nl:
     description_louise: "It seems that Louise's path to programming was destined by fate.
     She moved from Paris to Brussels to study painting but ended up burning her hands with some chemical products.
     Since she could not paint anymore, she decided to take some digital art and web design classes through which
-    she discovered open-source graphical libraries helping artists to learn how to code. She caught the bug and
-    started creating small games and animations. Louise is now completing a Master’s Degree in visual
-    communication at ERG graphic design school in Brussels. She still makes her own experiments, creating digital art."
+    she discovered open-source graphical libraries helping artists to learn how to code. Louise is now completing a Master’s Degree in visual
+    communication at ERG graphic design school in Brussels, creating digital art along the way."
+    description_tarig: With a background in business engineering, a passion for technology and modern psychology, as well as an entrepreneur spirit, Tarig is excited to be involved in the Techies Lab Mission by sharing his knowledge with the ingenious kids that are ‘scratching’ tomorrow’s World.
     description_you: "You're a hacker, developer, tinkerer, engineer, inventor,
     visual artist,... and above all, you're curious and love sharing
     your passion and knowledge?! You speak English and/or French and/or Dutch

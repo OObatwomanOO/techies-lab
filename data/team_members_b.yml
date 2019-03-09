@@ -1,3 +1,9 @@
+- name: Hugo Godfroid
+  image: portraits/hugo_g.jpg
+  description: :team.description_hugo_g
+  socials:
+  - url: https://www.linkedin.com/in/hugo-godfroid-0022a3125/
+    icon: linkedin
 - name: Hugo Herter
   image: portraits/hugo_h.png
   description: :team.description_hugo
@@ -26,11 +32,3 @@
     icon: facebook
   - url: https://github.com/arthur92
     icon: github
-- name: Louise Picot
-  image: portraits/louise.png
-  description: :team.description_louise
-  socials:
-  - url: https://www.linkedin.com/in/louise-picot-a91255108/
-    icon: linkedin
-  - url: https://twitter.com/louisetopic
-    icon: twitter

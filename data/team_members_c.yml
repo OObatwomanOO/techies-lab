@@ -1,3 +1,11 @@
+- name: Louise Picot
+  image: portraits/louise.png
+  description: :team.description_louise
+  socials:
+  - url: https://www.linkedin.com/in/louise-picot-a91255108/
+    icon: linkedin
+  - url: https://twitter.com/louisetopic
+    icon: twitter
 - name: Alexandre Roba
   image: portraits/alex.png
   description: :team.description_alexandre
@@ -27,12 +35,4 @@
   - url: https://twitter.com/@christalib_
     icon: twitter
   - url: https://github.com/piks3l
-    icon: github
-- name: Margo Tinawi
-  image: portraits/margo.png
-  description: :team.description_margo
-  socials:
-  - url: https://sa.linkedin.com/pub/margo-tinawi/32/661/960
-    icon: linkedin
-  - url: https://github.com/Margotte
     icon: github

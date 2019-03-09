@@ -1,3 +1,11 @@
+- name: Margo Tinawi
+  image: portraits/margo.png
+  description: :team.description_margo
+  socials:
+  - url: https://sa.linkedin.com/pub/margo-tinawi/32/661/960
+    icon: linkedin
+  - url: https://github.com/Margotte
+    icon: github
 - name: Bao Truong
   image: portraits/bao.png
   description: :team.description_bao
@@ -18,9 +26,4 @@
   socials:
   - url: https://www.linkedin.com/in/charlottevahsen
     icon: linkedin
-- name: Erland Van Reet
-  image: portraits/erland.png
-  description: :team.description_generic
-  socials:
-  - url: https://www.linkedin.com/in/erlandvr/
-    icon: linkedin
+

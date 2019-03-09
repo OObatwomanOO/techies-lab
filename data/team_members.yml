@@ -12,6 +12,12 @@
   socials:
   - url: https://github.com/jbd0101
     icon: github
+- name: Tarig Bouazzati
+  image: portraits/tarig.png
+  description: :team.description_tarig
+  socials:
+  - url: https://www.linkedin.com/in/tarig-bouazzati-b82258105/
+    icon: linkedin
 - name: Anne Collet
   image: portraits/anne.jpg
   description: :team.description_anne
@@ -22,9 +28,3 @@
     icon: github
   - url: https://www.facebook.com/diane.lanterman
     icon: facebook
-- name: Hugo Godfroid
-  image: portraits/hugo_g.jpg
-  description: :team.description_hugo_g
-  socials:
-  - url: https://www.linkedin.com/in/hugo-godfroid-0022a3125/
-    icon: linkedin
