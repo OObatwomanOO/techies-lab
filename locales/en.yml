@@ -360,6 +360,38 @@ en:
         equipment: "No equipment needed, we provide laptops, robots, etc."
         price: "€135 per participant"
         file: 'https://goo.gl/forms/bE9rejAWEj37LXMu1'
+      event12:
+        title: "Coding and Robotics Workshops (8-11 y.o.)"
+        description1: "Eight weekly workshops to discover the mutliple dimensions of technology: animations with Scratch, screenless activities to learn about basic algorithms and IT's history, robots to build and program..."
+        date: "From April 28 to June 23 (no workshop on June 9)"
+        time: "Sundays from 9:30 to 10:30am"
+        age: "8-11 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops and robots during the workshops."
+        price: "€96 per participant"
+        file: 'https://forms.gle/dVUUNvrjhoZH4dFx8'
+      event13:
+        title: "Web Design Workshops (12 y.o. +)"
+        description1: "Eight workshops to learn to code a website, just like pros do!"
+        description2: "We'll start with mockups and then code the website's structure in HTML and its style with some CSS + other nice tools."
+        date: "From April 28 to June 23 (no workshop on June 9)"
+        time: "Sundays, from 1 to 2:30pm"
+        age: "Teens between 12 and 15 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops, wifi, etc."
+        price: "€120 per participant"
+        file: 'https://forms.gle/WxYT3HRCnwDX896C9'
+      event14:
+        title: "Robotics Workshops for Teens"
+        description1: "For these 8 workshops, we will use the official First Lego League competition table, the HYDRO DYNAMICS competition set and our nice fleet of Lego Mindstorm robots."
+        description2: "Everyone is welcome. No need to have a PhD in Robotics. A good deal of motivation will do it all! "
+        date: "From April 28 to June 23 (no workshop on June 9)"
+        time: "Sundays, from 11am to 12:30pm"
+        age: "Teens between 12 and 15 y.o."
+        language: "French"
+        equipment: "No equipment needed, we provide laptops, robots, etc."
+        price: "€120 per participant"
+        file: 'https://forms.gle/DWiQuVxcke3d3Heu8'
   gaming:
     title: "Gaming"
   youtube:

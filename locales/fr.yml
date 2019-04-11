@@ -342,6 +342,38 @@ Toujours soucieux de faire de son mieux, il a hâte de se faire de nouveaux amis
         equipment: "Aucun matériel n'est requis, nous fournissons ordianteurs, robots, etc."
         price: "135€ par participant"
         file: 'https://goo.gl/forms/bE9rejAWEj37LXMu1'
+      event12:
+        title: "Ateliers codage et robotique pour les 8-11 ans"
+        description1: "Des ateliers pour toucher un peu à tout: des animations avec Scratch, des activités sans écrans pour comprendre les bases de l'algorithmique et l'histoire de l'informatique, des robots à construire et programmer..."
+        date: "du 28 avril au 23 juin (relâche le 9 juin)"
+        time: "les dimanches de 9h30 à 10h30"
+        age: "8-11 ans"
+        language: "français"
+        equipment: "Pas d'équipement requis."
+        price: "96€ par participant"
+        file: 'https://forms.gle/dVUUNvrjhoZH4dFx8'
+      event13:
+        title: "Ateliers web design pour les 12 ans +"
+        description1: "Huit ateliers pour apprendre à coder un site web de A à Z, comme les pros."
+        description2: "On commencera par dessiner une ébauche du site, pour ensuite coder la structure en HTML et rajouter du style avec du CSS et de chouettes outils de design."
+        date: "du 28 avril au 23 juin (relâche le 9 juin)"
+        time: "les dimanches de 13h à 14h30"
+        age: "12-15 ans"
+        language: "français"
+        equipment: "Pas d'équipement requis."
+        price: "120€ par participant"
+        file: 'https://forms.gle/WxYT3HRCnwDX896C9'
+      event14:
+        title: "Ateliers robotique pour les 12 ans +"
+        description1: "Pour ces 8 ateliers, nous utiliserons la table de jeu officielle de la compétition First Lego League, le tapis de jeu HYDRO DYNAMICS et notre belle flotte de robots Lego Mindstorm."
+        description2: "Aucun prérequis nécessaire. Simplement une motivation de dingue :)"
+        date: "du 28 avril au 23 juin (relâche le 9 juin)"
+        time: "les dimanches de 11h à 12h30"
+        age: "12-15 ans"
+        language: "français"
+        equipment: "Pas d'équipement requis."
+        price: "120€ par participant"
+        file: 'https://forms.gle/DWiQuVxcke3d3Heu8'
   gaming:
     title: "Jeux vidéos"
   youtube:
